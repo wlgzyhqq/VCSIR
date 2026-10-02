@@ -1,0 +1,875 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/33791/Desktop/project/learn verilog/FINAL
+vdcache
+Z1 !s110 1790916095
+!i10b 1
+!s100 ORo8loOBa:1?G8Y3X^[Jc3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?G`346037Q0TOlzaznN__1
+R0
+Z3 w1790915446
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache.v
+!i122 6
+L0 45 330
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1790916095.000000
+Z7 !s107 C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_uart.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_top.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_bus.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_btb.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_trace_sim.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_regfile.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_pipe_ctrl.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_multiplier.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_mmu.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_lsu.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_issue.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_fetch.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_exec.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_divider.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_defs.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_decoder.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_decode.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_csr_regfile.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_csr.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_core.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_alu.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/riscv_top.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/icache_tag_ram.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/icache_data_ram.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/icache.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_pmem_mux.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_mux.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_if_pmem.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_core_tag_ram.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_core_data_ram.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_core.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_axi_axi.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_axi.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache.v|
+Z8 !s90 -work|build/sim_work|-f|build/sim_sources.f|
+!i113 0
+Z9 o-work build/sim_work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vdcache_axi
+R1
+!i10b 1
+!s100 D8A@Tk6CnO9RU;H?YnB=h0
+R2
+I14B:B;Z4RLmCnX_9Oh?5h0
+R0
+R3
+Z11 8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_axi.v
+Z12 FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_axi.v
+!i122 6
+L0 45 209
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vdcache_axi_axi
+R1
+!i10b 1
+!s100 TZ0[jWSESjgUAES7BJEO<3
+R2
+I]4?hK=5N5QB93WRai`hfo0
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_axi_axi.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_axi_axi.v
+!i122 6
+L0 45 180
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vdcache_axi_fifo
+R1
+!i10b 1
+!s100 f_XAMD3JDh9=4mE7F[RU;0
+R2
+IQ3`LLG918CPiDIhM44[2d3
+R0
+R3
+R11
+R12
+!i122 6
+L0 256 83
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vdcache_core
+R1
+!i10b 1
+!s100 Bz:Wncbf4gjK6b0^<OMP93
+R2
+I9A`Ofh?8L36gd>h_zoAT82
+R0
+Z13 w1790916088
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_core.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_core.v
+!i122 6
+L0 45 953
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vdcache_core_data_ram
+R1
+!i10b 1
+!s100 eJ`m[J>=5eQ=I]]R4gl]z3
+R2
+IHS=lgc4`9cI:Q_86BafAj1
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_core_data_ram.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_core_data_ram.v
+!i122 6
+L0 45 68
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vdcache_core_tag_ram
+R1
+!i10b 1
+!s100 l[:>N3z>kIk_Hn6:0<F?a1
+R2
+IEehfTC6m^VTMU8fJ4Wf^Y1
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_core_tag_ram.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_core_tag_ram.v
+!i122 6
+L0 45 40
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vdcache_if_pmem
+R1
+!i10b 1
+!s100 mTeHZ83n=]YWXT]okL5083
+R2
+II?_2[P^C]MWibGk8Z987k1
+R0
+R3
+Z14 8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_if_pmem.v
+Z15 FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_if_pmem.v
+!i122 6
+L0 45 163
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vdcache_if_pmem_fifo
+R1
+!i10b 1
+!s100 P5`W:28LQNTiDGEG7E<9B1
+R2
+IIRBCFScn?B5cj6`geg::a3
+R0
+R3
+R14
+R15
+!i122 6
+L0 209 83
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vdcache_mux
+R1
+!i10b 1
+!s100 l2af>kddbPdjR6:f^;o9[1
+R2
+I0UL0`5C74<?2E8jImfTeH3
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_mux.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_mux.v
+!i122 6
+L0 45 115
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vdcache_pmem_mux
+R1
+!i10b 1
+!s100 UBK:[icl@XggMWHUKb^W_1
+R2
+Iizo3jI>]?`2M6a1z:jXfO0
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_pmem_mux.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/dcache_pmem_mux.v
+!i122 6
+L0 45 96
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vfinal_btb
+R1
+!i10b 1
+!s100 @iBMmDKZiam0?>:bnTa7a3
+R2
+IB<]KfOiW@e6HMkK1VEJ>g3
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_btb.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_btb.v
+!i122 6
+L0 3 24
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vfinal_bus
+R1
+!i10b 1
+!s100 4cWh?CXHaPd^NKNTWW00U1
+R2
+IHhHRX^R]Y;ES0MNRBMHLm1
+R0
+Z16 w1790915648
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_bus.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_bus.v
+!i122 6
+L0 2 220
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vfinal_top
+R1
+!i10b 1
+!s100 D:n9ML;B8]=Cc?jMcHlch2
+R2
+Id;HCz_F`Nmba4g22SiNKB2
+R0
+R16
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_top.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_top.v
+!i122 6
+L0 2 190
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vfinal_uart
+R1
+!i10b 1
+!s100 FBe2=4@E2HO=3EcQNjEH^2
+R2
+IedKi2MLG4_=_OlElkJz?e3
+R0
+w1790915643
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_uart.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_uart.v
+!i122 6
+L0 2 42
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vicache
+R1
+!i10b 1
+!s100 K?V]1P5@cVcjz75d>F0d^0
+R2
+IJe=4d:QOFW0RPcW_=3@7X1
+R0
+R13
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/icache.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/icache.v
+!i122 6
+L0 45 509
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vicache_data_ram
+R1
+!i10b 1
+!s100 ]WhTg3PaW2zJK3aelfhK93
+R2
+I:_:4AL2g[F[ekDT>Y=YGf0
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/icache_data_ram.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/icache_data_ram.v
+!i122 6
+Z17 L0 45 36
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vicache_tag_ram
+R1
+!i10b 1
+!s100 P@oN?KI95M=VImQbHUQ3m2
+R2
+I>1dc]a6VHkTmYT7BFCI@U1
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/icache_tag_ram.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/icache_tag_ram.v
+!i122 6
+R17
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_alu
+R1
+!i10b 1
+!s100 `0GkAoMTLP`o8D]H>MF6]3
+R2
+IdNbY^k6F:U@NFkVRaF9^z1
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_alu.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_alu.v
+Z18 FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_defs.v
+!i122 6
+L0 41 705
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_core
+R1
+!i10b 1
+!s100 Ud=o9Wn]NN`8iX3UR8IZz1
+R2
+IRb<6m:6hhA6AzRGYBVW?V1
+R0
+w1790916009
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_core.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_core.v
+!i122 6
+L0 42 622
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_csr
+R1
+!i10b 1
+!s100 9nA:BKO808XIALoSi0XWF1
+R2
+IRQnT_Z8PQEh3Gc?^jJj=Z1
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_csr.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_csr.v
+R18
+!i122 6
+L0 42 853
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_csr_regfile
+R1
+!i10b 1
+!s100 58ec8=k5jWIALC5TcFA2E0
+R2
+IIFGB1AD89IU9Bg]MXSWV=1
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_csr_regfile.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_csr_regfile.v
+R18
+!i122 6
+L0 41 1148
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_decode
+R1
+!i10b 1
+!s100 5<GdJgPkkAhUiVSinXW]c0
+R2
+I0]7kmV:mlk1mfRPi1Gj803
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_decode.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_decode.v
+!i122 6
+L0 42 125
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_decoder
+R1
+!i10b 1
+!s100 S`XQbODiWbjAD]5_Oz?Ba1
+R2
+Ih[lUY_5W]oViOQ6iele7B0
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_decoder.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_decoder.v
+!i122 6
+L0 43 194
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_divider
+R1
+!i10b 1
+!s100 S>kU;7B=lFSjc6GoW5[<[1
+R2
+Ik?efSgfjIB9CaI<M[a3jG3
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_divider.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_divider.v
+R18
+!i122 6
+L0 42 676
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_exec
+R1
+!i10b 1
+!s100 mFZIDPG:52VYA157:>OXN0
+R2
+I]<jVNh2lVg[GCJB7OG06i0
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_exec.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_exec.v
+R18
+!i122 6
+L0 42 924
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_fetch
+R1
+!i10b 1
+!s100 Z:nD[aOe^0b4_L09AY8Hb2
+R2
+ISeH]9QmRElkje;^HH_IM43
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_fetch.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_fetch.v
+R18
+!i122 6
+L0 42 781
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_issue
+R1
+!i10b 1
+!s100 eb@B[2JcfVKC]kz73_enJ2
+R2
+I<Jlz;[n=OIDbUK0W7OG=l2
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_issue.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_issue.v
+R18
+!i122 6
+L0 42 1105
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_lsu
+R1
+!i10b 1
+!s100 8GPanS:i>75KGgA]Bm]UG2
+R2
+IM4ETGjX>i^>V<gM<GEQQz3
+R0
+R3
+Z19 8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_lsu.v
+Z20 FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_lsu.v
+R18
+!i122 6
+L0 42 933
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_lsu_fifo
+R1
+!i10b 1
+!s100 :G3gOPjhbN>Io^WAHB?^91
+R2
+I?J:oHKJUBi[6BfhAcaRA_2
+R0
+R3
+R19
+R20
+!i122 6
+L0 438 90
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_mmu
+R1
+!i10b 1
+!s100 Kbl:@Rbc1;Wf8We7MWELY1
+R2
+IDT[IhZWc7IbiCD_c==45N0
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_mmu.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_mmu.v
+R18
+!i122 6
+L0 42 1067
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_multiplier
+R1
+!i10b 1
+!s100 ]0jOf_MX^P0fX1_CFRjTJ0
+R2
+I=4D659jg^eQczKI=04E7R2
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_multiplier.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_multiplier.v
+R18
+!i122 6
+L0 42 658
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_pipe_ctrl
+R1
+!i10b 1
+!s100 HLLg`3`nhXlcmMFYPQ=<Q3
+R2
+IzcNF<ZI0o1J3[GAV_:jHD3
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_pipe_ctrl.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_pipe_ctrl.v
+R18
+!i122 6
+L0 41 975
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_regfile
+R1
+!i10b 1
+!s100 X^gV1D0<nEP1oQ8O1SSGk2
+R2
+II_EAJJ4@n>7jlgIBFlSiJ0
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_regfile.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_regfile.v
+!i122 6
+L0 41 367
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_top
+R1
+!i10b 1
+!s100 nZ<JOo_eNz2>mHnC38Kb00
+R2
+IVZ]eXZFU7h9HRWi6Ya`m>3
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/riscv_top.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/cache/riscv_top.v
+!i122 6
+L0 45 251
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vriscv_trace_sim
+R1
+!i10b 1
+!s100 AiTgf1O=3QdMhWZ;z8iV43
+R2
+IoePUgQX:d2kYmn^P55P=Z1
+R0
+R3
+8C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_trace_sim.v
+FC:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_trace_sim.v
+!i122 6
+L0 43 234
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vsoc_tb
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 _HKZ<M[ddFZB7f:D21jJT0
+R2
+I7TgcjE`G]eHbUL7`=;O6D3
+S1
+R0
+w1790915804
+8sim/soc_tb.sv
+Fsim/soc_tb.sv
+!i122 7
+L0 2 74
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 sim/soc_tb.sv|
+!s90 -work|build/sim_work|-sv|sim/soc_tb.sv|
+!i113 0
+o-work build/sim_work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10

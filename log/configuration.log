@@ -1,0 +1,277 @@
+[Info] [2026-10-2 15:41:37] /***************************Start Configuration***************************/
+[Info] [2026-10-2 15:41:37] Path: D:/pango/PDS_2022.2-SP1-Lite/bin
+[Info] [2026-10-2 15:41:37] Version: 132640
+[Info] [2026-10-2 15:41:38] Current Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 15:41:38] PDS Dir Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 15:41:44] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-2 15:41:44] Client Local host name:???
+[Debug] [2026-10-2 15:41:44] Client Local Address:192.168.204.1
+[Debug] [2026-10-2 15:41:44] Client Local Address:192.168.233.1
+[Debug] [2026-10-2 15:41:44] Client Local Address:10.69.170.14
+[Debug] [2026-10-2 15:41:44] Server Address:127.0.0.1, Port:65420
+[Info] [2026-10-2 15:41:46] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-2 15:41:46] Finish.
+[Info] [2026-10-2 15:41:46] Connect server succeeded
+[Debug] [2026-10-2 15:41:46] Send RPC:1
+[Debug] [2026-10-2 15:41:46] Send cmd [check version information:40004] OK
+[Debug] [2026-10-2 15:41:47] Send RPC:2
+[Debug] [2026-10-2 15:41:47] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-2 15:41:47] Begin to send initialize chain cmd...
+[Debug] [2026-10-2 15:41:47] Send RPC:3
+[Debug] [2026-10-2 15:41:47] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-2 15:41:47] End to send initialize chain cmd.
+[Debug] [2026-10-2 15:41:47] COMMAND[check version information] execute successfully, takes 0.9 secs.
+[Debug] [2026-10-2 15:41:48] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-2 15:41:49] begin the exec of open cable cmd...
+[Debug] [2026-10-2 15:41:49] Begin to deal with chain from server...
+[Debug] [2026-10-2 15:41:49] Begin to set user chain...
+[Debug] [2026-10-2 15:41:49] End to set user chain.
+[Debug] [2026-10-2 15:41:49] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 15:41:49] End to update graphic item and tree item ...
+[Info] [2026-10-2 15:41:54] set OpenLastPath: C:/Users/33791/Desktop/project/learn verilog/FINAL/generate_bitstream/final_top.sbit
+[Debug] [2026-10-2 15:41:54] begin to get device info from CFG file...
+[Debug] [2026-10-2 15:41:54] end to get device info from CFG file...
+[Debug] [2026-10-2 15:41:54] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 15:41:54] End to update graphic item and tree item ...
+[Debug] [2026-10-2 15:41:54] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 15:41:54] End to update graphic item and tree item ...
+[Debug] [2026-10-2 15:41:54] End to deal wiht chain from server.
+[Debug] [2026-10-2 15:41:54] end the exec of open cable cmd.
+[Debug] [2026-10-2 15:41:54] COMMAND[Open config cable] execute successfully, takes 6.6 secs.
+[Debug] [2026-10-2 15:42:01] Begin to send programming cmd...
+[Debug] [2026-10-2 15:42:01] Send RPC:4
+[Debug] [2026-10-2 15:42:01] Begin to send program data.
+[Debug] [2026-10-2 15:42:01] End to send program data.
+[Debug] [2026-10-2 15:42:01] Send cmd [Program:20002] OK
+[Debug] [2026-10-2 15:42:01] The value of Progress is 6
+[Debug] [2026-10-2 15:42:01] The value of Progress is 10
+[Debug] [2026-10-2 15:42:01] The value of Progress is 15
+[Debug] [2026-10-2 15:42:01] The value of Progress is 20
+[Debug] [2026-10-2 15:42:01] The value of Progress is 25
+[Debug] [2026-10-2 15:42:01] The value of Progress is 30
+[Debug] [2026-10-2 15:42:01] The value of Progress is 35
+[Debug] [2026-10-2 15:42:01] The value of Progress is 40
+[Debug] [2026-10-2 15:42:02] The value of Progress is 45
+[Debug] [2026-10-2 15:42:02] The value of Progress is 50
+[Debug] [2026-10-2 15:42:02] The value of Progress is 55
+[Debug] [2026-10-2 15:42:02] The value of Progress is 60
+[Debug] [2026-10-2 15:42:02] The value of Progress is 65
+[Debug] [2026-10-2 15:42:02] The value of Progress is 70
+[Debug] [2026-10-2 15:42:02] The value of Progress is 75
+[Debug] [2026-10-2 15:42:02] The value of Progress is 80
+[Debug] [2026-10-2 15:42:02] The value of Progress is 85
+[Debug] [2026-10-2 15:42:02] The value of Progress is 90
+[Debug] [2026-10-2 15:42:02] The value of Progress is 95
+[Debug] [2026-10-2 15:42:02] The value of Progress is 100
+[Debug] [2026-10-2 15:42:03] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2026-10-2 15:42:03] End to send programming cmd.
+[Info] [2026-10-2 15:54:23] /***************************End Configration***************************/
+[Info] [2026-10-2 15:55:56] /***************************Start Configuration***************************/
+[Info] [2026-10-2 15:55:56] Path: D:/pango/PDS_2022.2-SP1-Lite/bin
+[Info] [2026-10-2 15:55:56] Version: 132640
+[Info] [2026-10-2 15:55:57] Current Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 15:55:57] PDS Dir Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 15:56:01] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-2 15:56:01] Client Local host name:???
+[Debug] [2026-10-2 15:56:01] Client Local Address:192.168.204.1
+[Debug] [2026-10-2 15:56:01] Client Local Address:192.168.233.1
+[Debug] [2026-10-2 15:56:01] Client Local Address:10.69.170.14
+[Debug] [2026-10-2 15:56:01] Server Address:127.0.0.1, Port:65420
+[Info] [2026-10-2 15:56:03] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-2 15:56:03] Finish.
+[Info] [2026-10-2 15:56:03] Connect server succeeded
+[Debug] [2026-10-2 15:56:03] Send RPC:1
+[Debug] [2026-10-2 15:56:03] Send cmd [check version information:40004] OK
+[Debug] [2026-10-2 15:56:04] Send RPC:2
+[Debug] [2026-10-2 15:56:04] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-2 15:56:04] Begin to send initialize chain cmd...
+[Debug] [2026-10-2 15:56:04] Send RPC:3
+[Debug] [2026-10-2 15:56:04] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-2 15:56:04] End to send initialize chain cmd.
+[Debug] [2026-10-2 15:56:04] COMMAND[check version information] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-2 15:56:05] COMMAND[get_cable_paras] execute successfully, takes 1.6 secs.
+[Error] [2026-10-2 15:56:05] fail to exec Open config cable cmd...
+[Debug] [2026-10-2 15:56:16] Begin to send initialize chain cmd...
+[Debug] [2026-10-2 15:56:16] Send RPC:4
+[Debug] [2026-10-2 15:56:16] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-2 15:56:16] End to send initialize chain cmd.
+[Error] [2026-10-2 15:56:16] fail to exec Open config cable cmd...
+[Debug] [2026-10-2 15:56:16] Begin to send initialize chain cmd...
+[Debug] [2026-10-2 15:56:16] Send RPC:5
+[Debug] [2026-10-2 15:56:16] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-2 15:56:16] End to send initialize chain cmd.
+[Error] [2026-10-2 15:56:16] fail to exec Open config cable cmd...
+[Info] [2026-10-2 15:56:18] /***************************End Configration***************************/
+[Info] [2026-10-2 15:56:25] /***************************Start Configuration***************************/
+[Info] [2026-10-2 15:56:25] Path: D:/pango/PDS_2022.2-SP1-Lite/bin
+[Info] [2026-10-2 15:56:25] Version: 132640
+[Info] [2026-10-2 15:56:26] Current Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 15:56:26] PDS Dir Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 15:56:28] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-2 15:56:28] Client Local host name:???
+[Debug] [2026-10-2 15:56:28] Client Local Address:192.168.204.1
+[Debug] [2026-10-2 15:56:28] Client Local Address:192.168.233.1
+[Debug] [2026-10-2 15:56:28] Client Local Address:10.69.170.14
+[Debug] [2026-10-2 15:56:28] Server Address:127.0.0.1, Port:65420
+[Info] [2026-10-2 15:56:30] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-2 15:56:30] Finish.
+[Info] [2026-10-2 15:56:30] Connect server succeeded
+[Debug] [2026-10-2 15:56:30] Send RPC:1
+[Debug] [2026-10-2 15:56:30] Send cmd [check version information:40004] OK
+[Debug] [2026-10-2 15:56:31] Send RPC:2
+[Debug] [2026-10-2 15:56:31] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-2 15:56:31] Begin to send initialize chain cmd...
+[Debug] [2026-10-2 15:56:31] Send RPC:3
+[Debug] [2026-10-2 15:56:31] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-2 15:56:31] End to send initialize chain cmd.
+[Debug] [2026-10-2 15:56:31] COMMAND[check version information] execute successfully, takes 0.8 secs.
+[Debug] [2026-10-2 15:56:32] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-2 15:56:33] begin the exec of open cable cmd...
+[Debug] [2026-10-2 15:56:33] Begin to deal with chain from server...
+[Debug] [2026-10-2 15:56:33] Begin to set user chain...
+[Debug] [2026-10-2 15:56:33] End to set user chain.
+[Debug] [2026-10-2 15:56:33] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 15:56:33] End to update graphic item and tree item ...
+[Info] [2026-10-2 15:56:36] set OpenLastPath: C:/Users/33791/Desktop/project/learn verilog/FINAL/generate_bitstream/final_top.sbit
+[Debug] [2026-10-2 15:56:36] begin to get device info from CFG file...
+[Debug] [2026-10-2 15:56:36] end to get device info from CFG file...
+[Debug] [2026-10-2 15:56:36] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 15:56:36] End to update graphic item and tree item ...
+[Debug] [2026-10-2 15:56:36] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 15:56:36] End to update graphic item and tree item ...
+[Debug] [2026-10-2 15:56:36] End to deal wiht chain from server.
+[Debug] [2026-10-2 15:56:36] end the exec of open cable cmd.
+[Debug] [2026-10-2 15:56:36] COMMAND[Open config cable] execute successfully, takes 4.9 secs.
+[Debug] [2026-10-2 15:57:40] Begin to send scan outer flash cmd...
+[Debug] [2026-10-2 15:57:40] Send RPC:4
+[Debug] [2026-10-2 15:57:40] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-10-2 15:57:40] End to send scan outer flash cmd.
+[Error] [2026-10-2 15:57:40] fail to exec Scan Outer SPI Flash cmd...
+[Debug] [2026-10-2 15:58:01] Begin to send programming cmd...
+[Debug] [2026-10-2 15:58:01] Send RPC:5
+[Debug] [2026-10-2 15:58:01] Begin to send program data.
+[Debug] [2026-10-2 15:58:01] End to send program data.
+[Debug] [2026-10-2 15:58:01] Send cmd [Program:20002] OK
+[Debug] [2026-10-2 15:58:01] The value of Progress is 6
+[Debug] [2026-10-2 15:58:01] The value of Progress is 10
+[Debug] [2026-10-2 15:58:01] The value of Progress is 15
+[Debug] [2026-10-2 15:58:01] The value of Progress is 20
+[Debug] [2026-10-2 15:58:01] The value of Progress is 25
+[Debug] [2026-10-2 15:58:01] The value of Progress is 30
+[Debug] [2026-10-2 15:58:01] The value of Progress is 35
+[Debug] [2026-10-2 15:58:02] The value of Progress is 40
+[Debug] [2026-10-2 15:58:02] The value of Progress is 45
+[Debug] [2026-10-2 15:58:02] The value of Progress is 50
+[Debug] [2026-10-2 15:58:02] The value of Progress is 55
+[Debug] [2026-10-2 15:58:02] The value of Progress is 60
+[Debug] [2026-10-2 15:58:02] The value of Progress is 65
+[Debug] [2026-10-2 15:58:02] The value of Progress is 70
+[Debug] [2026-10-2 15:58:02] The value of Progress is 75
+[Debug] [2026-10-2 15:58:02] The value of Progress is 80
+[Debug] [2026-10-2 15:58:02] The value of Progress is 85
+[Debug] [2026-10-2 15:58:02] The value of Progress is 90
+[Debug] [2026-10-2 15:58:03] The value of Progress is 95
+[Debug] [2026-10-2 15:58:03] The value of Progress is 100
+[Debug] [2026-10-2 15:58:03] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2026-10-2 15:58:03] End to send programming cmd.
+[Debug] [2026-10-2 15:59:28] Begin to send scan outer flash cmd...
+[Debug] [2026-10-2 15:59:28] Send RPC:6
+[Debug] [2026-10-2 15:59:28] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-10-2 15:59:28] End to send scan outer flash cmd.
+[Error] [2026-10-2 15:59:28] fail to exec Scan Outer SPI Flash cmd...
+[Debug] [2026-10-2 15:59:57] Begin to send programming cmd...
+[Debug] [2026-10-2 15:59:57] Send RPC:7
+[Debug] [2026-10-2 15:59:57] Begin to send program data.
+[Debug] [2026-10-2 15:59:57] End to send program data.
+[Debug] [2026-10-2 15:59:57] Send cmd [Program:20002] OK
+[Debug] [2026-10-2 15:59:57] The value of Progress is 6
+[Debug] [2026-10-2 15:59:57] The value of Progress is 10
+[Debug] [2026-10-2 15:59:57] The value of Progress is 15
+[Debug] [2026-10-2 15:59:57] The value of Progress is 20
+[Debug] [2026-10-2 15:59:57] The value of Progress is 25
+[Debug] [2026-10-2 15:59:57] The value of Progress is 30
+[Debug] [2026-10-2 15:59:58] The value of Progress is 35
+[Debug] [2026-10-2 15:59:58] The value of Progress is 40
+[Debug] [2026-10-2 15:59:58] The value of Progress is 45
+[Debug] [2026-10-2 15:59:58] The value of Progress is 50
+[Debug] [2026-10-2 15:59:58] The value of Progress is 55
+[Debug] [2026-10-2 15:59:58] The value of Progress is 60
+[Debug] [2026-10-2 15:59:58] The value of Progress is 65
+[Debug] [2026-10-2 15:59:58] The value of Progress is 70
+[Debug] [2026-10-2 15:59:58] The value of Progress is 75
+[Debug] [2026-10-2 15:59:58] The value of Progress is 80
+[Debug] [2026-10-2 15:59:58] The value of Progress is 85
+[Debug] [2026-10-2 15:59:59] The value of Progress is 90
+[Debug] [2026-10-2 15:59:59] The value of Progress is 95
+[Debug] [2026-10-2 15:59:59] The value of Progress is 100
+[Debug] [2026-10-2 15:59:59] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2026-10-2 15:59:59] End to send programming cmd.
+[Info] [2026-10-2 16:13:00] /***************************End Configration***************************/
+[Info] [2026-10-2 16:40:36] /***************************Start Configuration***************************/
+[Info] [2026-10-2 16:40:36] Path: D:/pango/PDS_2022.2-SP1-Lite/bin
+[Info] [2026-10-2 16:40:36] Version: 132640
+[Info] [2026-10-2 16:40:37] Current Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 16:40:37] PDS Dir Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 16:40:42] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-2 16:40:42] Client Local host name:???
+[Debug] [2026-10-2 16:40:42] Client Local Address:192.168.204.1
+[Debug] [2026-10-2 16:40:42] Client Local Address:192.168.233.1
+[Debug] [2026-10-2 16:40:42] Client Local Address:10.69.170.14
+[Debug] [2026-10-2 16:40:42] Server Address:127.0.0.1, Port:65420
+[Info] [2026-10-2 16:40:45] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-2 16:40:45] Finish.
+[Info] [2026-10-2 16:40:45] Connect server succeeded
+[Debug] [2026-10-2 16:40:45] Send RPC:1
+[Debug] [2026-10-2 16:40:45] Send cmd [check version information:40004] OK
+[Debug] [2026-10-2 16:40:45] Send RPC:2
+[Debug] [2026-10-2 16:40:45] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-2 16:40:45] Begin to send initialize chain cmd...
+[Debug] [2026-10-2 16:40:45] Send RPC:3
+[Debug] [2026-10-2 16:40:45] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-2 16:40:45] End to send initialize chain cmd.
+[Debug] [2026-10-2 16:40:45] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2026-10-2 16:40:46] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-2 16:40:47] begin the exec of open cable cmd...
+[Debug] [2026-10-2 16:40:47] Begin to deal with chain from server...
+[Debug] [2026-10-2 16:40:47] Begin to set user chain...
+[Debug] [2026-10-2 16:40:47] End to set user chain.
+[Debug] [2026-10-2 16:40:47] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 16:40:47] End to update graphic item and tree item ...
+[Info] [2026-10-2 16:40:49] set OpenLastPath: C:/Users/33791/Desktop/project/learn verilog/FINAL/generate_bitstream/final_top.sbit
+[Debug] [2026-10-2 16:40:49] begin to get device info from CFG file...
+[Debug] [2026-10-2 16:40:49] end to get device info from CFG file...
+[Debug] [2026-10-2 16:40:49] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 16:40:49] End to update graphic item and tree item ...
+[Debug] [2026-10-2 16:40:49] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 16:40:49] End to update graphic item and tree item ...
+[Debug] [2026-10-2 16:40:49] End to deal wiht chain from server.
+[Debug] [2026-10-2 16:40:49] end the exec of open cable cmd.
+[Debug] [2026-10-2 16:40:49] COMMAND[Open config cable] execute successfully, takes 3.8 secs.
+[Debug] [2026-10-2 16:40:50] Begin to send programming cmd...
+[Debug] [2026-10-2 16:40:50] Send RPC:4
+[Debug] [2026-10-2 16:40:50] Begin to send program data.
+[Debug] [2026-10-2 16:40:50] End to send program data.
+[Debug] [2026-10-2 16:40:50] Send cmd [Program:20002] OK
+[Debug] [2026-10-2 16:40:51] The value of Progress is 6
+[Debug] [2026-10-2 16:40:51] The value of Progress is 10
+[Debug] [2026-10-2 16:40:51] The value of Progress is 15
+[Debug] [2026-10-2 16:40:51] The value of Progress is 20
+[Debug] [2026-10-2 16:40:51] The value of Progress is 25
+[Debug] [2026-10-2 16:40:51] The value of Progress is 30
+[Debug] [2026-10-2 16:40:51] The value of Progress is 35
+[Debug] [2026-10-2 16:40:51] The value of Progress is 40
+[Debug] [2026-10-2 16:40:51] The value of Progress is 45
+[Debug] [2026-10-2 16:40:52] The value of Progress is 50
+[Debug] [2026-10-2 16:40:52] The value of Progress is 55
+[Debug] [2026-10-2 16:40:52] The value of Progress is 60
+[Debug] [2026-10-2 16:40:52] The value of Progress is 65
+[Debug] [2026-10-2 16:40:52] The value of Progress is 70
+[Debug] [2026-10-2 16:40:52] The value of Progress is 75
+[Debug] [2026-10-2 16:40:52] The value of Progress is 80
+[Debug] [2026-10-2 16:40:52] The value of Progress is 85
+[Debug] [2026-10-2 16:40:52] The value of Progress is 90
+[Debug] [2026-10-2 16:40:52] The value of Progress is 95
+[Debug] [2026-10-2 16:40:52] The value of Progress is 100
+[Debug] [2026-10-2 16:40:53] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2026-10-2 16:40:53] End to send programming cmd.
+[Info] [2026-10-2 17:00:24] /***************************End Configration***************************/

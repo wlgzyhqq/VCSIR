@@ -1,0 +1,54 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 12:41:35 on Oct 02,2026
+vlog -work build/sim_work -f build/sim_sources.f 
+-- Compiling module dcache
+-- Compiling module dcache_axi
+-- Compiling module dcache_axi_fifo
+-- Compiling module dcache_axi_axi
+-- Compiling module dcache_core
+-- Compiling module dcache_core_data_ram
+-- Compiling module dcache_core_tag_ram
+-- Compiling module dcache_if_pmem
+-- Compiling module dcache_if_pmem_fifo
+-- Compiling module dcache_mux
+-- Compiling module dcache_pmem_mux
+-- Compiling module icache
+-- Compiling module icache_data_ram
+-- Compiling module icache_tag_ram
+-- Compiling module riscv_top
+-- Compiling module riscv_alu
+-- Compiling module riscv_core
+-- Compiling module riscv_csr
+-- Compiling module riscv_csr_regfile
+-- Compiling module riscv_decode
+-- Compiling module riscv_decoder
+-- Compiling module riscv_divider
+-- Compiling module riscv_exec
+-- Compiling module riscv_fetch
+-- Compiling module riscv_issue
+-- Compiling module riscv_lsu
+-- Compiling module riscv_lsu_fifo
+-- Compiling module riscv_mmu
+-- Compiling module riscv_multiplier
+-- Compiling module riscv_pipe_ctrl
+-- Compiling module riscv_regfile
+-- Compiling module riscv_trace_sim
+-- Compiling module final_btb
+-- Compiling module final_bus
+-- Compiling module final_top
+-- Compiling module final_uart
+
+Top level modules:
+	riscv_trace_sim
+	final_top
+End time: 12:41:35 on Oct 02,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 12:41:35 on Oct 02,2026
+vlog -work build/sim_work -sv sim/soc_tb.sv 
+-- Compiling module soc_tb
+
+Top level modules:
+	soc_tb
+End time: 12:41:35 on Oct 02,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
