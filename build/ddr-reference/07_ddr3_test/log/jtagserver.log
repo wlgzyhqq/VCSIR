@@ -1,0 +1,69 @@
+[Info] [2023-2-9 13:52:03] /***************************Start jtagserver***************************/
+[Info] [2023-2-9 13:52:03] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-2-9 13:52:03] Version: 99559
+[Debug] [2023-2-9 13:52:03] Add a new user_thread, socket descriptor is 1100 user_thread id is 0000000000004A38
+[Debug] [2023-2-9 13:52:03] After adding, map size is : 1
+[Debug] [2023-2-9 13:52:03] Add a new user_thread, socket descriptor is 1168 user_thread id is 0000000000004A38
+[Debug] [2023-2-9 13:52:03] After adding, map size is : 2
+[Debug] [2023-2-9 13:52:03] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2023-2-9 13:52:03] IP address of connecting client is : ::ffff:127.0.0.1IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2023-2-9 13:52:03] Remove the header data from the client, index : 0
+[Debug] [2023-2-9 13:52:03] _total_bytes_size : 146
+[Debug] [2023-2-9 13:52:03] Remove the header data from the client, index : 0
+[Debug] [2023-2-9 13:52:03] _total_bytes_size : 96
+[Debug] [2023-2-9 13:52:03] cmd id :40011cmd name : get_cable_paras
+[Debug] [2023-2-9 13:52:04] cmd operation get_cable_paras releases locker
+[Debug] [2023-2-9 13:52:04] Remove the header data from the client, index : 0
+[Debug] [2023-2-9 13:52:04] _total_bytes_size : 101
+[Debug] [2023-2-9 13:52:04] cmd id :20001cmd name : Open config cable
+[Debug] [2023-2-9 13:52:04] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:04] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:04] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:04] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:04] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:05] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:06] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:06] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:06] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:06] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:06] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:06] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:06] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:06] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:06] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:06] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:07] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:07] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:07] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:07] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:07] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:07] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:07] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:07] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:07] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:07] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] the idcode from the scanning is: 0xffffffff
+[Debug] [2023-2-9 13:52:08] cmd operation Open config cable releases locker

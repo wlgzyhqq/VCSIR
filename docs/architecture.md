@@ -13,7 +13,7 @@ flowchart LR
  WB --> RF[32个整数寄存器]
  RF --> ID
  MEM --> DC[2路 D Cache]
- DC --> BUS[AXI 主存 / MMIO]
+ DC --> BUS[AXI DDR3 适配 / MMIO]
  IC --> BUS
  EX --> BTB
  WB --> CSR[CSR / 陷阱]
@@ -41,13 +41,13 @@ BTB 32 项直接映射，用 PC[6:2] 索引、完整 PC 标签，保存目标和
 
 ## Cache 与主存
 
-I/D 分别为 2 路组相联：256 组，每行 32 字节，每路 8 KiB。地址偏移[4:0]，组[12:5]，其余为 tag。替换沿用参考核心的轮转状态，不宣称严格 LRU。D Cache 写回、写分配；脏行先 8 拍写回，再 8 拍回填。I Cache 只读回填；FENCE.I 参与同步和失效处理。两路 AXI 连接片内共享 64 KiB 主存。主存 D 口序列化读写，I 口独立；支持 backpressure 和错误响应。MMIO 不缓存、不进行突发访问。
+I/D 分别为 2 路组相联：256 组，每行 32 字节，每路 8 KiB。地址偏移[4:0]，组[12:5]，其余为 tag。替换沿用参考核心的轮转状态，不宣称严格 LRU。D Cache 写回、写分配；脏行先 8 拍写回，再 8 拍回填。I Cache 只读回填；FENCE.I 参与同步和失效处理。两路 AXI 经整行适配、仲裁和 toggle CDC 连接板载 DDR3，主存范围 0x00000000–0x3FFFFFFF（1 GiB）。CPU/外设 50 MHz，控制器用户接口 100 MHz、256 位，DDR 时钟 400 MHz。Cache 的八个 32 位拍转换为一个 256 位控制器拍。MMIO 不缓存、不进行突发访问。具体接口与启动见 `ddr3-memory.md`。
 
 PDS RAM 适配：D Cache CPU 端口的 `wr0_i` 在两处实例都固定为零，因此专门移除该端口无效写逻辑，保留另一端口写入与双端口同步读取；不是忽略有效写请求。
 
 ## 地址表
 
-所有寄存器为 32 位、小端；主存 0x00000000–0x0000FFFF，复位 PC=0，栈顶 0x0000FF00。
+所有寄存器为 32 位、小端；主存 0x00000000–0x3FFFFFFF，复位 PC=0，栈顶 0x0000FF00。
 
 | 地址 | 含义 |
 |---|---|
@@ -74,7 +74,7 @@ M 模式 CSR 包括 mstatus、misa、mie、mip、mtvec、mscratch、mepc、mcaus
 
 ## MES50HP 引脚
 
-以本地 MES50HP 硬件手册为准，未沿用参考板约束。所有 IO 使用 LVCMOS33。
+以本地 MES50HP 硬件手册为准，未沿用参考板约束。下表的基础 IO 使用 LVCMOS33；DDR3 IO 使用参考 IP 的 HSTL15_I / HSTL15D_I、1.5 V 配置，完整 DDR 引脚见 `mes50hp_ddr3.fdc`。
 
 | 信号 | 管脚 |
 |---|---|
@@ -95,4 +95,4 @@ M 模式 CSR 包括 mstatus、misa、mie、mip、mtvec、mscratch、mepc、mcaus
 4. Cache 同组不同 tag、脏替换、回填及字节写；观察 ARLEN/AWLEN=7 和8拍握手，统计停顿。
 5. 分别开启/关闭预测并比较软件结果与误预测计数；执行陷阱/中断测试。
 
-`sim/soc_tb.sv` 已准备结果断言、突发/停顿/预测统计和可选波形。用户当前要求先写且不跑仿真，所以以上没有标为通过。
+旧 `sim/soc_tb.sv` 中的片内 RAM 层次引用已不适用于 DDR3 顶层。用户要求不跑仿真，以上专项测试未执行，DDR3 版本也尚未上板。

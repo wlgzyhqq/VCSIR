@@ -275,3 +275,299 @@
 [Debug] [2026-10-2 16:40:53] COMMAND[Program] execute successfully, takes 2.0 secs.
 [Debug] [2026-10-2 16:40:53] End to send programming cmd.
 [Info] [2026-10-2 17:00:24] /***************************End Configration***************************/
+[Info] [2026-10-2 17:33:12] /***************************Start Configuration***************************/
+[Info] [2026-10-2 17:33:12] Path: D:/pango/PDS_2022.2-SP1-Lite/bin
+[Info] [2026-10-2 17:33:12] Version: 132640
+[Info] [2026-10-2 17:33:13] Current Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 17:33:13] PDS Dir Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 17:33:16] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-2 17:33:16] Client Local host name:???
+[Debug] [2026-10-2 17:33:16] Client Local Address:192.168.204.1
+[Debug] [2026-10-2 17:33:16] Client Local Address:192.168.233.1
+[Debug] [2026-10-2 17:33:16] Client Local Address:10.69.170.14
+[Debug] [2026-10-2 17:33:16] Server Address:127.0.0.1, Port:65420
+[Info] [2026-10-2 17:33:18] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-2 17:33:18] Finish.
+[Info] [2026-10-2 17:33:18] Connect server succeeded
+[Debug] [2026-10-2 17:33:18] Send RPC:1
+[Debug] [2026-10-2 17:33:18] Send cmd [check version information:40004] OK
+[Debug] [2026-10-2 17:33:19] Send RPC:2
+[Debug] [2026-10-2 17:33:19] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-2 17:33:19] Begin to send initialize chain cmd...
+[Debug] [2026-10-2 17:33:19] Send RPC:3
+[Debug] [2026-10-2 17:33:19] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-2 17:33:19] End to send initialize chain cmd.
+[Debug] [2026-10-2 17:33:19] COMMAND[check version information] execute successfully, takes 0.7 secs.
+[Debug] [2026-10-2 17:33:20] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2026-10-2 17:33:20] begin the exec of open cable cmd...
+[Debug] [2026-10-2 17:33:20] Begin to deal with chain from server...
+[Debug] [2026-10-2 17:33:20] Begin to set user chain...
+[Debug] [2026-10-2 17:33:20] End to set user chain.
+[Debug] [2026-10-2 17:33:20] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 17:33:20] End to update graphic item and tree item ...
+[Info] [2026-10-2 17:33:22] set OpenLastPath: C:/Users/33791/Desktop/project/learn verilog/FINAL/generate_bitstream/final_top.sbit
+[Debug] [2026-10-2 17:33:22] begin to get device info from CFG file...
+[Debug] [2026-10-2 17:33:22] end to get device info from CFG file...
+[Debug] [2026-10-2 17:33:22] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 17:33:22] End to update graphic item and tree item ...
+[Debug] [2026-10-2 17:33:22] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 17:33:22] End to update graphic item and tree item ...
+[Debug] [2026-10-2 17:33:22] End to deal wiht chain from server.
+[Debug] [2026-10-2 17:33:22] end the exec of open cable cmd.
+[Debug] [2026-10-2 17:33:22] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2026-10-2 17:33:30] Begin to send scan outer flash cmd...
+[Debug] [2026-10-2 17:33:30] Send RPC:4
+[Debug] [2026-10-2 17:33:30] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-10-2 17:33:30] End to send scan outer flash cmd.
+[Error] [2026-10-2 17:33:30] fail to exec Scan Outer SPI Flash cmd...
+[Debug] [2026-10-2 17:34:03] Begin to send scan outer flash cmd...
+[Debug] [2026-10-2 17:34:03] Send RPC:5
+[Debug] [2026-10-2 17:34:03] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-10-2 17:34:03] End to send scan outer flash cmd.
+[Error] [2026-10-2 17:34:04] fail to exec Scan Outer SPI Flash cmd...
+[Debug] [2026-10-2 17:37:29] Begin to send reset fpga cmd...
+[Debug] [2026-10-2 17:37:29] Send RPC:6
+[Debug] [2026-10-2 17:37:29] Send cmd [Reset FPGA:20025] OK
+[Debug] [2026-10-2 17:37:29] End to send reset fpga cmd.
+[Debug] [2026-10-2 17:37:30] COMMAND[Reset FPGA] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-2 17:38:32] Begin to operate flash.
+[Debug] [2026-10-2 17:38:32] End to operate flash.
+[Info] [2026-10-2 17:39:18] /***************************End Configration***************************/
+[Info] [2026-10-2 22:01:54] /***************************Start Configuration***************************/
+[Info] [2026-10-2 22:01:54] Path: D:/pango/PDS_2022.2-SP1-Lite/bin
+[Info] [2026-10-2 22:01:54] Version: 132640
+[Info] [2026-10-2 22:01:56] Current Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Info] [2026-10-2 22:01:56] PDS Dir Path: C:/Users/33791/Desktop/project/learn verilog/FINAL
+[Debug] [2026-10-2 22:02:00] Begin to operate flash.
+[Debug] [2026-10-2 22:02:00] End to operate flash.
+[Info] [2026-10-2 22:10:30] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-10-2 22:10:30] Client Local host name:???
+[Debug] [2026-10-2 22:10:30] Client Local Address:192.168.204.1
+[Debug] [2026-10-2 22:10:30] Client Local Address:192.168.233.1
+[Debug] [2026-10-2 22:10:30] Client Local Address:10.69.170.14
+[Debug] [2026-10-2 22:10:30] Server Address:127.0.0.1, Port:65420
+[Info] [2026-10-2 22:10:32] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-2 22:10:32] Finish.
+[Info] [2026-10-2 22:10:32] Connect server succeeded
+[Debug] [2026-10-2 22:10:32] Send RPC:1
+[Debug] [2026-10-2 22:10:32] Send cmd [check version information:40004] OK
+[Debug] [2026-10-2 22:10:33] Send RPC:2
+[Debug] [2026-10-2 22:10:33] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-2 22:10:33] Begin to send initialize chain cmd...
+[Debug] [2026-10-2 22:10:33] Send RPC:3
+[Debug] [2026-10-2 22:10:33] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-2 22:10:33] End to send initialize chain cmd.
+[Debug] [2026-10-2 22:10:33] COMMAND[check version information] execute successfully, takes 0.8 secs.
+[Debug] [2026-10-2 22:10:34] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Error] [2026-10-2 22:10:39] fail to exec Open config cable cmd...
+[Debug] [2026-10-2 22:10:41] Begin to send initialize chain cmd...
+[Debug] [2026-10-2 22:10:41] Send RPC:4
+[Debug] [2026-10-2 22:10:41] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-2 22:10:41] End to send initialize chain cmd.
+[Debug] [2026-10-2 22:10:41] begin the exec of open cable cmd...
+[Debug] [2026-10-2 22:10:41] Begin to deal with chain from server...
+[Debug] [2026-10-2 22:10:41] Begin to set user chain...
+[Debug] [2026-10-2 22:10:41] End to set user chain.
+[Debug] [2026-10-2 22:10:41] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 22:10:41] End to update graphic item and tree item ...
+[Info] [2026-10-2 22:10:44] set OpenLastPath: C:/Users/33791/Desktop/project/learn verilog/FINAL/generate_bitstream/final_top.sbit
+[Debug] [2026-10-2 22:10:44] begin to get device info from CFG file...
+[Debug] [2026-10-2 22:10:44] end to get device info from CFG file...
+[Debug] [2026-10-2 22:10:44] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 22:10:44] End to update graphic item and tree item ...
+[Debug] [2026-10-2 22:10:44] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 22:10:44] End to update graphic item and tree item ...
+[Debug] [2026-10-2 22:10:44] End to deal wiht chain from server.
+[Debug] [2026-10-2 22:10:44] end the exec of open cable cmd.
+[Debug] [2026-10-2 22:10:44] COMMAND[Open config cable] execute successfully, takes 3.4 secs.
+[Debug] [2026-10-2 22:10:52] Begin to send scan outer flash cmd...
+[Debug] [2026-10-2 22:10:52] Send RPC:5
+[Debug] [2026-10-2 22:10:52] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-10-2 22:10:52] End to send scan outer flash cmd.
+[Error] [2026-10-2 22:10:52] fail to exec Scan Outer SPI Flash cmd...
+[Debug] [2026-10-2 22:10:57] Begin to operate flash.
+[Debug] [2026-10-2 22:10:57] End to operate flash.
+[Debug] [2026-10-2 22:11:17] Begin to operate flash.
+[Debug] [2026-10-2 22:11:17] End to operate flash.
+[Debug] [2026-10-2 22:13:00] Send RPC:6
+[Debug] [2026-10-2 22:13:00] Send cmd [Update user flash device:20073] OK
+[Debug] [2026-10-2 22:13:00] COMMAND[Update user flash device] execute successfully, takes 0.0 secs.
+[Debug] [2026-10-2 22:13:03] Begin to send initialize chain cmd...
+[Debug] [2026-10-2 22:13:03] Send RPC:7
+[Debug] [2026-10-2 22:13:03] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-2 22:13:03] End to send initialize chain cmd.
+[Debug] [2026-10-2 22:13:03] begin the exec of open cable cmd...
+[Debug] [2026-10-2 22:13:03] Begin to deal with chain from server...
+[Debug] [2026-10-2 22:13:03] Begin to set user chain...
+[Debug] [2026-10-2 22:13:03] End to set user chain.
+[Debug] [2026-10-2 22:13:03] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 22:13:03] End to update graphic item and tree item ...
+[Debug] [2026-10-2 22:13:04] selected file name is empty and ignore.
+[Debug] [2026-10-2 22:13:04] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 22:13:04] End to update graphic item and tree item ...
+[Debug] [2026-10-2 22:13:04] End to deal wiht chain from server.
+[Debug] [2026-10-2 22:13:04] end the exec of open cable cmd.
+[Debug] [2026-10-2 22:13:04] COMMAND[Open config cable] execute successfully, takes 1.5 secs.
+[Debug] [2026-10-2 22:13:06] Begin to send scan outer flash cmd...
+[Debug] [2026-10-2 22:13:06] Send RPC:8
+[Debug] [2026-10-2 22:13:06] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-10-2 22:13:06] End to send scan outer flash cmd.
+[Debug] [2026-10-2 22:13:07] begin to exec scan jtag flash cmd...
+[Debug] [2026-10-2 22:13:07] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2026-10-2 22:13:07] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 22:13:07] End to update graphic item and tree item ...
+[Debug] [2026-10-2 22:13:20] selected file name is empty and ignore.
+[Debug] [2026-10-2 22:13:20] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2026-10-2 22:13:20] end to exec scan jtag flash cmd...
+[Debug] [2026-10-2 22:13:20] COMMAND[Scan Outer SPI Flash] execute successfully, takes 13.7 secs.
+[Debug] [2026-10-2 22:14:19] Begin to Converte file.
+[Debug] [2026-10-2 22:14:48] End to Converte file.
+[Debug] [2026-10-2 22:14:59] Begin to send scan outer flash cmd...
+[Debug] [2026-10-2 22:14:59] Send RPC:9
+[Debug] [2026-10-2 22:14:59] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-10-2 22:14:59] End to send scan outer flash cmd.
+[Debug] [2026-10-2 22:15:00] begin to exec scan jtag flash cmd...
+[Debug] [2026-10-2 22:15:00] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2026-10-2 22:15:00] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 22:15:00] End to update graphic item and tree item ...
+[Debug] [2026-10-2 22:15:04] selected file name is empty and ignore.
+[Debug] [2026-10-2 22:15:04] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2026-10-2 22:15:04] end to exec scan jtag flash cmd...
+[Debug] [2026-10-2 22:15:04] COMMAND[Scan Outer SPI Flash] execute successfully, takes 4.7 secs.
+[Debug] [2026-10-2 22:15:33] Begin to operate flash.
+[Debug] [2026-10-2 22:15:33] End to operate flash.
+[Debug] [2026-10-2 22:15:43] Begin to Converte file.
+[Debug] [2026-10-2 22:15:43] End to Converte file.
+[Debug] [2026-10-2 22:16:36] begin to parse sfc file.
+[Debug] [2026-10-2 22:16:36] begin to get device info from CFG file...
+[Debug] [2026-10-2 22:16:36] end to get device info from CFG file...
+[Debug] [2026-10-2 22:16:36] begin to get device info from CFG file...
+[Debug] [2026-10-2 22:16:36] end to get device info from CFG file...
+[Debug] [2026-10-2 22:16:36] end to parse sfc file.
+[Debug] [2026-10-2 22:16:43] Begin to send scan outer flash cmd...
+[Debug] [2026-10-2 22:16:43] Send RPC:10
+[Debug] [2026-10-2 22:16:43] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-10-2 22:16:43] End to send scan outer flash cmd.
+[Debug] [2026-10-2 22:16:43] begin to exec scan jtag flash cmd...
+[Debug] [2026-10-2 22:16:43] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2026-10-2 22:16:43] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 22:16:43] End to update graphic item and tree item ...
+[Debug] [2026-10-2 22:16:44] selected file name is empty and ignore.
+[Debug] [2026-10-2 22:16:44] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2026-10-2 22:16:44] end to exec scan jtag flash cmd...
+[Debug] [2026-10-2 22:16:44] COMMAND[Scan Outer SPI Flash] execute successfully, takes 1.5 secs.
+[Debug] [2026-10-2 22:16:54] Begin to Converte file.
+[Debug] [2026-10-2 22:16:54] End to Converte file.
+[Debug] [2026-10-2 22:17:34] begin to parse sfc file.
+[Debug] [2026-10-2 22:17:34] begin to get device info from CFG file...
+[Debug] [2026-10-2 22:17:34] end to get device info from CFG file...
+[Debug] [2026-10-2 22:17:34] begin to get device info from CFG file...
+[Debug] [2026-10-2 22:17:34] end to get device info from CFG file...
+[Debug] [2026-10-2 22:17:34] end to parse sfc file.
+[Debug] [2026-10-2 22:17:40] Begin to send scan outer flash cmd...
+[Debug] [2026-10-2 22:17:40] Send RPC:11
+[Debug] [2026-10-2 22:17:40] Send cmd [Scan Outer SPI Flash:20300] OK
+[Debug] [2026-10-2 22:17:40] End to send scan outer flash cmd.
+[Debug] [2026-10-2 22:17:40] begin to exec scan jtag flash cmd...
+[Debug] [2026-10-2 22:17:40] Begin to initialize JtagFlash for selected FPGA Device...
+[Debug] [2026-10-2 22:17:40] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 22:17:40] End to update graphic item and tree item ...
+[Info] [2026-10-2 22:17:42] set OpenLastPath: C:/Users/33791/Desktop/project/learn verilog/FINAL/generate_bitstream/final_top.sfc
+[Debug] [2026-10-2 22:17:42] begin to check SFC File and Flash Device Read Mode.
+[Debug] [2026-10-2 22:17:42] end to check SFC File and Flash Device Read Mode.
+[Debug] [2026-10-2 22:17:42] Begin to update graphic item and tree item ...
+[Debug] [2026-10-2 22:17:42] End to update graphic item and tree item ...
+[Debug] [2026-10-2 22:17:42] End to initialize OuterFlash for selected FPGA Device...
+[Debug] [2026-10-2 22:17:42] end to exec scan jtag flash cmd...
+[Debug] [2026-10-2 22:17:42] COMMAND[Scan Outer SPI Flash] execute successfully, takes 2.3 secs.
+[Debug] [2026-10-2 22:17:46] begin to send promgram jtag flash cmd.
+[Debug] [2026-10-2 22:17:46] begin to send jtag flash erase cmd
+[Debug] [2026-10-2 22:17:46] Send RPC:12
+[Debug] [2026-10-2 22:17:46] Begin to send embed flash erase data.
+[Debug] [2026-10-2 22:17:46] Begin to send flash erase data.
+[Debug] [2026-10-2 22:17:46] End to send flash erase data.
+[Debug] [2026-10-2 22:17:46] End to send embed flash erase data.
+[Debug] [2026-10-2 22:17:46] Send cmd [Erase Outer Flash:20302] OK
+[Debug] [2026-10-2 22:17:46] The value of Progress is 1
+[Debug] [2026-10-2 22:17:47] The value of Progress is 6
+[Debug] [2026-10-2 22:17:47] The value of Progress is 12
+[Debug] [2026-10-2 22:17:47] The value of Progress is 15
+[Debug] [2026-10-2 22:17:48] The value of Progress is 21
+[Debug] [2026-10-2 22:17:48] The value of Progress is 27
+[Debug] [2026-10-2 22:17:48] The value of Progress is 30
+[Debug] [2026-10-2 22:17:49] The value of Progress is 36
+[Debug] [2026-10-2 22:17:49] The value of Progress is 42
+[Debug] [2026-10-2 22:17:49] The value of Progress is 45
+[Debug] [2026-10-2 22:17:50] The value of Progress is 51
+[Debug] [2026-10-2 22:17:50] The value of Progress is 57
+[Debug] [2026-10-2 22:17:51] The value of Progress is 60
+[Debug] [2026-10-2 22:17:51] The value of Progress is 66
+[Debug] [2026-10-2 22:17:51] The value of Progress is 72
+[Debug] [2026-10-2 22:17:52] The value of Progress is 75
+[Debug] [2026-10-2 22:17:52] The value of Progress is 81
+[Debug] [2026-10-2 22:17:52] The value of Progress is 87
+[Debug] [2026-10-2 22:17:53] The value of Progress is 90
+[Debug] [2026-10-2 22:17:53] The value of Progress is 96
+[Debug] [2026-10-2 22:17:53] The value of Progress is 100
+[Debug] [2026-10-2 22:17:53] COMMAND[Erase Outer Flash] execute finish, takes 7.6 secs.
+[Debug] [2026-10-2 22:17:53] end to send jtag flash erase cmd.
+[Debug] [2026-10-2 22:17:53] Send RPC:13
+[Debug] [2026-10-2 22:17:53] Begin to send jtag flash program data.
+[Debug] [2026-10-2 22:17:53] Begin to send flash program data.
+[Debug] [2026-10-2 22:17:53] End to send flash program data.
+[Debug] [2026-10-2 22:17:53] End to send embed flash program data.
+[Debug] [2026-10-2 22:17:53] Send cmd [Program Outer Flash:20301] OK
+[Debug] [2026-10-2 22:17:56] The value of Progress is 1
+[Debug] [2026-10-2 22:17:57] The value of Progress is 6
+[Debug] [2026-10-2 22:17:59] The value of Progress is 10
+[Debug] [2026-10-2 22:18:00] The value of Progress is 15
+[Debug] [2026-10-2 22:18:02] The value of Progress is 20
+[Debug] [2026-10-2 22:18:04] The value of Progress is 25
+[Debug] [2026-10-2 22:18:05] The value of Progress is 30
+[Debug] [2026-10-2 22:18:07] The value of Progress is 35
+[Debug] [2026-10-2 22:18:09] The value of Progress is 40
+[Debug] [2026-10-2 22:18:10] The value of Progress is 45
+[Debug] [2026-10-2 22:18:12] The value of Progress is 50
+[Debug] [2026-10-2 22:18:14] The value of Progress is 55
+[Debug] [2026-10-2 22:18:15] The value of Progress is 60
+[Debug] [2026-10-2 22:18:17] The value of Progress is 65
+[Debug] [2026-10-2 22:18:19] The value of Progress is 70
+[Debug] [2026-10-2 22:18:20] The value of Progress is 75
+[Debug] [2026-10-2 22:18:22] The value of Progress is 80
+[Debug] [2026-10-2 22:18:23] The value of Progress is 85
+[Debug] [2026-10-2 22:18:25] The value of Progress is 90
+[Debug] [2026-10-2 22:18:27] The value of Progress is 95
+[Debug] [2026-10-2 22:18:28] The value of Progress is 100
+[Debug] [2026-10-2 22:18:29] COMMAND[Program Outer Flash] execute finish, takes 35.2 secs.
+[Debug] [2026-10-2 22:18:29] begin to send jtag flash verify cmd
+[Debug] [2026-10-2 22:18:29] Send RPC:14
+[Debug] [2026-10-2 22:18:29] Begin to send embed flash verify data.
+[Debug] [2026-10-2 22:18:29] Begin to send flash verify data.
+[Debug] [2026-10-2 22:18:29] End to send flash verify data.
+[Debug] [2026-10-2 22:18:29] End to send embed flash verify data.
+[Debug] [2026-10-2 22:18:29] Send cmd [Verify Outer Flash:20303] OK
+[Debug] [2026-10-2 22:18:29] The value of Progress is 1
+[Debug] [2026-10-2 22:18:29] The value of Progress is 6
+[Debug] [2026-10-2 22:18:29] The value of Progress is 10
+[Debug] [2026-10-2 22:18:29] The value of Progress is 15
+[Debug] [2026-10-2 22:18:29] The value of Progress is 20
+[Debug] [2026-10-2 22:18:29] The value of Progress is 25
+[Debug] [2026-10-2 22:18:29] The value of Progress is 30
+[Debug] [2026-10-2 22:18:29] The value of Progress is 35
+[Debug] [2026-10-2 22:18:30] The value of Progress is 40
+[Debug] [2026-10-2 22:18:30] The value of Progress is 45
+[Debug] [2026-10-2 22:18:30] The value of Progress is 50
+[Debug] [2026-10-2 22:18:30] The value of Progress is 55
+[Debug] [2026-10-2 22:18:30] The value of Progress is 60
+[Debug] [2026-10-2 22:18:30] The value of Progress is 65
+[Debug] [2026-10-2 22:18:30] The value of Progress is 70
+[Debug] [2026-10-2 22:18:30] The value of Progress is 75
+[Debug] [2026-10-2 22:18:30] The value of Progress is 80
+[Debug] [2026-10-2 22:18:30] The value of Progress is 85
+[Debug] [2026-10-2 22:18:31] The value of Progress is 90
+[Debug] [2026-10-2 22:18:31] The value of Progress is 95
+[Debug] [2026-10-2 22:18:31] The value of Progress is 100
+[Debug] [2026-10-2 22:18:31] COMMAND[Verify Outer Flash] execute successfully, takes 2.5 secs.
+[Debug] [2026-10-2 22:18:31] end to send jtag flash verify cmd
+[Debug] [2026-10-2 22:18:31] end to send jtag flash program cmd.
+[Info] [2026-10-2 22:19:02] /***************************End Configration***************************/

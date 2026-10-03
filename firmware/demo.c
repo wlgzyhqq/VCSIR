@@ -8,6 +8,19 @@ static uint32_t calculate(uint32_t n) {
 }
 int main(void) {
  GPIO_DIR=3;GPIO_OUT=0x0100;
+ // The first five tags share a two-way cache set and force dirty evictions.
+ // Widely separated DDR locations exercise the byte/word address conversion.
+ static const uint32_t ddr_addresses[]={0x00100000u,0x00102000u,0x00104000u,
+                                      0x10100000u,0x30100000u,0x3fffffe0u};
+ for(uint32_t i=0;i<6;i++)
+   *(volatile uint32_t *)(uintptr_t)ddr_addresses[i]=0x12340000u+i;
+ for(uint32_t i=0;i<6;i++) {
+   if(*(volatile uint32_t *)(uintptr_t)ddr_addresses[i]!=(0x12340000u+i)) {
+     GPIO_OUT=0xe100;puts_uart("FINAL DDR3: memory FAIL\r\n");
+     RESULT=0xdead0300u+i;for(;;){}
+   }
+ }
+ puts_uart("FINAL DDR3: memory PASS\r\n");
  if(calculate(12)!=984u) { RESULT=0xdead0001;for(;;){} }
  puts_uart("FINAL RV32I: C PASS\r\n");
  RESULT=1;

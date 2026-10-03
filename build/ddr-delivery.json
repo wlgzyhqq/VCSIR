@@ -1,0 +1,20 @@
+{
+  "design": "FINAL DDR3",
+  "device": "PGL50H-6IFBG484",
+  "memory": "1 GiB external DDR3",
+  "cpuMHz": 50,
+  "uiMHz": 100,
+  "ddrMHz": 400,
+  "timing": "All Constraints Met",
+  "simulationRun": false,
+  "boardTested": false,
+  "bitstream": "generate_bitstream/final_top.sbit",
+  "bitstreamBytes": 2101696,
+  "generated": "2026-10-02T21:53:19.8564675+08:00",
+  "sha256": "3050B05CDCA92FA8DC8E2C345A67B1A8DB2554B26A5A1265E6F8BCD7ECF9653A",
+  "oldBramSha256": "A38DC71AC335DE9F1367CE7DB3567D5901B3FCF06BEE0DA07C9FCCD7493ED36A",
+  "bootImageBytes": 704,
+  "LUT": 11590,
+  "DRM": 18,
+  "IO": 88
+}

@@ -1,4 +1,4 @@
-##### Written on 2026/10/02 12:59:40 ###############################
+##### Written on 2026/10/02 21:45:40 ###############################
 
 
 ##### INFO ##################################################
@@ -11,10 +11,11 @@ Top Module :
 
 Constraint File(s) : 
 	C:/Users/33791/Desktop/project/learn verilog/FINAL/constraints/mes50hp.fdc
+	C:/Users/33791/Desktop/project/learn verilog/FINAL/constraints/mes50hp_ddr3.fdc
 
 ##### SUMMARY ######################################################
 
-Found 0 error(s), 3 critical warning(s), 0 warning(s), out of 107 constraint(s)
+Found 0 error(s), 6 critical warning(s), 0 warning(s), out of 636 constraint(s)
 
 
 Inapplicable constraints(except overwritten constraints):
@@ -29,9 +30,21 @@ define_attribute {p:gpio[0]} {PAP_IO_LOC} {AB13}
 define_attribute {p:gpio[1]} {PAP_IO_LOC} {Y13}
 	C: ConstraintEditor-2002: [C:/Users/33791/Desktop/project/learn verilog/FINAL/constraints/mes50hp.fdc(line number: 99)] | Port gpio[1] has been placed at location Y13, whose type is share pin.
 
+define_attribute {p:ddr3_dq[14]} {PAP_IO_LOC} {P3}
+	C: ConstraintEditor-2002: [C:/Users/33791/Desktop/project/learn verilog/FINAL/constraints/mes50hp_ddr3.fdc(line number: 274)] | Port ddr3_dq[14] has been placed at location P3, whose type is share pin.
+
+define_attribute {p:ddr3_dq[11]} {PAP_IO_LOC} {M1}
+	C: ConstraintEditor-2002: [C:/Users/33791/Desktop/project/learn verilog/FINAL/constraints/mes50hp_ddr3.fdc(line number: 295)] | Port ddr3_dq[11] has been placed at location M1, whose type is share pin.
+
+define_attribute {p:ddr3_dq[9]} {PAP_IO_LOC} {M2}
+	C: ConstraintEditor-2002: [C:/Users/33791/Desktop/project/learn verilog/FINAL/constraints/mes50hp_ddr3.fdc(line number: 309)] | Port ddr3_dq[9] has been placed at location M2, whose type is share pin.
+
 
 Constraints with issues:
 ********************************************
+
+get_cells -hierarchical *u_ddr*ddrphy_slice_top*
+	W: Timing-4116: The pattern '*u_ddr*ddrphy_slice_top*' in command 'get_cells -hierarchical *u_ddr*ddrphy_slice_top*' match more than 3000 objects, please check your pattern.
 
 
 Issues without commands:
@@ -44,6 +57,465 @@ Unconstrained ports:
 
 Constraints with matching wildcard expressions:
 ********************************************
+
+set_false_path -from [get_cells -hierarchical {*reset_release*}] -to [get_cells -hierarchical {*ddr_release*}]
+	I: The pattern '*reset_release*' in command 'get_cells -hierarchical *reset_release*' match 1 objects below:
+	I: instance reset_release[1:0]
+
+set_false_path -from [get_cells -hierarchical {*reset_release*}] -to [get_cells -hierarchical {*ddr_release*}]
+	I: The pattern '*ddr_release*' in command 'get_cells -hierarchical *ddr_release*' match 1 objects below:
+	I: instance ddr_release[1:0]
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*ddrphy_dqs_rst*}] -to [get_cells -hierarchical {*u_ddr*ddrphy_slice_top*}]
+	I: The pattern '*u_ddr*ddrphy_reset_ctrl*ddrphy_dqs_rst*' in command 'get_cells -hierarchical *u_ddr*ddrphy_reset_ctrl*ddrphy_dqs_rst*' match 1 objects below:
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_dqs_rst
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*ddrphy_dqs_rst*}] -to [get_cells -hierarchical {*u_ddr*ddrphy_slice_top*}]
+	I: The pattern '*u_ddr*ddrphy_reset_ctrl*' in command 'get_cells -hierarchical *u_ddr*ddrphy_reset_ctrl*' match 99 objects below:
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N17
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N29
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N84
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N115
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N126
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N137
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N144
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N146
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N149
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N150
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N151
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N152
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N153
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N154
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N155
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N156
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N158
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N159
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N160
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N161
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N162
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N163
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N164
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N165
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N207
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N208
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N210
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N214
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N215
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N218
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N219
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N238
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N239_2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N240
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N241
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N243
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N246
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N256
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/cnt[7:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_calib_done_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_dll_rst_rg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_dqs_rst
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_ioclk_gate
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_rst
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_rst_n_rg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_lock_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_update_ack_rst_ctrl_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_update_req_rst_ctrl
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/logic_rstn
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/pll_lock_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/state_fsm[3:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/training_error_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/wrlvl_ck_dly_start_rst_d1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/wrlvl_ck_dly_start_rst_d2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N11
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N21
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N22
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N23
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N24
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N25
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N26
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N27
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N28
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N29
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N30
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N31
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N32
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N33
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N34
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N35
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N36
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N37
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N38
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N39
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N41
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N42
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N43
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N44_1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N45
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N47
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N49
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/rise_cnt[18:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_b_ff
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_b_neg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_deb_pre
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/sig_async_r2[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/sig_async_r2[0]
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*logic_rstn*}] -to [get_cells -hierarchical {*u_ddr*ddrphy_slice_top*u_logic_rstn_sync*}]
+	I: The pattern '*u_ddr*ddrphy_reset_ctrl*' in command 'get_cells -hierarchical *u_ddr*ddrphy_reset_ctrl*' match 99 objects below:
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N17
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N29
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N84
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N115
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N126
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N137
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N144
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N146
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N149
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N150
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N151
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N152
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N153
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N154
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N155
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N156
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N158
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N159
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N160
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N161
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N162
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N163
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N164
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N165
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N207
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N208
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N210
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N214
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N215
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N218
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N219
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N238
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N239_2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N240
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N241
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N243
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N246
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N256
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/cnt[7:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_calib_done_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_dll_rst_rg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_dqs_rst
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_ioclk_gate
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_rst
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_rst_n_rg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_lock_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_update_ack_rst_ctrl_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_update_req_rst_ctrl
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/logic_rstn
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/pll_lock_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/state_fsm[3:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/training_error_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/wrlvl_ck_dly_start_rst_d1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/wrlvl_ck_dly_start_rst_d2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N11
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N21
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N22
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N23
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N24
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N25
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N26
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N27
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N28
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N29
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N30
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N31
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N32
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N33
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N34
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N35
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N36
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N37
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N38
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N39
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N41
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N42
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N43
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N44_1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N45
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N47
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N49
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/rise_cnt[18:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_b_ff
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_b_neg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_deb_pre
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/sig_async_r2[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/sig_async_r2[0]
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*logic_rstn*}] -to [get_cells -hierarchical {*u_ddr*ddrphy_slice_top*u_logic_rstn_sync*}]
+	I: The pattern '*u_ddr*ddrphy_reset_ctrl*logic_rstn*' in command 'get_cells -hierarchical *u_ddr*ddrphy_reset_ctrl*logic_rstn*' match 1 objects below:
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/logic_rstn
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*logic_rstn*}] -to [get_cells -hierarchical {*u_ddr*ddrphy_slice_top*u_logic_rstn_sync*}]
+	I: The pattern '*u_ddr*ddrphy_slice_top*u_logic_rstn_sync*' in command 'get_cells -hierarchical *u_ddr*ddrphy_slice_top*u_logic_rstn_sync*' match 4 objects below:
+	I: instance u_ddr/u_ddrphy_top/ddrphy_slice_top/u_logic_rstn_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_slice_top/u_logic_rstn_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_slice_top/u_logic_rstn_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_slice_top/u_logic_rstn_sync/sig_async_r2[0]
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*}] -to [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*u_ddrphy_rstn_sync*}]
+	I: The pattern '*u_ddr*ddrphy_reset_ctrl*' in command 'get_cells -hierarchical *u_ddr*ddrphy_reset_ctrl*' match 99 objects below:
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N17
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N29
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N84
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N115
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N126
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N137
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N144
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N146
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N149
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N150
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N151
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N152
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N153
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N154
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N155
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N156
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N158
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N159
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N160
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N161
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N162
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N163
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N164
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N165
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N207
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N208
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N210
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N214
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N215
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N218
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N219
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N238
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N239_2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N240
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N241
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N243
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N246
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N256
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/cnt[7:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_calib_done_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_dll_rst_rg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_dqs_rst
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_ioclk_gate
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_rst
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_rst_n_rg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_lock_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_update_ack_rst_ctrl_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_update_req_rst_ctrl
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/logic_rstn
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/pll_lock_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/state_fsm[3:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/training_error_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/wrlvl_ck_dly_start_rst_d1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/wrlvl_ck_dly_start_rst_d2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N11
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N21
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N22
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N23
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N24
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N25
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N26
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N27
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N28
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N29
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N30
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N31
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N32
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N33
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N34
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N35
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N36
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N37
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N38
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N39
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N41
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N42
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N43
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N44_1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N45
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N47
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N49
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/rise_cnt[18:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_b_ff
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_b_neg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_deb_pre
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/sig_async_r2[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/sig_async_r2[0]
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*}] -to [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*u_ddrphy_rstn_sync*}]
+	I: The pattern '*u_ddr*ddrphy_reset_ctrl*u_ddrphy_rstn_sync*' in command 'get_cells -hierarchical *u_ddr*ddrphy_reset_ctrl*u_ddrphy_rstn_sync*' match 4 objects below:
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/sig_async_r2[0]
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*}] -to [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*u_dll_rst_sync*}]
+	I: The pattern '*u_ddr*ddrphy_reset_ctrl*' in command 'get_cells -hierarchical *u_ddr*ddrphy_reset_ctrl*' match 99 objects below:
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N17
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N29
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N84
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N115
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N126
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N137
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N144
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N146
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N149
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N150
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N151
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N152
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N153
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N154
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N155
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N156
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N158
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N159
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N160
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N161
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N162
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N163
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N164
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N165
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N207
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N208
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N210
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N214
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N215
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N218
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N219
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N238
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N239_2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N240
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N241
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N243
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N246
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/N256
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/cnt[7:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_calib_done_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_dll_rst_rg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_dqs_rst
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_ioclk_gate
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_rst
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_rst_n_rg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_lock_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_update_ack_rst_ctrl_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/dll_update_req_rst_ctrl
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/logic_rstn
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/pll_lock_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/state_fsm[3:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/training_error_d[1:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/wrlvl_ck_dly_start_rst_d1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/wrlvl_ck_dly_start_rst_d2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N2
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N11
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N21
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N22
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N23
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N24
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N25
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N26
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N27
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N28
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N29
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N30
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N31
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N32
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N33
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N34
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N35
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N36
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N37
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N38
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N39
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N41
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N42
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N43
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N44_1
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N45
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N47
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/N49
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/rise_cnt[18:0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_b_ff
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_b_neg
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/ddrphy_pll_lock_debounce/signal_deb_pre
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_ddrphy_rstn_sync/sig_async_r2[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/sig_async_r2[0]
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*}] -to [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*u_dll_rst_sync*}]
+	I: The pattern '*u_ddr*ddrphy_reset_ctrl*u_dll_rst_sync*' in command 'get_cells -hierarchical *u_ddr*ddrphy_reset_ctrl*u_dll_rst_sync*' match 4 objects below:
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/N0
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrphy_top/ddrphy_reset_ctrl/u_dll_rst_sync/sig_async_r2[0]
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*u_ddrp_rstn_sync*}] -to [get_cells -hierarchical {*u_ddr*u_controller_reset_sync*}]
+	I: The pattern '*u_ddr*u_ddrp_rstn_sync*' in command 'get_cells -hierarchical *u_ddr*u_ddrp_rstn_sync*' match 4 objects below:
+	I: instance u_ddr/u_ddrp_rstn_sync
+	I: instance u_ddr/u_ddrp_rstn_sync/N0
+	I: instance u_ddr/u_ddrp_rstn_sync/sig_async_r1[0]
+	I: instance u_ddr/u_ddrp_rstn_sync/sig_async_r2[0]
+
+set_false_path -from [get_cells -hierarchical {*u_ddr*u_ddrp_rstn_sync*}] -to [get_cells -hierarchical {*u_ddr*u_controller_reset_sync*}]
+	I: The pattern '*u_ddr*u_controller_reset_sync*' in command 'get_cells -hierarchical *u_ddr*u_controller_reset_sync*' match 4 objects below:
+	I: instance u_ddr/u_controller_reset_sync
+	I: instance u_ddr/u_controller_reset_sync/N0
+	I: instance u_ddr/u_controller_reset_sync/sig_async_r1[0]
+	I: instance u_ddr/u_controller_reset_sync/sig_async_r2[0]
 
 set_false_path -from [get_ports {gpio[*]}] -to [get_cells -hierarchical {*gpio_meta*}]
 	I: The pattern 'gpio[*]' in command 'get_ports {gpio[*]}' match 2 objects below:
@@ -66,5 +538,87 @@ set_false_path -from [get_ports {keys_n[*]}] -to [get_cells -hierarchical {*key_
 set_false_path -from [get_ports {uart_rx}] -to [get_cells -hierarchical {*rx_meta*}]
 	I: The pattern '*rx_meta*' in command 'get_cells -hierarchical *rx_meta*' match 1 objects below:
 	I: instance u_bus/u_uart/rx_meta
+
+set_false_path -hold -from [get_cells -hierarchical {*u_mem_bridge*req_*hold*}] -to [get_cells -hierarchical {*u_mem_bridge*native_*}]
+	I: The pattern '*u_mem_bridge*req_*hold*' in command 'get_cells -hierarchical *u_mem_bridge*req_*hold*' match 5 objects below:
+	I: instance u_mem_bridge/req_addr_hold[29:0]
+	I: instance u_mem_bridge/req_data_hold[255:0]
+	I: instance u_mem_bridge/req_strb_hold[31:0]
+	I: instance u_mem_bridge/req_write_hold
+	I: instance u_mem_bridge/req_write_hold_inv
+
+set_false_path -hold -from [get_cells -hierarchical {*u_mem_bridge*req_*hold*}] -to [get_cells -hierarchical {*u_mem_bridge*native_*}]
+	I: The pattern '*u_mem_bridge*native_*' in command 'get_cells -hierarchical *u_mem_bridge*native_*' match 3 objects below:
+	I: instance u_mem_bridge/native_addr[27:0]
+	I: instance u_mem_bridge/native_data[255:0]
+	I: instance u_mem_bridge/native_strb[31:0]
+
+set_false_path -hold -from [get_cells -hierarchical {*u_mem_bridge*req_write_hold*}] -to [get_cells -hierarchical {*u_mem_bridge*state*}]
+	I: The pattern '*u_mem_bridge*req_write_hold*' in command 'get_cells -hierarchical *u_mem_bridge*req_write_hold*' match 2 objects below:
+	I: instance u_mem_bridge/req_write_hold
+	I: instance u_mem_bridge/req_write_hold_inv
+
+set_false_path -hold -from [get_cells -hierarchical {*u_mem_bridge*req_write_hold*}] -to [get_cells -hierarchical {*u_mem_bridge*state*}]
+	I: The pattern '*u_mem_bridge*state*' in command 'get_cells -hierarchical *u_mem_bridge*state*' match 1 objects below:
+	I: instance u_mem_bridge/state[2:0]
+
+set_false_path -hold -from [get_cells -hierarchical {*u_mem_bridge*rsp_*hold*}] -to [get_cells -hierarchical {*u_mem_bridge*rsp_data*}]
+	I: The pattern '*u_mem_bridge*rsp_*hold*' in command 'get_cells -hierarchical *u_mem_bridge*rsp_*hold*' match 2 objects below:
+	I: instance u_mem_bridge/rsp_data_hold[255:0]
+	I: instance u_mem_bridge/rsp_error_hold
+
+set_false_path -hold -from [get_cells -hierarchical {*u_mem_bridge*rsp_*hold*}] -to [get_cells -hierarchical {*u_mem_bridge*rsp_data*}]
+	I: The pattern '*u_mem_bridge*rsp_data*' in command 'get_cells -hierarchical *u_mem_bridge*rsp_data*' match 2 objects below:
+	I: instance u_mem_bridge/rsp_data[255:0]
+	I: instance u_mem_bridge/rsp_data_hold[255:0]
+
+set_false_path -to [get_cells -hierarchical {*u_ddr*gate_error_ref_meta*}]
+	I: The pattern '*u_ddr*gate_error_ref_meta*' in command 'get_cells -hierarchical *u_ddr*gate_error_ref_meta*' match 1 objects below:
+	I: instance u_ddr/u_ddrphy_top/gate_error_ref_meta
+
+set_false_path -to [get_cells -hierarchical {*u_mem_bridge*ack_meta*}]
+	I: The pattern '*u_mem_bridge*ack_meta*' in command 'get_cells -hierarchical *u_mem_bridge*ack_meta*' match 1 objects below:
+	I: instance u_mem_bridge/ack_meta
+
+set_false_path -to [get_cells -hierarchical {*u_mem_bridge*init_meta*}]
+	I: The pattern '*u_mem_bridge*init_meta*' in command 'get_cells -hierarchical *u_mem_bridge*init_meta*' match 1 objects below:
+	I: instance u_mem_bridge/init_meta
+
+set_false_path -to [get_cells -hierarchical {*u_mem_bridge*req_meta*}]
+	I: The pattern '*u_mem_bridge*req_meta*' in command 'get_cells -hierarchical *u_mem_bridge*req_meta*' match 1 objects below:
+	I: instance u_mem_bridge/req_meta
+
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_mem_bridge*req_*hold*}] -to [get_cells -hierarchical {*u_mem_bridge*native_*}]
+	I: The pattern '*u_mem_bridge*req_*hold*' in command 'get_cells -hierarchical *u_mem_bridge*req_*hold*' match 5 objects below:
+	I: instance u_mem_bridge/req_addr_hold[29:0]
+	I: instance u_mem_bridge/req_data_hold[255:0]
+	I: instance u_mem_bridge/req_strb_hold[31:0]
+	I: instance u_mem_bridge/req_write_hold
+	I: instance u_mem_bridge/req_write_hold_inv
+
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_mem_bridge*req_*hold*}] -to [get_cells -hierarchical {*u_mem_bridge*native_*}]
+	I: The pattern '*u_mem_bridge*native_*' in command 'get_cells -hierarchical *u_mem_bridge*native_*' match 3 objects below:
+	I: instance u_mem_bridge/native_addr[27:0]
+	I: instance u_mem_bridge/native_data[255:0]
+	I: instance u_mem_bridge/native_strb[31:0]
+
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_mem_bridge*req_write_hold*}] -to [get_cells -hierarchical {*u_mem_bridge*state*}]
+	I: The pattern '*u_mem_bridge*req_write_hold*' in command 'get_cells -hierarchical *u_mem_bridge*req_write_hold*' match 2 objects below:
+	I: instance u_mem_bridge/req_write_hold
+	I: instance u_mem_bridge/req_write_hold_inv
+
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_mem_bridge*req_write_hold*}] -to [get_cells -hierarchical {*u_mem_bridge*state*}]
+	I: The pattern '*u_mem_bridge*state*' in command 'get_cells -hierarchical *u_mem_bridge*state*' match 1 objects below:
+	I: instance u_mem_bridge/state[2:0]
+
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_mem_bridge*rsp_*hold*}] -to [get_cells -hierarchical {*u_mem_bridge*rsp_data*}]
+	I: The pattern '*u_mem_bridge*rsp_*hold*' in command 'get_cells -hierarchical *u_mem_bridge*rsp_*hold*' match 2 objects below:
+	I: instance u_mem_bridge/rsp_data_hold[255:0]
+	I: instance u_mem_bridge/rsp_error_hold
+
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_mem_bridge*rsp_*hold*}] -to [get_cells -hierarchical {*u_mem_bridge*rsp_data*}]
+	I: The pattern '*u_mem_bridge*rsp_data*' in command 'get_cells -hierarchical *u_mem_bridge*rsp_data*' match 2 objects below:
+	I: instance u_mem_bridge/rsp_data[255:0]
+	I: instance u_mem_bridge/rsp_data_hold[255:0]
 
 

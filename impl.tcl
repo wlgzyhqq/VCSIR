@@ -14,3 +14,59 @@ dev_map
 pnr 
 report_timing 
 gen_bit_stream 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module final_top
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module final_top
+synthesize -ads -selected_syn_tool_opt 2 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module final_top
+synthesize -ads -selected_syn_tool_opt 2 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module final_top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module final_top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module final_top
+synthesize -ads -selected_syn_tool_opt 2 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+dev_map 
+compile -top_module final_top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module final_top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module final_top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module final_top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+report_power 
+gen_netlist 
+gen_bit_stream 
+set_arch -family Logos -device PGL50H -speedgrade -6 -package FBG484
+compile -top_module final_top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+report_power 
+gen_netlist 
+gen_bit_stream 

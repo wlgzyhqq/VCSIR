@@ -1,0 +1,24 @@
+[Info] [2023-2-9 13:52:00] /***************************Start Configuration***************************/
+[Info] [2023-2-9 13:52:00] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-2-9 13:52:00] Version: 99559
+[Info] [2023-2-9 13:52:01] Current Path: C:/Users/w/Desktop/MES50HP_0208/2_demo/08_ddr3_test
+[Info] [2023-2-9 13:52:01] PDS Dir Path: C:/Users/w/Desktop/MES50HP_0208/2_demo/08_ddr3_test
+[Info] [2023-2-9 13:52:03] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-2-9 13:52:03] Client Local host name:admin
+[Debug] [2023-2-9 13:52:03] Client Local Address:192.168.0.155
+[Debug] [2023-2-9 13:52:03] Server Address:127.0.0.1, Port:65420
+[Info] [2023-2-9 13:52:03] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-2-9 13:52:03] Finish.
+[Info] [2023-2-9 13:52:03] Connect server succeeded
+[Debug] [2023-2-9 13:52:03] Send RPC:1
+[Debug] [2023-2-9 13:52:03] Send cmd [check version information:40005] OK
+[Debug] [2023-2-9 13:52:03] Send RPC:2
+[Debug] [2023-2-9 13:52:03] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-2-9 13:52:03] Begin to send initialize chain cmd...
+[Debug] [2023-2-9 13:52:03] Send RPC:3
+[Debug] [2023-2-9 13:52:03] Send cmd [Open config cable:20001] OK
+[Debug] [2023-2-9 13:52:03] End to send initialize chain cmd.
+[Debug] [2023-2-9 13:52:03] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-2-9 13:52:04] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Error] [2023-2-9 13:52:08] fail to exec Open config cable cmd...
+[Info] [2023-2-9 13:58:54] /***************************End Configration***************************/

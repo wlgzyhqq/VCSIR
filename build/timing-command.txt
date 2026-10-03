@@ -1,0 +1,89 @@
+ 时序约束命令 
+ 210 / 273 Pango Design Suite User Guide 
+例子 1、disable Inst:FF 的 timing arc， 不指定-from 或-to 默认只会打断 clock pin 和输出 pin
+之间的 timing arc： 
+set_disable_timing  [get_cells FF] 
+例子 2、disable Inst:LUT I0 和 Z 之间的 timing arc 以打断 combinational loop： 
+set_disable_timing -from I0 -to Z [get_cells LUT] 
+6.7 报告命令 
+6.7.1 report_timing 
+report_timing   
+[-from from_list | -rise_from rise_from_list | -fall_from fall_from_list]   
+[-to to_list | -rise_to rise_to_list | -fall_to fall_to_list]   
+[-through through_list]*   
+[-delay_type delay_type]  
+[-nworst paths_per_endpoint]   
+[-max_path count] 
+[-from] ：from_list 表示 path 的 startpoint，注意，startpoint 必须是下列几类 point 中的一
+种： 
+1、clock，通过 get_clocks 得到，需要遵循先声明后使用的原则，即：clock 需要先通过
+create_generated_clock 或 create_clock 创建； 如果定义了clock， 那么startpoint 是该 clock network
+能够 fanout 到的所有 register 的 clock pin，或者是与该 clock 相关的所有 input（通过用户 sdc
+中的 set_input_delay 设定，否则该 startpoint 是无效的）。 
+2、io port，input 或者是 inout，通过 get_ports 得到。 
+3、时序单元，通过 get_cells 得到，表示所有时序单元的 clock pin。 
+4、时序单元的 clock pin，通过 get_pins 得到。 
+[-rise_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟上升沿触发，
+此处的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟下降沿触发，
+此处的时钟下降沿指的是时钟定义点的下降沿。 
+注意：格式定义中用了三个或符号，如下所示： 
+ 时序约束命令 
+ 211 / 273 Pango Design Suite User Guide 
+[-from from_list  |  -rise_from rise_from_list  | -fall_from fall_from_list]表示-from 
+from_list、-rise_from rise_from_list、-fall_from fall_from_list 只能使用其中的任意一个。 
+[-to] ：to_list 表示 path 的 endpoint，注意，endpoint 必须下列几类 point 中的一种： 
+1、clock，通过 get_clocks 得到，需要遵循先声明后使用的原则，即：clock 需要先通过
+create_generated_clock 或 create_clock 创建； 如果定义了clock， 那么endpoint 是该 clock network
+能够 fanout 到的所有 register 的 clock pin 所对应的 data pin，或者是与该 clock 相关的所有
+output（通过用户 sdc 中的 set_output_delay 设定否则该 endpoint 是无效的）。 
+2、io port，output 或者是 inout，通过 get_ports 得到。 
+3、时序单元，通过 get_cells 得到，表示所有时序单元的 data pin。 
+4、时序单元的 data pin，通过 get_pins 得到。 
+[-rise_to] ：该选项只能指定为时钟 clocks，表示该时序路径终点被时钟上升沿触发，此
+处的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_to] ：该选项只能指定为时钟 clocks，表示该时序路径终点被时钟下降沿触发，此
+处的时钟下降沿指的是时钟定义点的下降沿。 
+注意：格式定义中用了三个或符号，如下所示： 
+[-to to_list  | -fall_to fall_to_list  |  -rise_to rise_to_list]表示-to to_list、-fall_to fall_to_list、
+-rise_to rise_to_list 只能使用其中的任意一个。 
+[-through] ：through_list 表示 path 必须经过的中间点。 
+注意：[-through through_list]*参数后面都带了*，表示这个参数可以重复。 
+-delay_type：表示 path 的延迟类型，有三种，min、max、min_max 三种，其中 min 表示
+此分析进行是 hold 分析， ，max 表示此分析进行的是 setup 分析，min_max 则要同时进行 setup
+和 hold 的分析。 
+-nworst paths_per_endpoint ：表示每个 path 组的每个 endpoint 的需要报告的 path 数目。 
+-max_path count ：每个 path 组需要报告的 path 的数目。 
+ 
+ 
+ 时序约束命令 
+ 212 / 273 Pango Design Suite User Guide 
+6.8 命令的语法格式 
+6.8.1 tcl 的命令格式 
+下面介绍下 tcl 的命令格式： 
+Tcl 的命令由以下几个部分组成： 
+[1] Commands 即命令名，比如的 set_input_delay，一个命令中可以包含其他的子命令，
+分号或者是换行符作为命令的结束符。子命令以右边大括号做为结束符，见下面子命令。 
+[2] Words 即字符，字符以空格作为分隔符。 
+[3] Double quotes 即双引号，作用是将多个字符看做是一个字符串而非单个字符。在双
+引号的范围内，不论是分号，右边大括号，还是空格键或换行符都会被当做字符看待，子命
+令，变量，以及反斜杠依然有效。 
+[4] Braces。即大括号，所有的子命令，变量以在大括号内都会被当做字符看待。 
+[5] Command substitution 子命令，以左中括号开头，并以右中括号结束。 
+[6] Variable substitution 变量定义。 以$作为其起始符。 在解析时， 变量的值会将变量替换。 
+[7] Backslash substitution 即反斜杠。和 C 及其他语言的反斜杠一样，tcl 语言的反斜杠也
+是用在转义符中。 
+[8] Comments.注释符，用#开头。 
+6.8.2 List 的问题 
+下面看 from_list、rise_from_list、fall_from_list、to_list、fall_to_list、rise_to_list、through_list、 
+rise_through_list、 fall_through_list 的写法， 在前面介绍过， 需要通过get_pins 等命令还获取，
+那么应该按照 tcl 的语法如下书写： 
+set_min_delay -rise_through  [get_ports clk]  
+如果希望获取多个 port，那么可以这么写： 
+set_min_delay -rise_from [get_ports {clk rst_n}] -rise_to [get_ports {clk1 rst_n1}] 
+如果的 list 来自 port，也来自 pin，那么应该分开写，假设 clk 来自 port，rst_n 来自 pin，
+并且具备有如下关系： 
+pin clk ->port rst_n1； 
+pin clk ->pin clk1； 
+port rst_n -> port rst_n1； 
+port rst_n -> pin clk1； 

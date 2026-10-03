@@ -1,0 +1,2336 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/xsl" href="ipc.xsl"?>
+<ip_index><!--D:/pango/Pango Design Suite 2021.4-SP3.3-Beta1-ads/ip/system_ip/ipsxb_hmic_s/ipsxb_hmic_s_eval/ipsxb_hmic_s/ipsxb_ddr_top_v1_4_wrapper.v.xml-->
+<header><name>Logos HMIC_S</name>
+<id>022003</id>
+<display_name>DDR3 Interface</display_name>
+<top_module>ipsxb_ddr_top_v1_4_wrapper.v.xml</top_module>
+<version>1.4</version>
+<vendor>Pango</vendor>
+
+<category>System,DDR,Soft</category>
+<info>info.html</info>
+<ui>ui.tcl</ui>
+<datasheet>UG022003_Logos_HMIC_S_IP.pdf</datasheet>
+</header>
+<tool>
+    <pds>
+    </pds>
+</tool>
+<supported>
+<family name="Logos">
+    <device name="PGL25G">
+    </device>
+    <device name="PGL50H">
+    </device>
+    <device name="PGL50G">
+    </device>
+    <device name="PGL100H">
+    </device>
+</family>
+</supported>
+<param_list>
+<param><name>MEM_TYPE</name>
+<type>enum</type>
+<default>DDR3</default>
+<item>DDR3</item>
+</param>
+<param><name>OPERATING_MODE</name>
+<type>enum</type>
+<default>Controller + PHY</default>
+<item>Controller + PHY</item>
+</param>
+<param><name>MEM_DQ_WIDTH</name>
+<type>enum</type>
+<default>16</default>
+<item>32</item>
+<item>24</item>
+<item>16</item>
+<item>8</item>
+</param>
+<param><name>MEM_DM_WIDTH</name>
+<type>enum</type>
+<default>2</default>
+<item>4</item>
+<item>3</item>
+<item>2</item>
+<item>1</item>
+</param>
+<param><name>MEM_DQS_WIDTH</name>
+<type>enum</type>
+<default>2</default>
+<item>4</item>
+<item>3</item>
+<item>2</item>
+<item>1</item>
+</param>
+<param><name>CLKIN_FREQ</name>
+<type>float</type>
+<default>50.0</default>
+<min>5.0</min>
+<max>625.0</max>
+</param>
+<param><name>Debug_Signals_En</name>
+<type>bool</type>
+<default>1</default>
+</param>
+<param><name>DEBUG_EN</name>
+<type>bool</type>
+<default>1</default>
+</param>
+<param><name>CS_n_En</name>
+<type>bool</type>
+<default>1</default>
+</param>
+<param><name>CS_n_EN</name>
+<type>bool</type>
+<default>1</default>
+</param>
+<param><name>DEVICE_100H</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+</param>
+<param><name>DM_GROUP_EN</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+</param>
+<param><name>DESIRED_DDR3_RATE</name>
+<type>float</type>
+<default>800</default>
+<min>600</min>
+<max>800</max>
+</param>
+<param><name>DESIRED_RATE</name>
+<type>float</type>
+<default>800</default>
+<min>600</min>
+<max>800</max>
+</param>
+<param><name>ACTUAL_RATE</name>
+<type>float</type>
+<default>800</default>
+<min>600</min>
+<max>800</max>
+</param>
+<param><name>DFI_CLK_PERIOD</name>
+<type>int</type>
+<default>10000</default>
+<min>1000</min>
+<max>50000</max>
+</param>
+<param><name>DDR3_DFT_MEM_PART</name>
+<type>enum</type>
+<default>MT41K256M16xx-15E</default>
+<item>MT41J128M8xx-15E</item>
+<item>MT41J128M16xx-15E</item>
+<item>MT41J64M16xx-15E</item>
+<item>MT41J256M8xx-15E</item>
+<item>MT41K256M16xx-15E</item>
+</param>
+<param><name>DDR_MEM_PART</name>
+<type>enum</type>
+<default>MT41K256M16xx-15E</default>
+<item>MT41J128M8xx-15E</item>
+<item>MT41J128M16xx-15E</item>
+<item>MT41J64M16xx-15E</item>
+<item>MT41J256M8xx-15E</item>
+<item>MT41K256M16xx-15E</item>
+</param>
+<param><name>CUSTOMIZE_MEM</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>DDR3_BASE_MEM_PART</name>
+<type>enum</type>
+<default>MT41K256M16xx-15E</default>
+<item>MT41J128M8xx-15E</item>
+<item>MT41J128M16xx-15E</item>
+<item>MT41J64M16xx-15E</item>
+<item>MT41J256M8xx-15E</item>
+<item>MT41K256M16xx-15E</item>
+</param>
+<param><name>CUSTOMIZE_CA</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>BANK_CA</name>
+<type>enum</type>
+<default>B3</default>
+<item>B1</item>
+<item>B3</item>
+</param>
+<param><name>PAD_RESET</name>
+<type>enum</type>
+<default>W4</default>
+<item>W4</item>
+</param>
+<param><name>GROUP_CKE</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_CKE</name>
+<type>enum</type>
+<default>F5</default>
+<item>C1</item>
+<item>B1</item>
+<item>F5</item>
+<item>G6</item>
+<item>J7</item>
+<item>H8</item>
+<item>H6</item>
+<item>G7</item>
+</param>
+<param><name>GROUP_CK</name>
+<type>enum</type>
+<default>G1</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_CK</name>
+<type>enum</type>
+<default>F3</default>
+<item>F3</item>
+<item>E4</item>
+<item>D2</item>
+<item>D1</item>
+</param>
+<param><name>GROUP_CKN</name>
+<type>enum</type>
+<default>G1</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_CKN</name>
+<type>enum</type>
+<default>E4</default>
+<item>F3</item>
+<item>E4</item>
+<item>D2</item>
+<item>D1</item>
+</param>
+<param><name>GROUP_CS</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_CS</name>
+<type>enum</type>
+<default>C1</default>
+<item>C1</item>
+<item>B1</item>
+<item>F5</item>
+<item>G6</item>
+<item>J7</item>
+<item>H8</item>
+<item>H6</item>
+<item>G7</item>
+</param>
+<param><name>GROUP_RAS</name>
+<type>enum</type>
+<default>G6</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_RAS</name>
+<type>enum</type>
+<default>T3</default>
+<item>T3</item>
+<item>R4</item>
+<item>P6</item>
+<item>P7</item>
+<item>U4</item>
+<item>T4</item>
+<item>N6</item>
+<item>N7</item>
+</param>
+<param><name>GROUP_CAS</name>
+<type>enum</type>
+<default>G6</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_CAS</name>
+<type>enum</type>
+<default>U4</default>
+<item>T3</item>
+<item>R4</item>
+<item>P6</item>
+<item>P7</item>
+<item>U4</item>
+<item>T4</item>
+<item>N6</item>
+<item>N7</item>
+</param>
+<param><name>GROUP_WE</name>
+<type>enum</type>
+<default>G1</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_WE</name>
+<type>enum</type>
+<default>D1</default>
+<item>F3</item>
+<item>E4</item>
+<item>D2</item>
+<item>D1</item>
+</param>
+<param><name>GROUP_ODT</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_ODT</name>
+<type>enum</type>
+<default>B1</default>
+<item>C1</item>
+<item>B1</item>
+<item>F5</item>
+<item>G6</item>
+<item>J7</item>
+<item>H8</item>
+<item>H6</item>
+<item>G7</item>
+</param>
+<param><name>GROUP_BA0</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_BA0</name>
+<type>enum</type>
+<default>G6</default>
+<item>C1</item>
+<item>B1</item>
+<item>F5</item>
+<item>G6</item>
+<item>J7</item>
+<item>H8</item>
+<item>H6</item>
+<item>G7</item>
+</param>
+<param><name>GROUP_BA1</name>
+<type>enum</type>
+<default>G8</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_BA1</name>
+<type>enum</type>
+<default>V5</default>
+<item>P5</item>
+<item>P4</item>
+<item>V5</item>
+<item>V3</item>
+<item>T6</item>
+<item>T5</item>
+<item>W4</item>
+<item>Y3</item>
+<item>R7</item>
+<item>P8</item>
+</param>
+<param><name>GROUP_BA2</name>
+<type>enum</type>
+<default>G1</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_BA2</name>
+<type>enum</type>
+<default>D2</default>
+<item>F3</item>
+<item>E4</item>
+<item>D2</item>
+<item>D1</item>
+</param>
+<param><name>GROUP_A0</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A0</name>
+<type>enum</type>
+<default>J7</default>
+<item>C1</item>
+<item>B1</item>
+<item>F5</item>
+<item>G6</item>
+<item>J7</item>
+<item>H8</item>
+<item>H6</item>
+<item>G7</item>
+</param>
+<param><name>GROUP_A1</name>
+<type>enum</type>
+<default>G6</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A1</name>
+<type>enum</type>
+<default>N7</default>
+<item>T3</item>
+<item>R4</item>
+<item>P6</item>
+<item>P7</item>
+<item>U4</item>
+<item>T4</item>
+<item>N6</item>
+<item>N7</item>
+</param>
+<param><name>GROUP_A2</name>
+<type>enum</type>
+<default>G6</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A2</name>
+<type>enum</type>
+<default>R4</default>
+<item>T3</item>
+<item>R4</item>
+<item>P6</item>
+<item>P7</item>
+<item>U4</item>
+<item>T4</item>
+<item>N6</item>
+<item>N7</item>
+</param>
+<param><name>GROUP_A3</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A3</name>
+<type>enum</type>
+<default>G7</default>
+<item>C1</item>
+<item>B1</item>
+<item>F5</item>
+<item>G6</item>
+<item>J7</item>
+<item>H8</item>
+<item>H6</item>
+<item>G7</item>
+</param>
+<param><name>GROUP_A4</name>
+<type>enum</type>
+<default>G8</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A4</name>
+<type>enum</type>
+<default>T6</default>
+<item>P5</item>
+<item>P4</item>
+<item>V5</item>
+<item>V3</item>
+<item>T6</item>
+<item>T5</item>
+<item>W4</item>
+<item>Y3</item>
+<item>R7</item>
+<item>P8</item>
+</param>
+<param><name>GROUP_A5</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A5</name>
+<type>enum</type>
+<default>H8</default>
+<item>C1</item>
+<item>B1</item>
+<item>F5</item>
+<item>G6</item>
+<item>J7</item>
+<item>H8</item>
+<item>H6</item>
+<item>G7</item>
+</param>
+<param><name>GROUP_A6</name>
+<type>enum</type>
+<default>G6</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A6</name>
+<type>enum</type>
+<default>P6</default>
+<item>T3</item>
+<item>R4</item>
+<item>P6</item>
+<item>P7</item>
+<item>U4</item>
+<item>T4</item>
+<item>N6</item>
+<item>N7</item>
+</param>
+<param><name>GROUP_A7</name>
+<type>enum</type>
+<default>G8</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A7</name>
+<type>enum</type>
+<default>V3</default>
+<item>P5</item>
+<item>P4</item>
+<item>V5</item>
+<item>V3</item>
+<item>T6</item>
+<item>T5</item>
+<item>W4</item>
+<item>Y3</item>
+<item>R7</item>
+<item>P8</item>
+</param>
+<param><name>GROUP_A8</name>
+<type>enum</type>
+<default>G6</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A8</name>
+<type>enum</type>
+<default>P7</default>
+<item>T3</item>
+<item>R4</item>
+<item>P6</item>
+<item>P7</item>
+<item>U4</item>
+<item>T4</item>
+<item>N6</item>
+<item>N7</item>
+</param>
+<param><name>GROUP_A9</name>
+<type>enum</type>
+<default>G6</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A9</name>
+<type>enum</type>
+<default>N6</default>
+<item>T3</item>
+<item>R4</item>
+<item>P6</item>
+<item>P7</item>
+<item>U4</item>
+<item>T4</item>
+<item>N6</item>
+<item>N7</item>
+</param>
+<param><name>GROUP_A10</name>
+<type>enum</type>
+<default>G8</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A10</name>
+<type>enum</type>
+<default>P5</default>
+<item>P5</item>
+<item>P4</item>
+<item>V5</item>
+<item>V3</item>
+<item>T6</item>
+<item>T5</item>
+<item>W4</item>
+<item>Y3</item>
+<item>R7</item>
+<item>P8</item>
+</param>
+<param><name>GROUP_A11</name>
+<type>enum</type>
+<default>G8</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A11</name>
+<type>enum</type>
+<default>P4</default>
+<item>P5</item>
+<item>P4</item>
+<item>V5</item>
+<item>V3</item>
+<item>T6</item>
+<item>T5</item>
+<item>W4</item>
+<item>Y3</item>
+<item>R7</item>
+<item>P8</item>
+</param>
+<param><name>GROUP_A12</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A12</name>
+<type>enum</type>
+<default>H6</default>
+<item>C1</item>
+<item>B1</item>
+<item>F5</item>
+<item>G6</item>
+<item>J7</item>
+<item>H8</item>
+<item>H6</item>
+<item>G7</item>
+</param>
+<param><name>GROUP_A13</name>
+<type>enum</type>
+<default>G8</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A13</name>
+<type>enum</type>
+<default>Y3</default>
+<item>P5</item>
+<item>P4</item>
+<item>V5</item>
+<item>V3</item>
+<item>T6</item>
+<item>T5</item>
+<item>W4</item>
+<item>Y3</item>
+<item>R7</item>
+<item>P8</item>
+</param>
+<param><name>GROUP_A14</name>
+<type>enum</type>
+<default>G6</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A14</name>
+<type>enum</type>
+<default>T4</default>
+<item>T3</item>
+<item>R4</item>
+<item>P6</item>
+<item>P7</item>
+<item>U4</item>
+<item>T4</item>
+<item>N6</item>
+<item>N7</item>
+</param>
+<param><name>GROUP_A15</name>
+<type>enum</type>
+<default>G2</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>PAD_A15</name>
+<type>enum</type>
+<default>P8</default>
+<item>P5</item>
+<item>P4</item>
+<item>V5</item>
+<item>V3</item>
+<item>T6</item>
+<item>T5</item>
+<item>W4</item>
+<item>Y3</item>
+<item>R7</item>
+<item>P8</item>
+</param>
+<param><name>BANK_DQG_0</name>
+<type>enum</type>
+<default>B3</default>
+<item>B1</item>
+<item>B3</item>
+</param>
+<param><name>BANK_DQG_1</name>
+<type>enum</type>
+<default>B3</default>
+<item>B1</item>
+<item>B3</item>
+</param>
+<param><name>BANK_DQG_2</name>
+<type>enum</type>
+<default>B3</default>
+<item>B1</item>
+<item>B3</item>
+</param>
+<param><name>BANK_DQG_3</name>
+<type>enum</type>
+<default>B3</default>
+<item>B1</item>
+<item>B3</item>
+</param>
+<param><name>GROUP_DQG_0</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>GROUP_DQG_1</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>GROUP_DQG_2</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>GROUP_DQG_3</name>
+<type>enum</type>
+<default>G0</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+</param>
+<param><name>GROUP_DQG_0_NUM</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>9</max>
+</param>
+<param><name>GROUP_DQG_1_NUM</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>9</max>
+</param>
+<param><name>GROUP_DQG_2_NUM</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>9</max>
+</param>
+<param><name>GROUP_DQG_3_NUM</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>9</max>
+</param>
+<param><name>REGION_NUM</name>
+<type>int</type>
+<default>2</default>
+<min>1</min>
+<max>3</max>
+</param>
+<param><name>CA_GROUP0</name>
+<type>enum</type>
+<default>G9</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+<item>G9</item>
+</param>
+<param><name>CA_GROUP1</name>
+<type>enum</type>
+<default>G9</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+<item>G9</item>
+</param>
+<param><name>CA_GROUP2</name>
+<type>enum</type>
+<default>G9</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+<item>G9</item>
+</param>
+<param><name>CA_GROUP3</name>
+<type>enum</type>
+<default>G9</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+<item>G9</item>
+</param>
+<param><name>CA_GROUP4</name>
+<type>enum</type>
+<default>G9</default>
+<item>G0</item>
+<item>G1</item>
+<item>G2</item>
+<item>G3</item>
+<item>G4</item>
+<item>G5</item>
+<item>G6</item>
+<item>G7</item>
+<item>G8</item>
+<item>G9</item>
+</param>
+<param><name>CA_GROUP0_REG</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>2</max>
+</param>
+<param><name>CA_GROUP1_REG</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>2</max>
+</param>
+<param><name>CA_GROUP2_REG</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>2</max>
+</param>
+<param><name>CA_GROUP3_REG</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>2</max>
+</param>
+<param><name>CA_GROUP4_REG</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>2</max>
+</param>
+<param><name>CA_GROUP_A0</name>
+<type>int</type>
+<default>1</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A1</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A2</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A3</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A4</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A5</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A6</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A7</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A8</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A9</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A10</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A11</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A12</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A13</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A14</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_A15</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_CKE</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_CK</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_CS</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_RAS</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_CAS</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_WE</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_ODT</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_BA0</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_BA1</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>CA_GROUP_BA2</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4</max>
+</param>
+<param><name>PAD_DQ0</name>
+<type>string</type>
+<default>M1</default>
+</param>
+<param><name>PAD_DQ1</name>
+<type>string</type>
+<default>P2</default>
+</param>
+<param><name>PAD_DQ2</name>
+<type>string</type>
+<default>M2</default>
+</param>
+<param><name>PAD_DQ3</name>
+<type>string</type>
+<default>R1</default>
+</param>
+<param><name>PAD_DQS0</name>
+<type>string</type>
+<default>N3</default>
+</param>
+<param><name>PAD_DQSN0</name>
+<type>string</type>
+<default>N1</default>
+</param>
+<param><name>PAD_DQ4</name>
+<type>string</type>
+<default>L1</default>
+</param>
+<param><name>PAD_DQ5</name>
+<type>string</type>
+<default>R3</default>
+</param>
+<param><name>PAD_DQ6</name>
+<type>string</type>
+<default>L3</default>
+</param>
+<param><name>PAD_DQ7</name>
+<type>string</type>
+<default>N4</default>
+</param>
+<param><name>PAD_DM0</name>
+<type>string</type>
+<default>P1</default>
+</param>
+<param><name>PAD_DQ8</name>
+<type>string</type>
+<default>U3</default>
+</param>
+<param><name>PAD_DQ9</name>
+<type>string</type>
+<default>U1</default>
+</param>
+<param><name>PAD_DQ10</name>
+<type>string</type>
+<default>Y2</default>
+</param>
+<param><name>PAD_DQ11</name>
+<type>string</type>
+<default>M7</default>
+</param>
+<param><name>PAD_DQS1</name>
+<type>string</type>
+<default>V2</default>
+</param>
+<param><name>PAD_DQSN1</name>
+<type>string</type>
+<default>V1</default>
+</param>
+<param><name>PAD_DQ12</name>
+<type>string</type>
+<default>W3</default>
+</param>
+<param><name>PAD_DQ13</name>
+<type>string</type>
+<default>T1</default>
+</param>
+<param><name>PAD_DQ14</name>
+<type>string</type>
+<default>W1</default>
+</param>
+<param><name>PAD_DQ15</name>
+<type>string</type>
+<default>T2</default>
+</param>
+<param><name>PAD_DM1</name>
+<type>string</type>
+<default>Y1</default>
+</param>
+<param><name>PAD_DQ16</name>
+<type>string</type>
+<default>K1</default>
+</param>
+<param><name>PAD_DQ17</name>
+<type>string</type>
+<default>M3</default>
+</param>
+<param><name>PAD_DQ18</name>
+<type>string</type>
+<default>K2</default>
+</param>
+<param><name>PAD_DQ19</name>
+<type>string</type>
+<default>M5</default>
+</param>
+<param><name>PAD_DQS2</name>
+<type>string</type>
+<default>M6</default>
+</param>
+<param><name>PAD_DQSN2</name>
+<type>string</type>
+<default>L6</default>
+</param>
+<param><name>PAD_DQ20</name>
+<type>string</type>
+<default>K4</default>
+</param>
+<param><name>PAD_DQ21</name>
+<type>string</type>
+<default>K6</default>
+</param>
+<param><name>PAD_DQ22</name>
+<type>string</type>
+<default>K3</default>
+</param>
+<param><name>PAD_DQ23</name>
+<type>string</type>
+<default>K5</default>
+</param>
+<param><name>PAD_DM2</name>
+<type>string</type>
+<default>M4</default>
+</param>
+
+<param><name>PAD_DQ24</name>
+<type>string</type>
+<default>G3</default>
+</param>
+<param><name>PAD_DQ25</name>
+<type>string</type>
+<default>H5</default>
+</param>
+<param><name>PAD_DQ26</name>
+<type>string</type>
+<default>G1</default>
+</param>
+<param><name>PAD_DQS3</name>
+<type>string</type>
+<default>E3</default>
+</param>
+<param><name>PAD_DQSN3</name>
+<type>string</type>
+<default>E1</default>
+</param>
+<param><name>PAD_DQ27</name>
+<type>string</type>
+<default>K8</default>
+</param>
+<param><name>PAD_DQ28</name>
+<type>string</type>
+<default>F2</default>
+</param>
+<param><name>PAD_DQ29</name>
+<type>string</type>
+<default>J6</default>
+</param>
+<param><name>PAD_DQ30</name>
+<type>string</type>
+<default>F1</default>
+</param>
+<param><name>PAD_DQ31</name>
+<type>string</type>
+<default>J4</default>
+</param>
+<param><name>PAD_DM3</name>
+<type>string</type>
+<default>K7</default>
+</param>
+<param><name>CA_GROUP_NUM</name>
+<type>int</type>
+<default>3</default>
+<min>1</min>
+<max>6</max>
+</param>
+<param><name>CKE_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>CK_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>CS_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>RAS_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>CAS_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>WE_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>ODT_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>BA0_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>BA1_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>BA2_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A0_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A1_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A2_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A3_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A4_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A5_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A6_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A7_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A8_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A9_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A10_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A11_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A12_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A13_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A14_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>A15_GROUP_NUM</name>
+<type>enum</type>
+<default>0</default>
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+</param>
+<param><name>DQ0_EN</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>DQ1_EN</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>DQ2_EN</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>DQ3_EN</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>BA2_EN</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>CS_N_EN</name>
+<type>bool</type>
+<default>1</default>
+</param>
+<param><name>A12_EN</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>A13_EN</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>A14_EN</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>A15_EN</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>DDR3_AL</name>
+<type>int</type>
+<default>2</default>
+<min>0</min>
+<max>2</max>
+</param>
+<param><name>DDR3_CL</name>
+<type>int</type>
+<default>6</default>
+<min>5</min>
+<max>6</max>
+</param>
+<param><name>DDR3_CWL</name>
+<type>int</type>
+<default>5</default>
+<min>5</min>
+<max>5</max>
+</param>
+<param><name>GUI_DDR3_TRFC</name>
+<type>float</type>
+<default>160.0</default>
+<min>90.0</min>
+<max>350.0</max>
+</param>
+<param><name>GUI_DDR3_TRAS</name>
+<type>float</type>
+<default>37.5</default>
+<min>35.0</min>
+<max>37.5</max>
+</param>
+<param><name>GUI_DDR3_TRP</name>
+<type>float</type>
+<default>13.5</default>
+<min>10.0</min>
+<max>15.0</max>
+</param>
+<param><name>GUI_DDR3_TRCD</name>
+<type>float</type>
+<default>13.5</default>
+<min>10.0</min>
+<max>15.0</max>
+</param>
+<param><name>GUI_DDR3_TWR</name>
+<type>float</type>
+<default>15.0</default>
+<min>15.0</min>
+<max>15.0</max>
+</param>
+<param><name>GUI_DDR3_TREFI</name>
+<type>float</type>
+<default>7.8</default>
+<min>1.0</min>
+<max>7.8</max>
+</param>
+<param><name>GUI_DDR3_TRTP</name>
+<type>float</type>
+<default>7.5</default>
+<min>7.5</min>
+<max>7.5</max>
+</param>
+<param><name>GUI_DDR3_TWTR</name>
+<type>float</type>
+<default>7.5</default>
+<min>7.5</min>
+<max>7.5</max>
+</param>
+<param><name>GUI_DDR3_AL</name>
+<type>enum</type>
+<default>CL-2</default>
+<item>0</item>
+<item>CL-2</item>
+</param>
+<param><name>GUI_DDR3_CWL_800</name>
+<type>enum</type>
+<default>5</default>
+<item>5</item>
+</param>
+<param><name>GUI_DDR3_CL_800</name>
+<type>enum</type>
+<default>6</default>
+<item>5</item>
+<item>6</item>
+</param>
+<param><name>DDR3_INIT_WR</name>
+<type>int</type>
+<default>6</default>
+<min>5</min>
+<max>16</max>
+</param>
+<param><name>tREFI</name>
+<type>int</type>
+<default>7800</default>
+<min>780</min>
+<max>65535</max>
+</param>
+<param><name>tRFC_MIN</name>
+<type>float</type>
+<default>110000</default>
+<min>11000</min>
+<max>65535000</max>
+</param>
+<param><name>DDR3_WR</name>
+<type>int</type>
+<default>2</default>
+<min>0</min>
+<max>7</max>
+</param>
+<param><name>DDR3_CL_VALUE</name>
+<type>int</type>
+<default>4</default>
+<min>1</min>
+<max>14</max>
+</param>
+<param><name>PHY_TMRD</name>
+<type>int</type>
+<default>4</default>
+<min>0</min>
+<max>65535</max>
+</param>
+<param><name>PHY_TMOD</name>
+<type>int</type>
+<default>24</default>
+<min>0</min>
+<max>65535</max>
+</param>
+<param><name>PHY_TXPR</name>
+<type>int</type>
+<default>200</default>
+<min>0</min>
+<max>65535</max>
+</param>
+<param><name>PHY_TRP</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>65535</max>
+</param>
+<param><name>PHY_TRFC</name>
+<type>int</type>
+<default>208</default>
+<min>0</min>
+<max>65535</max>
+</param>
+<param><name>PHY_TRCD</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>65535</max>
+</param>
+<param><name>DDRC_TRFC</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4095</max>
+</param>
+<param><name>DDRC_TREFI</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>4095</max>
+</param>
+<param><name>DDRC_T_FAW</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>63</max>
+</param>
+<param><name>DDRC_T_RAS</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>63</max>
+</param>
+<param><name>DDRC_T_XP</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>31</max>
+</param>
+<param><name>DDRC_T_RC</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>127</max>
+</param>
+<param><name>DDRC_T_RRD</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>127</max>
+</param>
+<param><name>DDRC_T_RP</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>31</max>
+</param>
+<param><name>DDRC_T_RCD</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>63</max>
+</param>
+<param><name>DDRC_T_RTP</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>255</max>
+</param>
+<param><name>DDRC_T_WR</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>255</max>
+</param>
+<param><name>DDRC_T_WTR</name>
+<type>int</type>
+<default>0</default>
+<min>0</min>
+<max>255</max>
+</param>
+<param><name>MEM_COLUMN_WIDTH</name>
+<type>enum</type>
+<default>10</default>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+<item>11</item>
+</param>
+<param><name>MEM_BANK_WIDTH</name>
+<type>enum</type>
+<default>3</default>
+<item>2</item>
+<item>3</item>
+</param>
+<param><name>DDR3_MEM_ROW_WIDTH</name>
+<type>enum</type>
+<default>15</default>
+<item>13</item>
+<item>14</item>
+<item>15</item>
+</param>
+<param><name>DDR3_MEM_COLUMN_WIDTH</name>
+<type>enum</type>
+<default>10</default>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+<item>11</item>
+</param>
+<param><name>DDR3_MEM_BANK_WIDTH</name>
+<type>enum</type>
+<default>3</default>
+<item>3</item>
+</param>
+<param><name>MEM_ROW_WIDTH</name>
+<type>enum</type>
+<default>15</default>
+<item>13</item>
+<item>14</item>
+<item>15</item>
+</param>
+<param><name>MEM_ADDR_WIDTH</name>
+<type>enum</type>
+<default>15</default>
+<item>12</item>
+<item>13</item>
+<item>14</item>
+<item>15</item>
+</param>
+<param><name>CTRL_ADDR_WIDTH</name>
+<type>enum</type>
+<default>28</default>
+<item>23</item>
+<item>24</item>
+<item>25</item>
+<item>26</item>
+<item>27</item>
+<item>28</item>
+<item>29</item>
+</param>
+<param><name>DDR3_OUTPUT_DRIVER</name>
+<type>enum</type>
+<default>00</default>
+<item>00</item>
+<item>01</item>
+</param>
+<param><name>DDR3_ODT_VALUE</name>
+<type>enum</type>
+<default>001</default>
+<item>001</item>
+<item>010</item>
+<item>011</item>
+</param>
+<param><name>USER_PINS_CON_EN</name>
+<type>bool</type>
+<default>0</default>
+</param>
+<param><name>USER_FDC_PATH</name>
+<type>string</type>
+<default>Please select a fdc file</default>
+</param>
+<param><name>STATIC_RATIOI</name>
+<type>int</type>
+<default>1</default>
+<min>1</min>
+<max>128</max>
+</param>
+<param><name>STATIC_RATIOF</name>
+<type>int</type>
+<default>16</default>
+<min>1</min>
+<max>128</max>
+</param>
+<param><name>STATIC_RATIO0</name>
+<type>int</type>
+<default>2</default>
+<min>1</min>
+<max>128</max>
+</param>
+</param_list>
+<action_list>
+    <action>
+        <type>mkdir</type>
+        <dir>example_design</dir>
+    </action>
+    <action>
+        <type>mkdir</type>
+        <dir>example_design/bench</dir>
+    </action>
+    <action>
+        <type>mkdir</type>
+        <dir>example_design/rtl</dir>
+    </action>
+    <action>
+        <type>mkdir</type>
+        <dir>example_design/rtl/uart_ctrl_32bit</dir>
+    </action>
+    <action>
+        <type>mkdir</type>
+        <dir>example_design/bench/ddr3_tb</dir>
+    </action>
+    <action>
+        <type>mkdir</type>
+        <dir>example_design/bench/mem</dir>
+    </action>
+
+    <action>
+        <type>copy</type>
+	      <src>example_design/rtl/*.v*</src>
+        <dest>example_design/rtl</dest>
+    </action>
+    <action>
+        <type>copy</type>
+	      <src>example_design/bench/*.sv*</src>
+        <dest>example_design/bench</dest>
+    </action>
+    <action>
+        <type>copy</type>
+          <src>example_design/rtl/uart_ctrl_32bit/*.v</src>
+        <dest>example_design/rtl/uart_ctrl_32bit/</dest>
+    </action>
+    <action>
+        <type>copy</type>
+	      <src>example_design/bench/ddr3_tb/*</src>
+        <dest>example_design/bench/ddr3_tb</dest>
+    </action>
+    <action>
+        <type>copy</type>
+	      <src>example_design/bench/mem/*</src>
+        <dest>example_design/bench/mem</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+        <dir>pnr</dir>
+    </action>
+    <action>
+        <type>copy</type>
+	      <src>pnr/*</src>
+        <dest>pnr</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>rtl</dir>
+    </action>
+    <action>
+        <type>copy</type>
+	      <src>rtl/*.v</src>
+        <dest>rtl</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>rtl/ddrphy</dir>
+    </action>
+    <action>
+        <type>copy</type>
+	     <src>rtl/ddrphy/*</src>
+        <dest>rtl/ddrphy</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>rtl/mcdq_ctrl</dir>
+    </action>
+    <action>
+        <type>copy</type>
+	     <src>rtl/mcdq_ctrl/*.vp</src>
+        <dest>rtl/mcdq_ctrl</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>rtl/mcdq_ctrl/syn_mod</dir>
+    </action>
+    <action>
+        <type>copy</type>
+	     <src>rtl/mcdq_ctrl/syn_mod/*.vp</src>
+        <dest>rtl/mcdq_ctrl/syn_mod</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+          <dir>rtl/mcdq_ctrl/distributed_fifo</dir>
+    </action>
+    <action>
+        <type>copy</type>
+         <src>rtl/mcdq_ctrl/distributed_fifo/*.v</src>
+        <dest>rtl/mcdq_ctrl/distributed_fifo</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+          <dir>rtl/mcdq_ctrl/distributed_fifo/rtl</dir>
+    </action>
+    <action>
+        <type>copy</type>
+         <src>rtl/mcdq_ctrl/distributed_fifo/rtl/*.v</src>
+        <dest>rtl/mcdq_ctrl/distributed_fifo/rtl</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>rtl/pll</dir>
+    </action>
+    <action>
+        <type>copy</type>
+	     <src>rtl/pll/*.v</src>
+        <dest>rtl/pll</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>sim</dir>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>sim/modelsim</dir>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>sim/vcs</dir>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>sim_lib</dir>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>sim_lib/rtl</dir>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>sim_lib/rtl/ddrphy</dir>
+    </action>
+    <action>
+        <type>copy</type>
+	     <src>sim_lib/rtl/ddrphy/*.vp</src>
+        <dest>sim_lib/rtl/ddrphy</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+        <dir>sim_lib/rtl/mcdq_ctrl</dir>
+    </action>
+    <action>
+        <type>copy</type>
+        <src>sim_lib/rtl/mcdq_ctrl/*.vp</src>
+        <dest>sim_lib/rtl/mcdq_ctrl</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+        <dir>sim_lib/rtl/mcdq_ctrl/syn_mod</dir>
+    </action>
+    <action>
+        <type>copy</type>
+        <src>sim_lib/rtl/mcdq_ctrl/syn_mod/*.vp</src>
+        <dest>sim_lib/rtl/mcdq_ctrl/syn_mod</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+	      <dir>sim_lib/rtl/mcdq_ctrl/distributed_fifo</dir>
+    </action>
+    <action>
+        <type>copy</type>
+	     <src>sim_lib/rtl/mcdq_ctrl/distributed_fifo/*.v</src>
+        <dest>sim_lib/rtl/mcdq_ctrl/distributed_fifo</dest>
+    </action>
+    <action>
+        <type>mkdir</type>
+        <dir>sim_lib/rtl/mcdq_ctrl/distributed_fifo/rtl</dir>
+    </action>
+    <action>
+        <type>copy</type>
+        <src>sim_lib/rtl/mcdq_ctrl/distributed_fifo/rtl/*.v</src>
+        <dest>sim_lib/rtl/mcdq_ctrl/distributed_fifo/rtl</dest>
+    </action>
+    <action>
+        <type>copy</type>
+	    <src>ipsxb_ddr_top_v1_4_wrapper.v.xml</src>
+        <dest>ipsxb_ddr_top_v1_4_wrapper.v.xml</dest>
+    </action>
+    <action>
+        <type>copy</type>
+	    <src>ipsxb_ddrphy_top_v1_4_wrapper.v.xml</src>
+        <dest>ipsxb_ddrphy_top_v1_4_wrapper.v.xml</dest>
+    </action>
+    <action>
+        <type>copy</type>
+	      <src>readme.txt</src>
+        <dest>readme.txt</dest>
+    </action>
+    <action>
+        <type>compile</type>
+        <file>example_design/rtl/test_ddr.v.xml</file>
+        <output>example_design/rtl/test_ddr.v</output>
+    </action>
+    <action>
+        <type>compile</type>
+        <file>example_design/bench/ddr3_tb/ddr_test_top_tb.v.xml</file>
+        <output>example_design/bench/ddr3_tb/ddr_test_top_tb.v</output>
+    </action> 
+    <action>
+        <type>compile</type>
+        <file>rtl/ddrphy/ipsxb_ddrphy_slice_top_v1_4_wrapper.v.xml</file>
+        <output>rtl/ddrphy/ipsxb_ddrphy_slice_top_v1_4.v</output>
+    </action>
+    <action>
+        <type>compile</type>
+        <file>ipsxb_ddr_top_v1_4_wrapper.v.xml</file>
+        <output>%iname%.v</output>
+    </action>
+    <action>
+        <type>compile</type>
+        <file>ipsxb_ddrphy_top_v1_4_wrapper.v.xml</file>
+        <output>%iname%_ddrphy_top.v</output>
+    </action>
+    <action>
+        <type>run</type>
+	      <file>createFiles.tcl</file>
+    </action>
+    <action>
+        <type>synthesize</type>
+        <file>rtl/*.v</file>
+        <file>rtl/ddrphy/*.v</file>
+        <file>rtl/pll/*.v</file>
+        <file>rtl/mcdq_ctrl/*.v</file>
+        <file>rtl/mcdq_ctrl/syn_mod/*.v</file>
+        <file>rtl/mcdq_ctrl/distributed_fifo/*.v</file>
+        <file>rtl/mcdq_ctrl/distributed_fifo/rtl/*.v</file>
+        <file>example_design/rtl/*.v</file>
+        <file>example_design/rtl/uart_ctrl_32bit/*.v</file>
+        <file>%iname%.v</file>
+        <file>%iname%_ddrphy_top.v</file>
+    </action>
+</action_list>
+</ip_index>
+

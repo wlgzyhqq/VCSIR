@@ -1,0 +1,299 @@
+ 时序约束命令 
+ 199 / 273 Pango Design Suite User Guide 
+[-disable] 
+命令中各个参数的含义说明如下，方括号表示该参数为可选值，尖括号表示参数值或参
+数列表，*表示该参数可以重复，| 表示或符号，同级的多个选项只能使用一个： 
+[-from] ：from_list 表示 path 的 startpoint，注意，startpoint 必须是下列几类 point 中的一
+种： 
+1、clock，通过 get_clocks 得到，需要遵循先声明后使用的原则，即：clock 需要先通过
+create_generated_clock 或 create_clock 创建； 如果定义了clock， 那么startpoint 是该 clock network
+能够 fanout 到的所有 register 的 clock pin，或者是与该 clock 相关的所有 input（通过用户 sdc
+中的 set_input_delay 设定，否则该 startpoint 是无效的）。 
+2、io port，input 或者是 inout，通过 get_ports 得到。 
+3、时序单元，通过 get_cells 得到，表示所有时序单元的 clock pin。 
+4、时序单元的 clock pin，通过 get_pins 得到。 
+[-rise_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟上升沿触发，
+此处的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟下降沿触发，
+此处的时钟下降沿指的是时钟定义点的下降沿。 
+注意：格式定义中用了三个或符号，如下所示： 
+[-from from_list  |  -rise_from rise_from_list  | -fall_from fall_from_list]表示-from 
+from_list、-rise_from rise_from_list、-fall_from fall_from_list 只能使用其中的任意一个。 
+[-to] ：to_list 表示 path 的 endpoint，注意，endpoint 必须下列几类 point 中的一种： 
+1、clock，通过 get_clocks 得到，需要遵循先声明后使用的原则，即：clock 需要先通过
+create_generated_clock 或 create_clock 创建； 如果定义了clock， 那么endpoint 是该 clock network
+能够 fanout 到的所有 register 的 clock pin 所对应的 data pin，或者是与该 clock 相关的所有
+output（通过用户 sdc 中的 set_output_delay 设定否则该 endpoint 是无效的）。 
+2、io port，output 或者是 inout，通过 get_ports 得到。 
+3、时序单元，通过 get_cells 得到，表示所有时序单元的 data pin。 
+4、时序单元的 data pin，通过 get_pins 得到。 
+[-rise_to] ：该选项只能指定为时钟 clocks，表示该时序路径终点被时钟上升沿触发，此
+处的时钟上升沿指的是时钟定义点的上升沿。 
+ 时序约束命令 
+ 200 / 273 Pango Design Suite User Guide 
+[-fall_to] ：该选项只能指定为时钟 clocks，表示该时序路径终点被时钟下降沿触发，此
+处的时钟下降沿指的是时钟定义点的下降沿。 
+注意：格式定义中用了三个或符号，如下所示： 
+[-to to_list  | -fall_to fall_to_list  |  -rise_to rise_to_list]表示-to to_list、-fall_to fall_to_list、
+-rise_to rise_to_list 只能使用其中的任意一个。 
+[-through] ：through_list 表示 path 必须经过的中间点。 
+注意：[-through through_list]*参数后面都带了*，表示这个参数可以重复。 
+<skew_value>：指定这条命令约束的一组 path 的最大 skew 值，单位是 ns。 
+[-disable] ：使本条约束不生效。 
+ 
+6.5 exception 约束命令 
+6.5.1 set_max_delay 
+这个命令用来指定用户希望某条 path 的最大延迟， 但特别要注意的是， 这条path 的起点
+和终点必须满足 startpoint 和 endpoint 的要求。这条命令是一条 exception 命令，因为一般情
+况下，能满足 setup 检查的最大延迟，是根据时钟路径的延迟，时钟周期以及 setup 检查的约
+束值确定的，而如果用户指定了 set_max_delay，那么此时能否满足用户要求就和时钟路径、
+时钟周期及 setup 检查的约束值没有关系了，只要从 startpoint 出来的数据到 endpoint 的延迟
+小于用户约束的最大值即可。 
+set_max_delay 命令格式如下所示： 
+set_max_delay: 
+[-from <from_list> | -rise_from < rise_from_list> | -fall_from <fall_from_list>] 
+[-through <through_list>]* 
+[-to <to_list> | -rise_to < rise_to _list> | -fall_to <fall_to_list>]  
+[-datapath_only] 
+<delay_value> 
+[-disable] 
+命令中各个参数的含义说明如下，方括号表示该参数为可选值，尖括号表示参数值或参
+数列表，*表示该参数可以重复，| 表示或符号，同级的多个选项只能使用一个： 
+ 时序约束命令 
+ 201 / 273 Pango Design Suite User Guide 
+[-from] ：from_list 表示 path 的 startpoint。注意，startpoint 必须是下列几类 point 中的一
+种： 
+①clock：通过 get_clocks 得到，如果定义了 clock，那么 startpoint 是该 clock network 能
+够 fanout 到的所有 register 的 clock pin，或者是与该 clock 相关的所有 input（通过用户 sdc 中
+的 set_input_delay 设定，否则该 startpoint 是无效的），使用 clock 时需要遵循先声明后使用
+的原则，即：clock 需要先通过 create_generated_clock 或 create_clock 创建。 
+②io port：input 或者是 inout，通过 get_ports 得到。 
+③时序单元：通过 get_cells 得到，表示所有时序单元的 clock pin。 
+④时序单元的 clock pin：通过 get_pins 得到。 
+[-rise_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟上升沿触发，
+此处的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟下降沿触发，
+此处的时钟下降沿指的是时钟定义点的下降沿。 
+[-to] ：to_list 表示 path 的 endpoint，注意，endpoint 必须下列几类 point 中的一种： 
+①clock： 通过get_clocks 得到， 如果定义了clock， 那么endpoint 是该 clock network 能够
+fanout 到的所有 register 的 clock pin 所对应的 data pin，或者是与该 clock 相关的所有 output
+（通过用户 sdc 中的 set_output_delay 设定，否则该 endpoint 是无效的），使用 clock 时需要
+遵循先声明后使用的原则， 即：clock 需要先通过 create_generated_clock 或 create_clock 创建。 
+②io port：output 或者是 inout，通过 get_ports 得到。 
+③时序单元：通过 get_cells 得到，表示所有时序单元的 data pin。 
+④时序单元的 data pin：通过 get_pins 得到。 
+[-rise_to]： 该选项只能指定为时钟clocks， 表示该时序路径终点被时钟上升沿触发， 此处
+的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_to]：该选项只能指定为时钟 clocks，表示该时序路径终点被时钟下降沿触发，此处
+的时钟下降沿指的是时钟定义点的下降沿 
+-through through_list：through_list 表示 path 必须经过的中间点。考虑到信号在传递过程
+中的极性可能会发生变化， 比如非门。 另外提供了下面的两个参数， 中间point 必须是下列几
+类 point 中的一种：  
+注意：[-through through_list]*参数后面都带了*，表示这个参数可以重复。 
+ 时序约束命令 
+ 202 / 273 Pango Design Suite User Guide 
+①组合单元：通过 get_cells 得到，表示该组合单元的任意 input pin。 
+②组合单元的 input：通过 get_pins 得到。 
+③net：通过 get_nets 得到，表示路径会经过这条 net 的 driver pin。 
+[-datapath_only] ： 表示指定的max delay path 不关心时钟的 skew 和 jitter， 只考虑data path，
+包括第一个触发器的 CLK ->Q 延时，第二个触发器的 setup time，以及两个触发器之间的组
+合路径延时。注：如果一条 max delay path 被设置为 datapath_only，由于不考虑时钟的 skew
+和 jitter，那么这一路径的 hold path 也不会被分析。 
+<delay_value> ：延时值，为一个浮点数 
+[-disable] ：使本条约束不生效。 
+命令如下： 
+#从触发器 UFF2 的 Q 端到触发器 UFF3 的 D 端的所有路径最大延时是 0.6ns 
+set_max_delay  0.6 –from  UFF2/Q  –to  UFF3/D  
+#在 SYS_CLK 和 CFG_CLK 时钟域间的所有路径的最大延时是 1.2ns 
+set_max_delay 1.2 -from [get_clocks SYS_CLK] -to [get_clocks CFG_CLK] 
+#从触发器 UFF2 的 Q 端到触发器 UFF3 的 D 端的所有数据路径最大延时是 0.6ns，不考
+虑 clock skew 和 jitter。 
+set_max_delay  0.6 –from  UFF2/Q  –to  UFF3/D –datapath_only 
+6.5.2 set_min_delay 
+这个命令用来指定用户希望某条 path 的最小延迟，这条 path 的起点和终点必须满足
+startpoint 和 endpoint 的要求。这条命令是一条 exception 命令，因为一般情况下，能满足hold
+检查的最小延迟，是根据时钟路径的延迟以及 hold 检查的约束值确定的，而如果用户指定了
+set_min_delay，那么此时能否满足用户要求就和时钟路径及 hold 检查的约束值没有关系了，
+只要从 startpoint 出来的数据到 endpoint 的延迟大于用户约束的最小值即可。 
+set_min_delay 命令格式如下所示： 
+set_min_delay: 
+[-from from_list] 
+[-rise_from from_list] 
+[-fall_from from_list] 
+[-through through_list]* 
+ 时序约束命令 
+ 203 / 273 Pango Design Suite User Guide 
+[-to to_list] 
+[-rise_to to_list] 
+[-fall_to to_list] 
+<delay_value> 
+[-disable] 
+命令中各个参数的含义说明如下，方括号表示该参数为可选值，尖括号表示参数值或参
+数列表，*表示该参数可以重复，| 表示或符号，同级的多个选项只能使用一个： 
+[-from] ：from_list 表示 path 的 startpoint，注意，startpoint 必须是下列几类 point 中的一
+种： 
+①clock：通过 get_clocks 得到，如果定义了 clock，那么 startpoint 是该 clock network 能
+够 fanout 到的所有 register 的 clock pin，或者是与该 clock 相关的所有 input（通过用户 sdc 中
+的 set_input_delay 设定，否则该 startpoint 是无效的），使用 clock 时需要遵循先声明后使用
+的原则，即：clock 需要先通过 create_generated_clock 或 create_clock 创建。 
+②io port：input 或者是 inout，通过 get_ports 得到。 
+③时序单元：通过 get_cells 得到，表示所有时序单元的 clock pin。 
+④时序单元的 clock pin：通过 get_pins 得到。 
+[-rise_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟上升沿触发，
+此处的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟下降沿触发，
+此处的时钟下降沿指的是时钟定义点的下降沿。 
+[-to] ：to_list 表示 path 的 endpoint，注意，endpoint 必须下列几类 point 中的一种： 
+①clock： 通过get_clocks 得到， 如果定义了clock， 那么endpoint 是该 clock network 能够
+fanout 到的所有 register 的 clock pin 所对应的 data pin，或者是与该 clock 相关的所有 output
+（通过用户 sdc 中的 set_output_delay 设定，否则该 endpoint 是无效的），使用 clock 时需要
+遵循先声明后使用的原则， 即：clock 需要先通过 create_generated_clock 或 create_clock 创建。 
+②io port：output 或者是 inout，通过 get_ports 得到。 
+③时序单元：通过 get_cells 得到，表示所有时序单元的 data pin。 
+④时序单元的 data pin：通过 get_pins 得到。 
+[-rise_to] ：该选项只能指定为时钟 clocks，表示该时序路径终点被时钟上升沿触发，此
+ 时序约束命令 
+ 204 / 273 Pango Design Suite User Guide 
+处的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_to] ：该选项只能指定为时钟 clocks，表示该时序路径终点被时钟下降沿触发，此
+处的时钟下降沿指的是时钟定义点的下降沿。 
+-through through_list* ：through_list 表示 path 必须经过的中间点。 
+注意：[-through through_list]*参数后面都带了*，表示这个参数可以重复。 
+<delay_value> ：延时值，为一个浮点数 
+[-disable] ：使本条约束不生效。 
+命令如下： 
+#从触发器 UFF2 的 Q 端到触发器 UFF3 的 D 端的所有路径最小延时是 0.15ns 
+Set_min_delay  0.15 –from  UFF2/Q  –to  UFF3/D  
+#在 SYS_CLK 和 CFG_CLK 时钟域间的所有路径的最小延时是 1.2ns 
+set_min_delay 0.4 -from [get_clocks SYS_CLK] -to [get_clocks CFG_CLK] 
+6.5.3 set_multicycle_path 
+set_multicycle_path 命令格式如下所示： 
+set_multicycle_path: 
+[-from from_list] 
+[-rise_from from_list] 
+[-fall_from from_list] 
+[-through through_list]* 
+[-to to_list] 
+[-rise_to to_list] 
+[-fall_to to_list] 
+[-start] [-end] 
+[-setup] [-hold] 
+<path_multiplier> 
+[-disable] 
+命令中各个参数的含义说明如下，方括号表示该参数为可选值，尖括号表示参数值或参
+数列表，*表示该参数可以重复，| 表示或符号，同级的多个选项只能使用一个： 
+[-setup]：表示 setup 分析时，时钟周期使用指定的倍数。Setup 指定之后，hold 也会受到
+ 时序约束命令 
+ 205 / 273 Pango Design Suite User Guide 
+影响。默认情况下，是使用 setup。 
+[-hold]：表示 hold 分析时，时钟周期使用指定的倍数。 
+[-start]：表示这个多周期的设置是和 launch clock 相关的， 假设命令设置的周期数目为N，
+那么对于 setup 而言，launch clock 需要使用默认分析边沿的前 N-1 个周期处的边沿（hold 分
+析的边沿也要移动）；对于 hold 而言，则是使用 launch clock 默认分析边沿的后 N 个周期处
+的边沿。一般用在 fast to slow 时钟域内，如下图所示：如下图所示： 
+ 
+图 6-35 Set Multicycle Path 示例（start） 
+上图中默认的时序分析边沿对是 setup：launch clock 15，capture clock 20；hold：launch clock 
+0， capture clock 0。如果要把 setup 分析是 launch clock 的边沿设定在 10 处（launch clock 往
+前一个周期），可以这样写： 
+set_multicycle_path 2 -setup -from [get_clocks CLKP] -to [get_clocks CLKM] –start 
+此命令表示： 此命令设置了setup 和 start 选项， 即需要分析launch clock 默认分析边沿的
+前一个周期处的边沿（hold 边沿也会跟着改变）。设置完该命令之后，时序分析的边沿对分
+别是，setup：launch clock 10，capture clock 20；hold：launch clock 15，capture clock 20。如
+果需要 hold 分析如图所示的边沿， 还需要将launch clock 的 hold 分析边沿往后移动一个周期，
+通过以下命令可以实现： 
+set_multicycle_path 1 -hold -from [get_clocks CLKP] -to [get_clocks CLKM] –start 
+此命令在上一个命令的基础上，launch clock 中将 hold 分析的边沿往后移动了一个周期
+（setup 不动），结果是 hold：launch clock 0，capture clock 0。（图中 launch 20，capture 20
+和 launch 0， capture 0 是一样的边沿对）。 
+[-end]： 表示这个多周期的设置是和capture clock 相关的， 假设命令设置的周期数目为N，
+那么对于 setup 而言，capture clock 需要使用默认分析边沿的后 N-1 个周期处的边沿（hold 分
+析的边沿也要移动）；对于hold 而言，则是使用 capture clock 默认分析边沿的前 N 个周期处
+ 时序约束命令 
+ 206 / 273 Pango Design Suite User Guide 
+的边沿。一般用在 slow to fast 时钟域内，如下图所示： 
+ 
+图 6-36 Set Multicycle Path 示例（end） 
+上图中的默认的 setup 分析的边沿对是 launch clock 在图中的第一个上升沿和 capture 
+clock 的第二个上升沿，hold 分析的边沿对则是 launch clock 在图中的第一个上升沿和 capture 
+clock 的第一个上升沿。若要改为如图所示的边沿对去分析，则需要将 capture clock 的 setup
+和 hold 分析的边沿均往后移动 3 个时钟周期。由于 setup 移动后 hold 会跟着移动，所以可以
+添加如下命令实现： 
+set_multicycle_path 4 -setup -from [get_clocks CLKM] -to [get_clocks CLKP] –end 
+[-from] ：from_list 表示 path 的 startpoint，注意，startpoint 必须是下列几类 point 中的一
+种： 
+①clock：通过 get_clocks 得到，如果定义了 clock，那么 startpoint 是该 clock network 能
+够 fanout 到的所有 register 的 clock pin，或者是与该 clock 相关的所有 input（通过用户 sdc 中
+的 set_input_delay 设定，否则该 startpoint 是无效的），使用 clock 时需要遵循先声明后使用
+的原则，即：clock 需要先通过 create_generated_clock 或 create_clock 创建。 
+②io port：input 或者是 inout， 通过get_ports 得到 （注意： 该input 或者是 inout 必须是定
+义了 set_input_delay 的的 port，否则该 startpoint 是无效的）。 
+③时序单元：通过 get_cells 得到，表示所有时序单元的 clock pin。 
+④时序单元的 clock pin：通过 get_pins 得到。 
+[-rise_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟上升沿触发，
+此处的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟下降沿触发，
+此处的时钟下降沿指的是时钟定义点的下降沿。 
+[-to] ：to_list 表示 path 的 endpoint，注意，endpoint 必须下列几类 point 中的一种： 
+ 时序约束命令 
+ 207 / 273 Pango Design Suite User Guide 
+①clock： 通过get_clocks 得到， 如果定义了clock， 那么endpoint 是该 clock network 能够
+fanout 到的所有 register 的 clock pin 所对应的 data pin，或者是与该 clock 相关的所有 output
+（通过用户 sdc 中的 set_output_delay 设定否则该 endpoint 是无效的），使用 clock 时需要遵
+循先声明后使用的原则，即：clock 需要先通过 create_generated_clock 或 create_clock 创建。 
+②io port：output 或者是 inout， 通过get_ports 得到 （注意： 该output 或者是 inout 必须是
+定义了 set_output_delay 的 port，否则该 endpoint 是无效的）。 
+③时序单元：通过 get_cells 得到，表示所有时序单元的 data pin。 
+④时序单元的 data pin：通过 get_pins 得到。 
+[-rise_to]： 该选项只能指定为时钟clocks， 表示该时序路径终点被时钟上升沿触发， 此处
+的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_to]：该选项只能指定为时钟 clocks，表示该时序路径终点被时钟下降沿触发，此处
+的时钟下降沿指的是时钟定义点的下降沿。 
+[-through] ：through_list 表示 path 必须经过的中间点。 
+注意：[-through <through_list>]*参数后面都带了*，表示这个参数可以重复。 
+<path_multiplier> ：表示设置的周期数目，是一个大于等于 0 的整数。当设置为 0 时，
+表示指定的 path 为 zero cycle path。 
+[-disable] ：使本条约束不生效。 
+6.5.4 set_false_path 
+set_false_path 命令格式 
+如下所示： 
+set_false_path: 
+[-from <from_list> | -rise_from < rise_from_list> | -fall_from <fall_from_list>] 
+[-through through_list]* 
+[-to <to_list> | -rise_to < rise_to _list> | -fall_to <fall_to_list>] 
+[-setup] [-hold] 
+[-disable] 
+命令中各个参数的含义说明如下，方括号表示该参数为可选值，尖括号表示参数值或参
+数列表，*表示该参数可以重复，| 表示或符号，同级的多个选项只能使用一个： 
+[-setup] ：表示进行的是 setup 分析 
+ 时序约束命令 
+ 208 / 273 Pango Design Suite User Guide 
+[-hold] ：表示进行的是 hold 分析 
+[-from] ：from_list 表示 path 的 startpoint，注意，startpoint 必须是下列几类 point 中的一
+种： 
+①clock：通过 get_clocks 得到，如果定义了 clock，那么 startpoint 是该 clock network 能
+够 fanout 到的所有 register 的 clock pin，或者是与该 clock 相关的所有 input（通过用户 sdc 中
+的 set_input_delay 设定，否则该 startpoint 是无效的），使用 clock 时需要遵循先声明后使用
+的原则，即：clock 需要先通过 create_generated_clock 或 create_clock 创建。 
+②io port：input 或者是 inout， 通过get_ports 得到 （注意： 该input 或者是 inout 必须是定
+义了 set_input_delay 的 port，否则该 startpoint 是无效的）。 
+③时序单元：通过 get_cells 得到，表示所有时序单元的 clock pin。 
+④时序单元的 clock pin：通过 get_pins 得到。 
+[-rise_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟上升沿触发，
+此处的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_from] ：该选项只能指定为时钟 clocks，表示该时序路径起点被时钟下降沿触发，
+此处的时钟下降沿指的是时钟定义点的下降沿。 
+[-to] ：“to_list”表示 path 的 endpoint，注意，endpoint 必须下列几类 point 中的一种： 
+①clock： 通过get_clocks 得到， 如果定义了clock， 那么endpoint 是该 clock network 能够
+fanout 到的所有 register 的 clock pin 所对应的 data pin，或者是与该 clock 相关的所有 output
+（通过用户 sdc 中的 set_output_delay 设定否则该 endpoint 是无效的），使用 clock 时需要遵
+循先声明后使用的原则，即：clock 需要先通过 create_generated_clock 或 create_clock 创建。 
+②io port：output 或者是 inout， 通过get_ports 得到 （注意： 该output 或者是 inout 必须是
+定义了 set_output_delay 的 port，否则该 endpoint 是无效的）。 
+③时序单元：通过 get_cells 得到，表示所有时序单元的 data pin。 
+④时序单元的 data pin：通过 get_pins 得到。 
+[-rise_to] ：该选项只能指定为时钟 clocks，表示该时序路径终点被时钟上升沿触发，此
+处的时钟上升沿指的是时钟定义点的上升沿。 
+[-fall_to] ：该选项只能指定为时钟 clocks，表示该时序路径终点被时钟下降沿触发，此
+处的时钟下降沿指的是时钟定义点的下降沿。 
+[-through] ：through_list 表示 path 必须经过的中间点。 

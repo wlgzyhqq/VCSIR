@@ -30,5 +30,7 @@ C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_regfile.v
 C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_trace_sim.v
 C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_btb.v
 C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_bus.v
+C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_ddr_boot.v
+C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_ddr_bridge.v
 C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_top.v
 C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_uart.v

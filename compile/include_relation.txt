@@ -11,6 +11,72 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_alu.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_defs.v|
 
 
@@ -28,6 +94,9 @@ C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_multiplier.v|C
 C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_pipe_ctrl.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_defs.v|
 
 C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_trace_sim.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/core/riscv_defs.v|
+
+
+C:/Users/33791/Desktop/project/learn verilog/FINAL/rtl/final_ddr_boot.v|C:/Users/33791/Desktop/project/learn verilog/FINAL/firmware/boot_image.vh|
 
 
 

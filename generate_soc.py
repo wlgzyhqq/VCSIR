@@ -78,3 +78,5 @@ s=s.replace('        (_widget wgt_my_design_src\n        )','        (_widget wg
 s=s.replace('        (_widget wgt_import_logic_con_file\n        )','        (_widget wgt_import_logic_con_file\n            (_input\n                (_file "constraints/mes50hp.fdc"\n                    (_format fdc)\n                    (_timespec "2026-10-02T12:00:00")\n                )\n            )\n        )')
 project.write_text(s); (root/'sources.f').write_text('\n'.join(f.as_posix() for f in files)+'\n')
 print(f'Configured {len(files)} RTL sources, {len(pins)} physical IO bits.')
+import subprocess, sys
+subprocess.run([sys.executable,str(root/'generate_ddr_soc.py')],check=True)
