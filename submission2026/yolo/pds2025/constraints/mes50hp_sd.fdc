@@ -1,0 +1,63 @@
+# MES50HP manual page34, J10: 3.3V, external4.7k pullups.
+# SPI: C4=SCK,A4=MOSI,D5=MISO,E5=CS,G9=detect(active low).
+# DAT1/DAT2 left undriven; the board pullups hold them high.
+define_attribute {p:sd_clk} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:sd_clk} {PAP_IO_LOC} {C4}
+define_attribute {p:sd_clk} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:sd_clk} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:sd_clk} {PAP_IO_DRIVE} {8}
+define_attribute {p:sd_clk} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:sd_clk} {PAP_IO_NONE} {TRUE}
+define_attribute {p:sd_cmd} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:sd_cmd} {PAP_IO_LOC} {A4}
+define_attribute {p:sd_cmd} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:sd_cmd} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:sd_cmd} {PAP_IO_DRIVE} {8}
+define_attribute {p:sd_cmd} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:sd_cmd} {PAP_IO_NONE} {TRUE}
+define_attribute {p:sd_cs_n} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:sd_cs_n} {PAP_IO_LOC} {E5}
+define_attribute {p:sd_cs_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:sd_cs_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:sd_cs_n} {PAP_IO_DRIVE} {8}
+define_attribute {p:sd_cs_n} {PAP_IO_SLEW} {SLOW}
+define_attribute {p:sd_cs_n} {PAP_IO_NONE} {TRUE}
+define_attribute {p:sd_d0} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:sd_d0} {PAP_IO_LOC} {D5}
+define_attribute {p:sd_d0} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:sd_d0} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:sd_d0} {PAP_IO_NONE} {TRUE}
+define_attribute {p:sd_detect_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:sd_detect_n} {PAP_IO_LOC} {G9}
+define_attribute {p:sd_detect_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:sd_detect_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:sd_detect_n} {PAP_IO_NONE} {TRUE}
+create_generated_clock -name {sd_sck} -source [get_pins {u_ddr.I_GTP_CLKDIV/CLKDIVOUT}] -master_clock [get_clocks {ddrphy_clkin}] -divide_by {8} [get_ports {sd_clk}]
+# Engineering allowance: 20ns from external falling SCK to valid DO.
+# Signal margin must also be checked with the actual board/card.
+# Runtime divider>=4: RX shift enable samples only at SCK rising, >=4 UI
+# cycles after falling. This is a functional multicycle, not a CDC false path.
+set_input_delay -clock [get_clocks {sd_sck}] -clock_fall -max 20.000 [get_ports {sd_d0}]
+set_input_delay -clock [get_clocks {sd_sck}] -clock_fall -min 0.000 [get_ports {sd_d0}]
+set_multicycle_path 4 -setup -from [get_ports {sd_d0}] -to [get_cells -hierarchical {*u_sd*u_spi*rx_shift*}]
+set_multicycle_path 3 -hold -from [get_ports {sd_d0}] -to [get_cells -hierarchical {*u_sd*u_spi*rx_shift*}]
+set_output_delay -clock [get_clocks {sd_sck}] -max 10.000 [get_ports {sd_cmd}]
+set_output_delay -clock [get_clocks {sd_sck}] -min 0.000 [get_ports {sd_cmd}]
+# MOSI changes with falling SCK or >=4 UI cycles before the first rising
+# edge: minimum40ns. Budget10ns card setup +5ns skew/board and constrain
+# the entire CLK-to-pad data path to25ns. PDS2022.2 treated -start as -end
+# in its final report, so do not use that incorrectly enlarged exception.
+# Keep the ordinary minimum/hold check; no false path on this SD output.
+set_max_delay 25.000 -datapath_only -from [get_cells -hierarchical {*u_sd*u_spi*mosi*}] -to [get_ports {sd_cmd}]
+# The SD sector buffer is explicitly block RAM (ADS syn_ramstyle).
+# Its ordinary setup/hold checks remain; no exception on buffer paths.
+set_max_delay 15.000 -datapath_only -to [get_ports {sd_cs_n}]
+set_false_path -to [get_cells -hierarchical {*u_sd*detect_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_sd*req_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_sd*ack_meta*}]
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_sd*cmd_*hold*}] -to [get_cells -hierarchical {*u_sd*native_*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_sd*cmd_*hold*}] -to [get_cells -hierarchical {*u_sd*native_*}]
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_sd*cmd_cs_hold*}] -to [get_cells -hierarchical {*u_sd*chip_select*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_sd*cmd_cs_hold*}] -to [get_cells -hierarchical {*u_sd*chip_select*}]
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_sd*res_*hold*}] -to [get_cells -hierarchical {*u_sd*status_*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_sd*res_*hold*}] -to [get_cells -hierarchical {*u_sd*status_*}]

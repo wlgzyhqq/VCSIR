@@ -1,3 +1,7 @@
+# 2026 参赛交付版本
+
+当前正式工程见 [submission2026](submission2026/README.md)，技术报告见 [DOCX](submission2026/docs/技术报告.docx)。包括独立90 MHz CPU跑分配置及YOLO离线视觉应用。原仓库内容保留在下方，属于早期版本。
+
 # FINAL：MES50HP RV32I SoC
 
 顶层 `rtl/final_top.v`，PDS 工程 `FINAL.pds`。复用 UltraEmbedded BSD CPU/Cache，加入本板引脚约束、动态预测、机器模式中断、UART/GPIO、板载 1 GiB DDR3 主存及软件。原 64 KiB DRM 主存已移除，片内 RAM 仅用于 Cache/控制器缓存。按用户要求不运行仿真；此前片内主存版本已有串口和按键上板结果，DDR3 版本尚未上板验证。

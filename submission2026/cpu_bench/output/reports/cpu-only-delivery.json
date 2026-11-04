@@ -1,0 +1,463 @@
+{
+  "passed": true,
+  "adopted_at": "2026-11-01T15:53:40.122197",
+  "revision": "non-AI functional acceptance",
+  "CPU_hz": 90000000,
+  "timer_hz": 90000000,
+  "bitstream": "output/bitstream/cpu_only_90MHz.sbit",
+  "named_bitstream": "output/bitstream/cpu_only_90MHz_verified.sbit",
+  "sha256": "d9737ea9df4cb56620d413a5af22e38f860020a9bd2d5a8aa055f6562261ccce",
+  "firmware_sha256": "7117734cf95eb456fec3522dd282f94bfe934bea2322365fac512889050bc6f6",
+  "runs": [
+    {
+      "validation_seed": 0,
+      "iterations": 3000,
+      "seconds": 14.027725855555556,
+      "CoreMark": 213.86217772511407,
+      "CoreMark_per_MHz": 2.376246419167934,
+      "raw_fields": [
+        1,
+        0,
+        3000,
+        90000000,
+        90000000,
+        1262495327,
+        0,
+        1
+      ]
+    },
+    {
+      "validation_seed": 1,
+      "iterations": 3000,
+      "seconds": 14.0639957,
+      "CoreMark": 213.31064542347664,
+      "CoreMark_per_MHz": 2.370118282483074,
+      "raw_fields": [
+        1,
+        1,
+        3000,
+        90000000,
+        90000000,
+        1265759613,
+        0,
+        1
+      ]
+    }
+  ],
+  "physical_minimal_system_resources": {
+    "APM": 4.0,
+    "BKCL": 3.0,
+    "CLMA": 1648.0,
+    "FF": 5686.0,
+    "LUT": 7099.0,
+    "CLMS": 935.0,
+    "CRYSTAL": 0.0,
+    "DLL": 0.0,
+    "DQSL": 0.0,
+    "DRM": 82.0,
+    "FUSECODE": 0.0,
+    "HARD0N1": 596.0,
+    "HSST": 0.0,
+    "IO": 16.0,
+    "IOCKDIV": 0.0,
+    "IOCKDLY": 0.0,
+    "IOCKGATE": 0.0,
+    "IOCKGMUX_TEST": 0.0,
+    "IOL": 16.0,
+    "IPAL": 0.0,
+    "LDO": 0.0,
+    "MFG_TEST": 0.0,
+    "OSC": 0.0,
+    "PCIE": 0.0,
+    "PIOMUX_TEST": 0.0,
+    "PLL": 1.0,
+    "PREGMUX_TEST": 0.0,
+    "RCKB": 0.0,
+    "RCKBMUX_TEST": 0.0,
+    "RESCAL": 0.0,
+    "SCANCHAIN": 0.0,
+    "START": 1.0,
+    "UDID": 0.0,
+    "USCM": 1.0,
+    "USCMMUX_TEST": 0.0,
+    "VCKBMUX_TEST": 0.0
+  },
+  "CPU_with_caches_synthesis_resources": {
+    "LUT": 6293,
+    "FF": 5139,
+    "APM": 4.0,
+    "DRM": 18.0,
+    "scope": "u_cpu with both caches, synthesis hierarchy; excludes SoC RAM/UART/GPIO and trace engine"
+  },
+  "CoreMark_per_CPU_synthesis_LUT": 0.033984137569539816,
+  "timing": "All Constraints Met",
+  "setup_slack_ns": 0.639,
+  "tool_estimated_Fmax_MHz": 95.492,
+  "highest_board_verified_MHz": 90,
+  "host_vs_timer_ratio": 1.0054752789780261,
+  "before_non_ai_bitstream_sha256": "d17073f2004d8f29dbdc4aaed3e9d5d3aa1447218dad8117ed77ac199884e2d8",
+  "before_non_ai_archive": "baseline/cpu-only90-before-non-ai",
+  "same_firmware_as_before_non_ai": true,
+  "performance_cycles_identical": true,
+  "board_validation_scope": "55 platform tests in two bus delay modes on separate diagnostic image; identical functional CPU/cache RTL, read-only debug ports removed in production; production image STA and two CoreMark runs passed. EEI misaligned access traps; not ISA certification.",
+  "diagnostic_bitstream_sha256": "fa45ba747cb611539e304e7f80c5ea8298432c4add87a31888f262931d35e7b2",
+  "manual_LED_confirmation": "confirmed normal by user",
+  "key_observation_scope": {
+    "KEY2_automatically_verified": true,
+    "all_combinations_automatically_verified": false,
+    "remaining_tests": "User confirmed this portion correct and explicitly requested no further verification; KEY3/both are not claimed automatically verified."
+  },
+  "original_FINAL_changed": false,
+  "TF_written": false,
+  "Flash_written": false,
+  "files": {
+    "CPU_ONLY_RESULTS.md": {
+      "source": "current verified revision",
+      "sha256": "b207ef952ac0a9c66cf45e82545d67c59e7a37b14a68b84aabcd47f43f6d0313"
+    },
+    "NON_AI_ACCEPTANCE.md": {
+      "source": "current verified revision",
+      "sha256": "7c66fee833907f8994f0714d0c37b549b907000f12cc16a4384ad3e2c18f9db4"
+    },
+    "NON_AI_WAVEFORM_ANALYSIS.md": {
+      "source": "current verified revision",
+      "sha256": "f15d7db3e6b14441eee309e8da8b30f29e875581f021a48846d4d1246c33bc70"
+    },
+    "README.md": {
+      "source": "current verified revision",
+      "sha256": "7632c1743ee3c9341001a18621d5813f3dd200616a26ff915733065a0f289002"
+    },
+    "constraints/cpu_bench.fdc": {
+      "source": "current verified revision",
+      "sha256": "f42728d3d8e18179ae3c1c947766d83c34e298585a0342e99c8aa2e94927c5b0"
+    },
+    "cpu_bench.pds": {
+      "source": "current verified revision",
+      "sha256": "7580aad3462b95b57c158ae1b14408f0f10712f6079dd3d12b9fe27436c0616c"
+    },
+    "final2.pds": {
+      "source": "current verified revision",
+      "sha256": "7580aad3462b95b57c158ae1b14408f0f10712f6079dd3d12b9fe27436c0616c"
+    },
+    "firmware/cpu_bench.h": {
+      "source": "current verified revision",
+      "sha256": "b24c16909dddfaa57102c805fe59bbd3670f5dae5a3814eb12b734171b2d437e"
+    },
+    "firmware/cpu_only/coremark.hex": {
+      "source": "current verified revision",
+      "sha256": "402907b7d5abaefd0bed40cd84973509ec58967f11c5cd03931906f63b96ce0d"
+    },
+    "firmware/cpu_only/link.ld": {
+      "source": "current verified revision",
+      "sha256": "56a21cca2f02c74f5d9749e059fbb3fc6848ecb99eeb53b389069e00502675c1"
+    },
+    "firmware/cpu_only/main.c": {
+      "source": "current verified revision",
+      "sha256": "0111309fdf01ea7cfa77ae31dc40199d6e4d1a2003d6e49bc2d851e1eaf40240"
+    },
+    "firmware/cpu_only/port/core_portme.c": {
+      "source": "current verified revision",
+      "sha256": "a13cb85b02846eb23feba8f84aea4a2764ab70d5c328a9c98550e9217709e065"
+    },
+    "firmware/cpu_only/port/core_portme.h": {
+      "source": "current verified revision",
+      "sha256": "13cf7e76a107d6766eed1c05cb2bc83378dbfb52ae0492a7f8028a47dd49d730"
+    },
+    "firmware/cpu_only/start.S": {
+      "source": "current verified revision",
+      "sha256": "9c77c21d8593683949ba69fde72fdbfde95e466fbd43376466c0aff0b6c0b340"
+    },
+    "firmware/runtime.c": {
+      "source": "current verified revision",
+      "sha256": "b7b36d8e6f88c431a4bb13919780dfce7719b4cd9822597c20c7b9896b3b304c"
+    },
+    "output/bitstream/cpu_only_90MHz.sbit": {
+      "source": "current verified revision",
+      "sha256": "d9737ea9df4cb56620d413a5af22e38f860020a9bd2d5a8aa055f6562261ccce"
+    },
+    "output/bitstream/cpu_only_90MHz_optimized.sbit": {
+      "source": "current verified revision",
+      "sha256": "d9737ea9df4cb56620d413a5af22e38f860020a9bd2d5a8aa055f6562261ccce"
+    },
+    "output/bitstream/cpu_only_90MHz_verified.sbit": {
+      "source": "current verified revision",
+      "sha256": "d9737ea9df4cb56620d413a5af22e38f860020a9bd2d5a8aa055f6562261ccce"
+    },
+    "output/cpu-only/attempt01-no-uart/cpu-only-COM11.log": {
+      "source": "current verified revision",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "output/cpu-only/attempt01-no-uart/cpu-only-board.json": {
+      "source": "current verified revision",
+      "sha256": "fcec98d2881eb7d59717d679416224753fbbff6cf3529910b6efd9b4b373a080"
+    },
+    "output/cpu-only/attempt01-no-uart/cpu-only-jtag.log": {
+      "source": "current verified revision",
+      "sha256": "605af73f60999eab5e2239eb28af249af628bb00d21e9ece928b9d937e96f090"
+    },
+    "output/cpu-only/coremark.bin": {
+      "source": "current verified revision",
+      "sha256": "7117734cf95eb456fec3522dd282f94bfe934bea2322365fac512889050bc6f6"
+    },
+    "output/cpu-only/coremark.disasm.txt": {
+      "source": "current verified revision",
+      "sha256": "042db38f431a4f966f2b151ddd98cfecafa4c300e7b2fe353647d4f456e1424d"
+    },
+    "output/cpu-only/coremark.elf": {
+      "source": "current verified revision",
+      "sha256": "4ddc591a06125d7f62523e5eb955696bd817c0933540e34d8808ef6bc38b9e4b"
+    },
+    "output/cpu-only/coremark.map": {
+      "source": "current verified revision",
+      "sha256": "6a18b3f5a653e119de7d3d4d8585ab1171c0837cefa66b4ce9e590b3492aba59"
+    },
+    "output/cpu-only/firmware.json": {
+      "source": "current verified revision",
+      "sha256": "d450e71874637593d565c9f6953e55d460fe4f67f988e5364a77a0f9bd1d7db9"
+    },
+    "output/reports/cpu-only-COM12.log": {
+      "source": "current verified revision",
+      "sha256": "819f34b40a62fea1e14f2c6444b12939826a201de05e90b980e6ba202ec96b62"
+    },
+    "output/reports/cpu-only-board.json": {
+      "source": "current verified revision",
+      "sha256": "ab1427fbf851f8b47539b49c6d2bb5d87a7f8f6fd8107010bb2d4908bc40ce54"
+    },
+    "output/reports/cpu-only-build.json": {
+      "source": "current verified revision",
+      "sha256": "6b07fd4ebc939ae5f73c7212a7deb6f34203638b98494d996e5168077ab3ed69"
+    },
+    "output/reports/cpu-only-jtag.log": {
+      "source": "current verified revision",
+      "sha256": "59bfcad191b4251285bc4aeb945b270db4c217d084c9de97364170f6f22ad20b"
+    },
+    "output/reports/non-ai-adoption.json": {
+      "source": "current verified revision",
+      "sha256": "725e58d16e5f1bda0df007e5560646e80ba77acd3153e02d9e183401efae745f"
+    },
+    "output/reports/non-ai-evidence-files.json": {
+      "source": "current verified revision",
+      "sha256": "f45dc8ea97e6dfe8fb1fd8cf17c4b4afeae56dbbca35e1e7b2497445578817db"
+    },
+    "output/reports/non-ai-evidence-verification.json": {
+      "source": "current verified revision",
+      "sha256": "66f58e1f781dfe27ccacd67ea9da714905ef8ab8371e70ba640e0a8449739f46"
+    },
+    "output/reports/non-ai-functional-fixes.patch": {
+      "source": "current verified revision",
+      "sha256": "fc031d15f8d73ffa34393a0bace7d24702845b3dbfe76d9530e8d90a7a909454"
+    },
+    "place_route/cpu_bench_top.prr": {
+      "source": "current verified revision",
+      "sha256": "865c159b2a8dedd9dda8e32f5af0b63a96e678882e098526654f6a30c08fa5b1"
+    },
+    "report_timing/cpu_bench_top.rtr": {
+      "source": "current verified revision",
+      "sha256": "9d68690754d6337f8c6cbcfd12f5ab77f2bec20c1915d8b872b00623ddf4d825"
+    },
+    "rtl/cache/dcache.v": {
+      "source": "current verified revision",
+      "sha256": "3775c09849b1b4a3032853d1834bf11d6332ec24005ce099f35bc079479a408e"
+    },
+    "rtl/cache/dcache_axi.v": {
+      "source": "current verified revision",
+      "sha256": "cd2125288b4c193448e7273df94c0109684ded0bcca85e6924919842c201f9fc"
+    },
+    "rtl/cache/dcache_axi_axi.v": {
+      "source": "current verified revision",
+      "sha256": "f5bacfc058318b38cb41c06bf4df7924b34d41627b578bb8af54015fcff4c432"
+    },
+    "rtl/cache/dcache_core.v": {
+      "source": "current verified revision",
+      "sha256": "8d5688503a135cb9fd9e8e43f359fe477279304a41c8fbf37477899095bd304e"
+    },
+    "rtl/cache/dcache_core_data_ram.v": {
+      "source": "current verified revision",
+      "sha256": "5baa7ccad9124aa1fa84c43ca4d824b11e2f87798f83572bcc7c50c5e4e0557c"
+    },
+    "rtl/cache/dcache_core_tag_ram.v": {
+      "source": "current verified revision",
+      "sha256": "8ad0016eeaca40ab05d8a5865cc9d0866dfae5e158fdc0b3362993c4fdb107ac"
+    },
+    "rtl/cache/dcache_if_pmem.v": {
+      "source": "current verified revision",
+      "sha256": "3ef35e4b0ac65c98325bd0f64dee0b054b67e1bb1de16f9d1157085e2fd22256"
+    },
+    "rtl/cache/dcache_mux.v": {
+      "source": "current verified revision",
+      "sha256": "34669fb367328ad5b8cb1ae24ca8e0e1ce24f971dd4860c7c34f2368d99aba3b"
+    },
+    "rtl/cache/dcache_pmem_mux.v": {
+      "source": "current verified revision",
+      "sha256": "b4d682cb9e41f44503325a0068ab2347e194dfd577e5c244b5736c8ec823d6f7"
+    },
+    "rtl/cache/icache.v": {
+      "source": "current verified revision",
+      "sha256": "9797b8f5e1508d68975cf28dcf4d4713cd28a2d84686d898471a43920f3f19e0"
+    },
+    "rtl/cache/icache_data_ram.v": {
+      "source": "current verified revision",
+      "sha256": "1de8de2dd760f6bf8aa1738052dde968c7a92a797b9dc2ef71bd6fb7a7f8f5c6"
+    },
+    "rtl/cache/icache_tag_ram.v": {
+      "source": "current verified revision",
+      "sha256": "fc7eb653eecc411eeedaf880c77c13bc6da4387859146bdeb9ae1dc4dee5f0dd"
+    },
+    "rtl/cache/riscv_top.v": {
+      "source": "current verified revision",
+      "sha256": "e05d72ddf7b34bcc9c7783e26e995b94a6c67195d5c531e93902b1df02a872f1"
+    },
+    "rtl/core/riscv_alu.v": {
+      "source": "current verified revision",
+      "sha256": "e12fc5b56d86cb5158ee6bbc674cafe09713e992b9bae39a2a0e130a77c767bb"
+    },
+    "rtl/core/riscv_core.v": {
+      "source": "current verified revision",
+      "sha256": "319659e31cedfafdae6d7b36e4fedbbee7cc90883caf591275b802c69eb0d202"
+    },
+    "rtl/core/riscv_csr.v": {
+      "source": "current verified revision",
+      "sha256": "fa359047003b717d65fc473832882607ee79790a13b0295e4b4c6f29819452e5"
+    },
+    "rtl/core/riscv_csr_regfile.v": {
+      "source": "current verified revision",
+      "sha256": "2dced7b5a910d37e9dcf42bfdeb62fc7047b15a2d5af93807ca735d4fb4cbefc"
+    },
+    "rtl/core/riscv_decode.v": {
+      "source": "current verified revision",
+      "sha256": "5c8b4f47086e3098e37a1b4818e66595ce0fab95349f038e2143df2254001512"
+    },
+    "rtl/core/riscv_decoder.v": {
+      "source": "current verified revision",
+      "sha256": "9cb573e1aced06ab871bf414a59aac449dc486dd85671c459a8adba797fdef7a"
+    },
+    "rtl/core/riscv_defs.v": {
+      "source": "current verified revision",
+      "sha256": "85e714c71806b0d8e8422fd72755a28a185118cd47e6dbe992a1711c206b956b"
+    },
+    "rtl/core/riscv_divider.v": {
+      "source": "current verified revision",
+      "sha256": "10eed2627d88e1981434b3196193ff26b85121b65d3fc5a36f5fccb78fe13443"
+    },
+    "rtl/core/riscv_exec.v": {
+      "source": "current verified revision",
+      "sha256": "130462ff004eebdf654e07e470bfe12fb246ae23b2db72ad81277334c960084b"
+    },
+    "rtl/core/riscv_fetch.v": {
+      "source": "current verified revision",
+      "sha256": "cb1f57f0e69fde4435e886f0ba186915fd403907527702e246352b7a8a3c0a70"
+    },
+    "rtl/core/riscv_issue.v": {
+      "source": "current verified revision",
+      "sha256": "678a5681ea9992a0d68c9fc9386a19d559dcef733fdb6f2b1836581f79667c80"
+    },
+    "rtl/core/riscv_lsu.v": {
+      "source": "current verified revision",
+      "sha256": "f3542dab1452e6705865306bdf81e633e5fd0575a71e66af4f8536cf1f99880c"
+    },
+    "rtl/core/riscv_mmu.v": {
+      "source": "current verified revision",
+      "sha256": "408657972f594c5a69640b7e3f0fb223e298f51a4111bed91d0857ba6a8b97f4"
+    },
+    "rtl/core/riscv_multiplier.v": {
+      "source": "current verified revision",
+      "sha256": "6b83e715a11b48ca1deaf80a4a13bd9c6c997124baf8277c8a57c044d6080e1d"
+    },
+    "rtl/core/riscv_pipe_ctrl.v": {
+      "source": "current verified revision",
+      "sha256": "c82e33d5f26c8041b2b04f610f9b268f9268818f927310e52ba44ac1d35e1f62"
+    },
+    "rtl/core/riscv_regfile.v": {
+      "source": "current verified revision",
+      "sha256": "1b8389750c2a2b492dead477989c7564d7eb2998dec3cb89075e4c4edb87f3db"
+    },
+    "rtl/core/riscv_trace_sim.v": {
+      "source": "current verified revision",
+      "sha256": "b2359392aaeab1129ef51d3aa1df50a7b68856322ac5a2b7cdda7235618ae827"
+    },
+    "rtl/cpu_bench/cpu_bench_bus.v": {
+      "source": "current verified revision",
+      "sha256": "1f6d12dabfaa90f67a4463259a5afe26fed550c4c4da5c33b638cdb2c754be80"
+    },
+    "rtl/cpu_bench/cpu_bench_pll.v": {
+      "source": "current verified revision",
+      "sha256": "a64be54607383eadf148898cbee2bafb75e738b12d9e26d10a4c5ffb714ad337"
+    },
+    "rtl/cpu_bench/cpu_bench_top.v": {
+      "source": "current verified revision",
+      "sha256": "e40188121fb61d8a99b217189444275aa4cce70e732832d7abad60cd0ea72e3b"
+    },
+    "rtl/cpu_bench/cpu_bench_uart.v": {
+      "source": "current verified revision",
+      "sha256": "91ff3a6cab75415f5f4572d142dd192c13400f6120ee6edd4074e29eab718206"
+    },
+    "rtl/final_btb.v": {
+      "source": "current verified revision",
+      "sha256": "da23c66f941f3f7155b6af820ed982f753e6d3a186c9f012eecec7def96aa973"
+    },
+    "scripts/accept_cpu_only.py": {
+      "source": "current verified revision",
+      "sha256": "e1606da172c99820b589c128a1fd608e48b4334c2b2d7812e6d9e68286006efb"
+    },
+    "scripts/build_cpu_only.py": {
+      "source": "current verified revision",
+      "sha256": "7d1b8bb858a5383c618e1d510975d44fdb77a1b7077aa6de722910babbcf68ad"
+    },
+    "scripts/finalize_non_ai.py": {
+      "source": "current verified revision",
+      "sha256": "b01511a579527e69ba4230490ce6d865e3abb6adef29dfc49f8e7fc43962ab04"
+    },
+    "scripts/run_cpu_only.py": {
+      "source": "current verified revision",
+      "sha256": "a921cca223ccbb7560ed5dbaa4c91c09a584d8f8ded3e55f50a7d5480950160c"
+    },
+    "scripts/verify_non_ai.py": {
+      "source": "current verified revision",
+      "sha256": "f84507aadd6c52404bcfe9f3d469cb133f7ccc41b8360a512081dd6d950bb524"
+    },
+    "synthesize/cpu_bench_top.snr": {
+      "source": "current verified revision",
+      "sha256": "c1675389c98da6b29cc7138180b7f64ae954ef5953df6b09df1927d0909ab01a"
+    },
+    "third_party/coremark/LICENSE.md": {
+      "source": "current verified revision",
+      "sha256": "9577b9c846f61fd69a0d8ac965998c6450c7d8969f71f0bb4a931b91aebad28a"
+    },
+    "third_party/coremark/README.md": {
+      "source": "current verified revision",
+      "sha256": "5581fb67dc1609cbd1865f150dbcb1050d96c602987792456850eb96eb0dd08c"
+    },
+    "third_party/coremark/core_list_join.c": {
+      "source": "current verified revision",
+      "sha256": "ca00e4e010ece47d7f040cb92aa50a95345a00d3171b59d088f6b243be06ce7b"
+    },
+    "third_party/coremark/core_main.c": {
+      "source": "current verified revision",
+      "sha256": "17884c93c5b94378eb0ff02b4df3725756cf2addb9b8cbcaa6200a4649ff5ca7"
+    },
+    "third_party/coremark/core_matrix.c": {
+      "source": "current verified revision",
+      "sha256": "ecdff717b5a5c4907d221a606760e25499899cbf617582c05d40db71c91351e4"
+    },
+    "third_party/coremark/core_state.c": {
+      "source": "current verified revision",
+      "sha256": "f4b84bb0a3452c45a4daa664ab502bfdccbd31cb57d93e9ac490c60937717a4e"
+    },
+    "third_party/coremark/core_util.c": {
+      "source": "current verified revision",
+      "sha256": "a3fbfcb9bb943b638624b8ece01c5836dd56a96d7bcde2697b248d077447327f"
+    },
+    "third_party/coremark/coremark.h": {
+      "source": "current verified revision",
+      "sha256": "42642b9a06c7ed2b3bd9eda971b7c3868c4f5d27bf7ef6c4bba11291a0c2598a"
+    },
+    "third_party/coremark/coremark.md5": {
+      "source": "current verified revision",
+      "sha256": "dad92861212f8f012e75974e23ea97f7a275a375e0d3bc1d3b216423ba6b6306"
+    },
+    "third_party/coremark/official-header-proof.json": {
+      "source": "current verified revision",
+      "sha256": "15814719bc37d512a2c4044152c173d6e07b8561091abec5260a7b45128acc19"
+    }
+  }
+}

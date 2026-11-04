@@ -1,0 +1,5 @@
+{
+  "url": "https://ultralytics.com/assets/coco128.zip",
+  "sha256": "61e5e3028863d8ffc3b81d6a514603954889f0edd5e4b44c4ce60b2da99aeb8e",
+  "purpose": "Calibration/development only; COCO128 training subset is not official independent validation"
+}

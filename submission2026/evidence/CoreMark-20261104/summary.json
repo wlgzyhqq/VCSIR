@@ -1,0 +1,102 @@
+{
+  "started": "2026-11-04T13:18:54.605219+08:00",
+  "passed": true,
+  "bitstream_sha256": "d9737ea9df4cb56620d413a5af22e38f860020a9bd2d5a8aa055f6562261ccce",
+  "timing_sha256": "9d68690754d6337f8c6cbcfd12f5ab77f2bec20c1915d8b872b00623ddf4d825",
+  "CPU_Hz": 90000000,
+  "timer_Hz": 90000000,
+  "CPU_includes_cache": true,
+  "AI": false,
+  "DDR": false,
+  "SD": false,
+  "HDMI": false,
+  "minimal_UART_GPIO_and_program_RAM_present": true,
+  "Flash_written": false,
+  "TF_written": false,
+  "JTAG_tool": "D:/pango/PDS_2025.2-ads/bin/cdt_cfg_shell.exe",
+  "port": "COM12",
+  "runs": [
+    {
+      "index": 1,
+      "passed": true,
+      "seeds": [
+        {
+          "seed": 0,
+          "iterations": 3000,
+          "cycles": 1262495327,
+          "seconds": 14.027725855555556,
+          "CoreMark": 213.86217772511407,
+          "CoreMark_per_MHz": 2.376246419167934,
+          "CRC_pass": true
+        },
+        {
+          "seed": 1,
+          "iterations": 3000,
+          "cycles": 1265759613,
+          "seconds": 14.0639957,
+          "CoreMark": 213.31064542347664,
+          "CoreMark_per_MHz": 2.370118282483074,
+          "CRC_pass": true
+        }
+      ],
+      "second_run_host_seconds": 14.155999999999949,
+      "second_run_host_vs_timer_ratio": 1.0065418322049082,
+      "uart_sha256": "5cb810b14a9bed3344faff00039cfdcd40e1d987b105c3559f1aa1156bf7f171"
+    },
+    {
+      "index": 2,
+      "passed": true,
+      "seeds": [
+        {
+          "seed": 0,
+          "iterations": 3000,
+          "cycles": 1262495327,
+          "seconds": 14.027725855555556,
+          "CoreMark": 213.86217772511407,
+          "CoreMark_per_MHz": 2.376246419167934,
+          "CRC_pass": true
+        },
+        {
+          "seed": 1,
+          "iterations": 3000,
+          "cycles": 1265759613,
+          "seconds": 14.0639957,
+          "CoreMark": 213.31064542347664,
+          "CoreMark_per_MHz": 2.370118282483074,
+          "CRC_pass": true
+        }
+      ],
+      "second_run_host_seconds": 14.125,
+      "second_run_host_vs_timer_ratio": 1.0043376222022025,
+      "uart_sha256": "cdb76d0700e9ba5454237bacfcf757aaf0d8f92f61209ed28d463099b6d0256c"
+    },
+    {
+      "index": 3,
+      "passed": true,
+      "seeds": [
+        {
+          "seed": 0,
+          "iterations": 3000,
+          "cycles": 1262495327,
+          "seconds": 14.027725855555556,
+          "CoreMark": 213.86217772511407,
+          "CoreMark_per_MHz": 2.376246419167934,
+          "CRC_pass": true
+        },
+        {
+          "seed": 1,
+          "iterations": 3000,
+          "cycles": 1265759613,
+          "seconds": 14.0639957,
+          "CoreMark": 213.31064542347664,
+          "CoreMark_per_MHz": 2.370118282483074,
+          "CRC_pass": true
+        }
+      ],
+      "second_run_host_seconds": 14.141000000000531,
+      "second_run_host_vs_timer_ratio": 1.005475278977832,
+      "uart_sha256": "cdb76d0700e9ba5454237bacfcf757aaf0d8f92f61209ed28d463099b6d0256c"
+    }
+  ],
+  "finished": "2026-11-04T13:20:42.308961+08:00"
+}

@@ -1,0 +1,1639 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "op": "conv",
+      "inputs": [
+        0
+      ],
+      "name": "model.0",
+      "cin": 3,
+      "cout": 16,
+      "kernel": 6,
+      "stride": 2,
+      "padding": 2,
+      "activation": "silu",
+      "shape": [
+        16,
+        80,
+        80
+      ]
+    },
+    {
+      "id": 2,
+      "op": "conv",
+      "inputs": [
+        1
+      ],
+      "name": "model.1",
+      "cin": 16,
+      "cout": 32,
+      "kernel": 3,
+      "stride": 2,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        32,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 3,
+      "op": "conv",
+      "inputs": [
+        2
+      ],
+      "name": "model.2.cv1",
+      "cin": 32,
+      "cout": 16,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        16,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 4,
+      "op": "conv",
+      "inputs": [
+        3
+      ],
+      "name": "model.2.m.0.cv1",
+      "cin": 16,
+      "cout": 16,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        16,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 5,
+      "op": "conv",
+      "inputs": [
+        4
+      ],
+      "name": "model.2.m.0.cv2",
+      "cin": 16,
+      "cout": 16,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        16,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 6,
+      "op": "add",
+      "inputs": [
+        3,
+        5
+      ],
+      "name": "model.2.m.0.add",
+      "shape": [
+        16,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 7,
+      "op": "conv",
+      "inputs": [
+        2
+      ],
+      "name": "model.2.cv2",
+      "cin": 32,
+      "cout": 16,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        16,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 8,
+      "op": "concat",
+      "inputs": [
+        6,
+        7
+      ],
+      "name": "model.2.concat",
+      "shape": [
+        32,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 9,
+      "op": "conv",
+      "inputs": [
+        8
+      ],
+      "name": "model.2.cv3",
+      "cin": 32,
+      "cout": 32,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        32,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 10,
+      "op": "conv",
+      "inputs": [
+        9
+      ],
+      "name": "model.3",
+      "cin": 32,
+      "cout": 64,
+      "kernel": 3,
+      "stride": 2,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        64,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 11,
+      "op": "conv",
+      "inputs": [
+        10
+      ],
+      "name": "model.4.cv1",
+      "cin": 64,
+      "cout": 32,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 12,
+      "op": "conv",
+      "inputs": [
+        11
+      ],
+      "name": "model.4.m.0.cv1",
+      "cin": 32,
+      "cout": 32,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 13,
+      "op": "conv",
+      "inputs": [
+        12
+      ],
+      "name": "model.4.m.0.cv2",
+      "cin": 32,
+      "cout": 32,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 14,
+      "op": "add",
+      "inputs": [
+        11,
+        13
+      ],
+      "name": "model.4.m.0.add",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 15,
+      "op": "conv",
+      "inputs": [
+        14
+      ],
+      "name": "model.4.m.1.cv1",
+      "cin": 32,
+      "cout": 32,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 16,
+      "op": "conv",
+      "inputs": [
+        15
+      ],
+      "name": "model.4.m.1.cv2",
+      "cin": 32,
+      "cout": 32,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 17,
+      "op": "add",
+      "inputs": [
+        14,
+        16
+      ],
+      "name": "model.4.m.1.add",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 18,
+      "op": "conv",
+      "inputs": [
+        10
+      ],
+      "name": "model.4.cv2",
+      "cin": 64,
+      "cout": 32,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 19,
+      "op": "concat",
+      "inputs": [
+        17,
+        18
+      ],
+      "name": "model.4.concat",
+      "shape": [
+        64,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 20,
+      "op": "conv",
+      "inputs": [
+        19
+      ],
+      "name": "model.4.cv3",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 21,
+      "op": "conv",
+      "inputs": [
+        20
+      ],
+      "name": "model.5",
+      "cin": 64,
+      "cout": 128,
+      "kernel": 3,
+      "stride": 2,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        128,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 22,
+      "op": "conv",
+      "inputs": [
+        21
+      ],
+      "name": "model.6.cv1",
+      "cin": 128,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 23,
+      "op": "conv",
+      "inputs": [
+        22
+      ],
+      "name": "model.6.m.0.cv1",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 24,
+      "op": "conv",
+      "inputs": [
+        23
+      ],
+      "name": "model.6.m.0.cv2",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 25,
+      "op": "add",
+      "inputs": [
+        22,
+        24
+      ],
+      "name": "model.6.m.0.add",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 26,
+      "op": "conv",
+      "inputs": [
+        25
+      ],
+      "name": "model.6.m.1.cv1",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 27,
+      "op": "conv",
+      "inputs": [
+        26
+      ],
+      "name": "model.6.m.1.cv2",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 28,
+      "op": "add",
+      "inputs": [
+        25,
+        27
+      ],
+      "name": "model.6.m.1.add",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 29,
+      "op": "conv",
+      "inputs": [
+        28
+      ],
+      "name": "model.6.m.2.cv1",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 30,
+      "op": "conv",
+      "inputs": [
+        29
+      ],
+      "name": "model.6.m.2.cv2",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 31,
+      "op": "add",
+      "inputs": [
+        28,
+        30
+      ],
+      "name": "model.6.m.2.add",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 32,
+      "op": "conv",
+      "inputs": [
+        21
+      ],
+      "name": "model.6.cv2",
+      "cin": 128,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 33,
+      "op": "concat",
+      "inputs": [
+        31,
+        32
+      ],
+      "name": "model.6.concat",
+      "shape": [
+        128,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 34,
+      "op": "conv",
+      "inputs": [
+        33
+      ],
+      "name": "model.6.cv3",
+      "cin": 128,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 35,
+      "op": "conv",
+      "inputs": [
+        34
+      ],
+      "name": "model.7",
+      "cin": 128,
+      "cout": 256,
+      "kernel": 3,
+      "stride": 2,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        256,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 36,
+      "op": "conv",
+      "inputs": [
+        35
+      ],
+      "name": "model.8.cv1",
+      "cin": 256,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 37,
+      "op": "conv",
+      "inputs": [
+        36
+      ],
+      "name": "model.8.m.0.cv1",
+      "cin": 128,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 38,
+      "op": "conv",
+      "inputs": [
+        37
+      ],
+      "name": "model.8.m.0.cv2",
+      "cin": 128,
+      "cout": 128,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 39,
+      "op": "add",
+      "inputs": [
+        36,
+        38
+      ],
+      "name": "model.8.m.0.add",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 40,
+      "op": "conv",
+      "inputs": [
+        35
+      ],
+      "name": "model.8.cv2",
+      "cin": 256,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 41,
+      "op": "concat",
+      "inputs": [
+        39,
+        40
+      ],
+      "name": "model.8.concat",
+      "shape": [
+        256,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 42,
+      "op": "conv",
+      "inputs": [
+        41
+      ],
+      "name": "model.8.cv3",
+      "cin": 256,
+      "cout": 256,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        256,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 43,
+      "op": "conv",
+      "inputs": [
+        42
+      ],
+      "name": "model.9.cv1",
+      "cin": 256,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 44,
+      "op": "maxpool",
+      "inputs": [
+        43
+      ],
+      "name": "model.9.pool1",
+      "kernel": 5,
+      "padding": 2,
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 45,
+      "op": "maxpool",
+      "inputs": [
+        44
+      ],
+      "name": "model.9.pool2",
+      "kernel": 5,
+      "padding": 2,
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 46,
+      "op": "maxpool",
+      "inputs": [
+        45
+      ],
+      "name": "model.9.pool3",
+      "kernel": 5,
+      "padding": 2,
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 47,
+      "op": "concat",
+      "inputs": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "name": "model.9.concat",
+      "shape": [
+        512,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 48,
+      "op": "conv",
+      "inputs": [
+        47
+      ],
+      "name": "model.9.cv2",
+      "cin": 512,
+      "cout": 256,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        256,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 49,
+      "op": "conv",
+      "inputs": [
+        48
+      ],
+      "name": "model.10",
+      "cin": 256,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 50,
+      "op": "upsample",
+      "inputs": [
+        49
+      ],
+      "name": "model.11",
+      "factor": 2,
+      "shape": [
+        128,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 51,
+      "op": "concat",
+      "inputs": [
+        50,
+        34
+      ],
+      "name": "model.12",
+      "shape": [
+        256,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 52,
+      "op": "conv",
+      "inputs": [
+        51
+      ],
+      "name": "model.13.cv1",
+      "cin": 256,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 53,
+      "op": "conv",
+      "inputs": [
+        52
+      ],
+      "name": "model.13.m.0.cv1",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 54,
+      "op": "conv",
+      "inputs": [
+        53
+      ],
+      "name": "model.13.m.0.cv2",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 55,
+      "op": "conv",
+      "inputs": [
+        51
+      ],
+      "name": "model.13.cv2",
+      "cin": 256,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 56,
+      "op": "concat",
+      "inputs": [
+        54,
+        55
+      ],
+      "name": "model.13.concat",
+      "shape": [
+        128,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 57,
+      "op": "conv",
+      "inputs": [
+        56
+      ],
+      "name": "model.13.cv3",
+      "cin": 128,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 58,
+      "op": "conv",
+      "inputs": [
+        57
+      ],
+      "name": "model.14",
+      "cin": 128,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 59,
+      "op": "upsample",
+      "inputs": [
+        58
+      ],
+      "name": "model.15",
+      "factor": 2,
+      "shape": [
+        64,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 60,
+      "op": "concat",
+      "inputs": [
+        59,
+        20
+      ],
+      "name": "model.16",
+      "shape": [
+        128,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 61,
+      "op": "conv",
+      "inputs": [
+        60
+      ],
+      "name": "model.17.cv1",
+      "cin": 128,
+      "cout": 32,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 62,
+      "op": "conv",
+      "inputs": [
+        61
+      ],
+      "name": "model.17.m.0.cv1",
+      "cin": 32,
+      "cout": 32,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 63,
+      "op": "conv",
+      "inputs": [
+        62
+      ],
+      "name": "model.17.m.0.cv2",
+      "cin": 32,
+      "cout": 32,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 64,
+      "op": "conv",
+      "inputs": [
+        60
+      ],
+      "name": "model.17.cv2",
+      "cin": 128,
+      "cout": 32,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        32,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 65,
+      "op": "concat",
+      "inputs": [
+        63,
+        64
+      ],
+      "name": "model.17.concat",
+      "shape": [
+        64,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 66,
+      "op": "conv",
+      "inputs": [
+        65
+      ],
+      "name": "model.17.cv3",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 67,
+      "op": "conv",
+      "inputs": [
+        66
+      ],
+      "name": "model.18",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 3,
+      "stride": 2,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 68,
+      "op": "concat",
+      "inputs": [
+        67,
+        58
+      ],
+      "name": "model.19",
+      "shape": [
+        128,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 69,
+      "op": "conv",
+      "inputs": [
+        68
+      ],
+      "name": "model.20.cv1",
+      "cin": 128,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 70,
+      "op": "conv",
+      "inputs": [
+        69
+      ],
+      "name": "model.20.m.0.cv1",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 71,
+      "op": "conv",
+      "inputs": [
+        70
+      ],
+      "name": "model.20.m.0.cv2",
+      "cin": 64,
+      "cout": 64,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 72,
+      "op": "conv",
+      "inputs": [
+        68
+      ],
+      "name": "model.20.cv2",
+      "cin": 128,
+      "cout": 64,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        64,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 73,
+      "op": "concat",
+      "inputs": [
+        71,
+        72
+      ],
+      "name": "model.20.concat",
+      "shape": [
+        128,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 74,
+      "op": "conv",
+      "inputs": [
+        73
+      ],
+      "name": "model.20.cv3",
+      "cin": 128,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 75,
+      "op": "conv",
+      "inputs": [
+        74
+      ],
+      "name": "model.21",
+      "cin": 128,
+      "cout": 128,
+      "kernel": 3,
+      "stride": 2,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 76,
+      "op": "concat",
+      "inputs": [
+        75,
+        49
+      ],
+      "name": "model.22",
+      "shape": [
+        256,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 77,
+      "op": "conv",
+      "inputs": [
+        76
+      ],
+      "name": "model.23.cv1",
+      "cin": 256,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 78,
+      "op": "conv",
+      "inputs": [
+        77
+      ],
+      "name": "model.23.m.0.cv1",
+      "cin": 128,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 79,
+      "op": "conv",
+      "inputs": [
+        78
+      ],
+      "name": "model.23.m.0.cv2",
+      "cin": 128,
+      "cout": 128,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 80,
+      "op": "conv",
+      "inputs": [
+        76
+      ],
+      "name": "model.23.cv2",
+      "cin": 256,
+      "cout": 128,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        128,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 81,
+      "op": "concat",
+      "inputs": [
+        79,
+        80
+      ],
+      "name": "model.23.concat",
+      "shape": [
+        256,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 82,
+      "op": "conv",
+      "inputs": [
+        81
+      ],
+      "name": "model.23.cv3",
+      "cin": 256,
+      "cout": 256,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "silu",
+      "shape": [
+        256,
+        5,
+        5
+      ]
+    },
+    {
+      "id": 83,
+      "op": "conv",
+      "inputs": [
+        66
+      ],
+      "name": "model.24.head0",
+      "cin": 64,
+      "cout": 255,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "identity",
+      "shape": [
+        255,
+        20,
+        20
+      ]
+    },
+    {
+      "id": 84,
+      "op": "conv",
+      "inputs": [
+        74
+      ],
+      "name": "model.24.head1",
+      "cin": 128,
+      "cout": 255,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "identity",
+      "shape": [
+        255,
+        10,
+        10
+      ]
+    },
+    {
+      "id": 85,
+      "op": "conv",
+      "inputs": [
+        82
+      ],
+      "name": "model.24.head2",
+      "cin": 256,
+      "cout": 255,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "activation": "identity",
+      "shape": [
+        255,
+        5,
+        5
+      ]
+    }
+  ],
+  "heads": [
+    83,
+    84,
+    85
+  ],
+  "detect": {
+    "classes": 80,
+    "anchors": [
+      [
+        [
+          10.0,
+          13.0
+        ],
+        [
+          16.0,
+          30.0
+        ],
+        [
+          33.0,
+          23.0
+        ]
+      ],
+      [
+        [
+          30.0,
+          61.0
+        ],
+        [
+          62.0,
+          45.0
+        ],
+        [
+          59.0,
+          119.0
+        ]
+      ],
+      [
+        [
+          116.0,
+          90.0
+        ],
+        [
+          156.0,
+          198.0
+        ],
+        [
+          373.0,
+          326.0
+        ]
+      ]
+    ],
+    "strides": [
+      8.0,
+      16.0,
+      32.0
+    ]
+  },
+  "names": [
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "truck",
+    "boat",
+    "traffic light",
+    "fire hydrant",
+    "stop sign",
+    "parking meter",
+    "bench",
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe",
+    "backpack",
+    "umbrella",
+    "handbag",
+    "tie",
+    "suitcase",
+    "frisbee",
+    "skis",
+    "snowboard",
+    "sports ball",
+    "kite",
+    "baseball bat",
+    "baseball glove",
+    "skateboard",
+    "surfboard",
+    "tennis racket",
+    "bottle",
+    "wine glass",
+    "cup",
+    "fork",
+    "knife",
+    "spoon",
+    "bowl",
+    "banana",
+    "apple",
+    "sandwich",
+    "orange",
+    "broccoli",
+    "carrot",
+    "hot dog",
+    "pizza",
+    "donut",
+    "cake",
+    "chair",
+    "couch",
+    "potted plant",
+    "bed",
+    "dining table",
+    "toilet",
+    "tv",
+    "laptop",
+    "mouse",
+    "remote",
+    "keyboard",
+    "cell phone",
+    "microwave",
+    "oven",
+    "toaster",
+    "sink",
+    "refrigerator",
+    "book",
+    "clock",
+    "vase",
+    "scissors",
+    "teddy bear",
+    "hair drier",
+    "toothbrush"
+  ],
+  "input_scale": 0.007874015748031496
+}

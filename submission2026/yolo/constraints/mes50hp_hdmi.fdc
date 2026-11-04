@@ -1,0 +1,293 @@
+# MES50HP manual table 3-7; NOT the MES50H-HDMI video base pinout.
+define_attribute {p:hdmi_pclk} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_pclk} {PAP_IO_LOC} {M22}
+define_attribute {p:hdmi_pclk} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_pclk} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_pclk} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_pclk} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_pclk} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_hs} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_hs} {PAP_IO_LOC} {Y21}
+define_attribute {p:hdmi_hs} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_hs} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_hs} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_hs} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_hs} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_vs} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_vs} {PAP_IO_LOC} {W20}
+define_attribute {p:hdmi_vs} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_vs} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_vs} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_vs} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_vs} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_de} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_de} {PAP_IO_LOC} {Y22}
+define_attribute {p:hdmi_de} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_de} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_de} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_de} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_de} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_rstn} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_rstn} {PAP_IO_LOC} {R17}
+define_attribute {p:hdmi_rstn} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_rstn} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_rstn} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_rstn} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_rstn} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_scl} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:hdmi_scl} {PAP_IO_LOC} {P17}
+define_attribute {p:hdmi_scl} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_scl} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_scl} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_scl} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_scl} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_sda} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:hdmi_sda} {PAP_IO_LOC} {P18}
+define_attribute {p:hdmi_sda} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_sda} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_sda} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_sda} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_sda} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[0]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[0]} {PAP_IO_LOC} {V21}
+define_attribute {p:hdmi_data[0]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[0]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[0]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[0]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[0]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[1]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[1]} {PAP_IO_LOC} {V22}
+define_attribute {p:hdmi_data[1]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[1]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[1]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[1]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[1]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[2]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[2]} {PAP_IO_LOC} {T21}
+define_attribute {p:hdmi_data[2]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[2]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[2]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[2]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[2]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[3]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[3]} {PAP_IO_LOC} {T22}
+define_attribute {p:hdmi_data[3]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[3]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[3]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[3]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[3]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[4]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[4]} {PAP_IO_LOC} {R20}
+define_attribute {p:hdmi_data[4]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[4]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[4]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[4]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[4]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[5]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[5]} {PAP_IO_LOC} {R22}
+define_attribute {p:hdmi_data[5]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[5]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[5]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[5]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[5]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[6]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[6]} {PAP_IO_LOC} {R19}
+define_attribute {p:hdmi_data[6]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[6]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[6]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[6]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[6]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[7]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[7]} {PAP_IO_LOC} {P19}
+define_attribute {p:hdmi_data[7]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[7]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[7]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[7]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[7]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[8]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[8]} {PAP_IO_LOC} {M21}
+define_attribute {p:hdmi_data[8]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[8]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[8]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[8]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[8]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[9]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[9]} {PAP_IO_LOC} {M17}
+define_attribute {p:hdmi_data[9]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[9]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[9]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[9]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[9]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[10]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[10]} {PAP_IO_LOC} {M18}
+define_attribute {p:hdmi_data[10]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[10]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[10]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[10]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[10]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[11]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[11]} {PAP_IO_LOC} {M16}
+define_attribute {p:hdmi_data[11]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[11]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[11]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[11]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[11]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[12]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[12]} {PAP_IO_LOC} {N15}
+define_attribute {p:hdmi_data[12]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[12]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[12]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[12]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[12]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[13]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[13]} {PAP_IO_LOC} {L19}
+define_attribute {p:hdmi_data[13]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[13]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[13]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[13]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[13]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[14]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[14]} {PAP_IO_LOC} {K20}
+define_attribute {p:hdmi_data[14]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[14]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[14]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[14]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[14]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[15]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[15]} {PAP_IO_LOC} {L17}
+define_attribute {p:hdmi_data[15]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[15]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[15]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[15]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[15]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[16]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[16]} {PAP_IO_LOC} {K17}
+define_attribute {p:hdmi_data[16]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[16]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[16]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[16]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[16]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[17]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[17]} {PAP_IO_LOC} {N19}
+define_attribute {p:hdmi_data[17]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[17]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[17]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[17]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[17]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[18]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[18]} {PAP_IO_LOC} {J22}
+define_attribute {p:hdmi_data[18]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[18]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[18]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[18]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[18]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[19]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[19]} {PAP_IO_LOC} {J20}
+define_attribute {p:hdmi_data[19]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[19]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[19]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[19]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[19]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[20]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[20]} {PAP_IO_LOC} {K22}
+define_attribute {p:hdmi_data[20]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[20]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[20]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[20]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[20]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[21]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[21]} {PAP_IO_LOC} {H21}
+define_attribute {p:hdmi_data[21]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[21]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[21]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[21]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[21]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[22]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[22]} {PAP_IO_LOC} {H22}
+define_attribute {p:hdmi_data[22]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[22]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[22]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[22]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[22]} {PAP_IO_SLEW} {FAST}
+define_attribute {p:hdmi_data[23]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:hdmi_data[23]} {PAP_IO_LOC} {H19}
+define_attribute {p:hdmi_data[23]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:hdmi_data[23]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:hdmi_data[23]} {PAP_IO_NONE} {TRUE}
+define_attribute {p:hdmi_data[23]} {PAP_IO_DRIVE} {8}
+define_attribute {p:hdmi_data[23]} {PAP_IO_SLEW} {FAST}
+# Reference PLL: pixel 74.21875 MHz, configuration 9.97899 MHz.
+# 1650 * 750 pixels -> 59.9747 Hz; reference PA=04 samples falling edge.
+create_generated_clock -name {hdmi_pixel} -source [get_ports {clk}] -multiply_by {95} -divide_by {64} [get_pins {u_hdmi/u_pixel_pll/u_pll_e3/CLKOUT0}]
+create_generated_clock -name {hdmi_cfg} -source [get_ports {clk}] -multiply_by {95} -divide_by {476} [get_pins {u_hdmi/u_pixel_pll/u_pll_e3/CLKOUT1}]
+create_generated_clock -name {hdmi_forward} -source [get_pins {u_hdmi/u_pixel_pll/u_pll_e3/CLKOUT0}] -divide_by {1} [get_ports {hdmi_pclk}]
+set_clock_uncertainty {0.200} [get_clocks {hdmi_pixel hdmi_forward}] -setup -hold
+# Same engineering budget as the board-verified 720p reference check.
+# These 2 ns setup / 1 ns hold budgets are not measured board delays.
+set_output_delay -clock [get_clocks {hdmi_forward}] -clock_fall -max {2.000} [get_ports {hdmi_hs hdmi_vs hdmi_de hdmi_data[*]}]
+set_output_delay -clock [get_clocks {hdmi_forward}] -clock_fall -min {-1.000} [get_ports {hdmi_hs hdmi_vs hdmi_de hdmi_data[*]}]
+# Only first-stage synchronizers are excluded, not whole clock domains.
+set_false_path -to [get_cells -hierarchical {*u_hdmi*req_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_hdmi*ack_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_hdmi*lock_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_hdmi*ready_meta*}]
+set_false_path -from [get_cells -hierarchical {*reset_release*}] -to [get_cells -hierarchical {*u_hdmi*cfg_release*}]
+set_false_path -from [get_pins {u_hdmi/u_pixel_pll/u_pll_e3/LOCK}] -to [get_cells -hierarchical {*u_hdmi*cfg_release*}]
+# Configuration-domain assertion goes to asynchronous reset of the pixel
+# release synchronizer; pixel-clock stage 0 -> stage 1 is still checked.
+set_false_path -from [get_clocks {hdmi_cfg}] -to [get_cells -hierarchical {*u_hdmi*pixel_release*}]
+# Held payload is captured only after two request synchronizer stages and
+# frame boundary. Capture finishes before ack releases the source hold.
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*control_hold*}] -to [get_cells -hierarchical {*u_hdmi*frame_control*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*control_hold*}] -to [get_cells -hierarchical {*u_hdmi*frame_control*}]
+# Terminal page/cursor payload is frozen before request and until ack. Only
+# the first toggle/ready synchronizers match the existing meta exceptions.
+# Keep second synchronizer stages, RAM ports, renderer and output pads timed.
+# Gray frame counter changes once per frame; constrain its first-stage bus
+# arrival instead of excluding setup paths for an entire domain.
+# HMIC_S training_error_d is an existing two-register reference-clock
+# synchronizer (confirmed in generated netlist: stage 1 D is stage 0 Q).
+# Exclude only its UI-clock input paths. The ref-clock stage 0 -> 1 path
+# remains timed because its launch clock is sys_clk, not ddrphy_clkin.
+set_false_path -from [get_clocks {ddrphy_clkin}] -to [get_cells -hierarchical {*u_ddr*ddrphy_reset_ctrl*training_error_d*}]
+
+set_false_path -from [get_clocks {ddrphy_clkin}] -to [get_cells -hierarchical {*u_hdmi*u_video*line_ack_meta*}]
+# New held video mailboxes: stage1 only; all stage2 logic remains timed.
+set_false_path -to [get_cells -hierarchical {*u_hdmi*u_video*cfg_req_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_hdmi*u_video*cfg_ack_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_hdmi*u_video*pix_ready_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_hdmi*u_video*line_req_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_hdmi*u_video*line_ack_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_hdmi*u_video*error_meta*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*image_base*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frame_base*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*image_base*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frame_base*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*control_hold*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frame_control*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*control_hold*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frame_control*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*box_lo*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frame_lo*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*box_lo*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frame_lo*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*box_hi*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frame_hi*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*box_hi*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frame_hi*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*box_count*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frame_box_count*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*box_count*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frame_box_count*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*line_base_hold*}] -to [get_cells -hierarchical {*u_hdmi*u_video*byte_address*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*line_base_hold*}] -to [get_cells -hierarchical {*u_hdmi*u_video*byte_address*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*line_base_hold*}] -to [get_cells -hierarchical {*u_hdmi*u_video*second_address*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*line_base_hold*}] -to [get_cells -hierarchical {*u_hdmi*u_video*second_address*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*line_row_hold*}] -to [get_cells -hierarchical {*u_hdmi*u_video*active_row*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*line_row_hold*}] -to [get_cells -hierarchical {*u_hdmi*u_video*active_row*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*line_epoch_hold*}] -to [get_cells -hierarchical {*u_hdmi*u_video*active_epoch*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*line_epoch_hold*}] -to [get_cells -hierarchical {*u_hdmi*u_video*active_epoch*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*response_row*}] -to [get_cells -hierarchical {*u_hdmi*u_video*bank_row*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*response_row*}] -to [get_cells -hierarchical {*u_hdmi*u_video*bank_row*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*response_row*}] -to [get_cells -hierarchical {*u_hdmi*u_video*bank_valid*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*response_row*}] -to [get_cells -hierarchical {*u_hdmi*u_video*bank_valid*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*response_row*}] -to [get_cells -hierarchical {*u_hdmi*u_video*bank_epoch*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*response_row*}] -to [get_cells -hierarchical {*u_hdmi*u_video*bank_epoch*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*response_epoch*}] -to [get_cells -hierarchical {*u_hdmi*u_video*bank_epoch*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*response_epoch*}] -to [get_cells -hierarchical {*u_hdmi*u_video*bank_epoch*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*response_good*}] -to [get_cells -hierarchical {*u_hdmi*u_video*bank_valid*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*response_good*}] -to [get_cells -hierarchical {*u_hdmi*u_video*bank_valid*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*frame_gray*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frames_meta*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*frame_gray*}] -to [get_cells -hierarchical {*u_hdmi*u_video*frames_meta*}]
+set_max_delay {15.000} -datapath_only -from [get_cells -hierarchical {*u_hdmi*u_video*underflow_gray*}] -to [get_cells -hierarchical {*u_hdmi*u_video*underflow_meta*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_hdmi*u_video*underflow_gray*}] -to [get_cells -hierarchical {*u_hdmi*u_video*underflow_meta*}]

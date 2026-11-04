@@ -1,0 +1,12 @@
+{
+  "yolov5-v7.0.zip": {
+    "url": "https://codeload.github.com/ultralytics/yolov5/zip/refs/tags/v7.0",
+    "bytes": 1042849,
+    "sha256": "a40568a7979c4b27195d198987e49610de86b038b044f2521f5515455571f852"
+  },
+  "yolov5n-v7.0.pt": {
+    "url": "https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5n.pt",
+    "bytes": 4062133,
+    "sha256": "4f180cf23ba0717ada0badd6c685026d73d48f184d00fc159c2641284b2ac0a3"
+  }
+}

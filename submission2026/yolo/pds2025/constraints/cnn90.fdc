@@ -1,0 +1,15 @@
+# CPU and CNN share the PLL output, 50 * 18/10 = 90 MHz.
+# DDR retains its own generated100 MHz clock. HDMI keeps the50 MHz reference.
+create_generated_clock -name {cpu_clk} -source [get_ports {clk}] -master_clock [get_clocks {sys_clk}] -multiply_by {18} -divide_by {10} [get_pins {u_cpu_pll/u_pll_e3/CLKOUT0}]
+set_false_path -from [get_pins {u_cpu_pll/u_pll_e3/LOCK}] -to [get_cells -hierarchical {*reset_release*}]
+# Only the first synchronizer stage is exempt. Payloads remain stable until
+# the corresponding acknowledgement; keep a bounded data settling time.
+set_false_path -to [get_cells -hierarchical {*u_cnn_ddr_cdc*req_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_cnn_ddr_cdc*ack_meta*}]
+set_false_path -to [get_cells -hierarchical {*u_cnn_ddr_cdc*fault_meta*}]
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_cnn_ddr_cdc*addr_hold* *u_cnn_ddr_cdc*len_hold* *u_cnn_ddr_cdc*write_hold*}] -to [get_cells -hierarchical {*u_cnn_ddr_cdc*address_d* *u_cnn_ddr_cdc*length_d* *u_cnn_ddr_cdc*write_d*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_cnn_ddr_cdc*addr_hold* *u_cnn_ddr_cdc*len_hold* *u_cnn_ddr_cdc*write_hold*}] -to [get_cells -hierarchical {*u_cnn_ddr_cdc*address_d* *u_cnn_ddr_cdc*length_d* *u_cnn_ddr_cdc*write_d*}]
+# The existing CPU DDR bridge holds the error bit with the response payload
+# until the synchronized completion toggle is captured, exactly like data.
+set_max_delay 15.000 -datapath_only -from [get_cells -hierarchical {*u_mem_bridge*rsp_error_hold*}] -to [get_cells -hierarchical {*u_mem_bridge*rsp_error*}]
+set_false_path -hold -from [get_cells -hierarchical {*u_mem_bridge*rsp_error_hold*}] -to [get_cells -hierarchical {*u_mem_bridge*rsp_error*}]

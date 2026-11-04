@@ -1,0 +1,657 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                              C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o (__udivdi3)
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                              C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o (__adddf3)
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                              C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o (__divdf3)
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+                              C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o (__gtdf2)
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+                              C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o (__ltdf2)
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                              C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o (__muldf3)
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+                              C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o (__subdf3)
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+                              C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o (__fixunsdfsi)
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+                              C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o (__floatunsidf)
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                              C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o) (__clz_tab)
+C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                              C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o) (__clzsi2)
+
+Merging object attributes
+
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cc8cOsqc.o
+ .data          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cc8cOsqc.o
+ .bss           0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cc8cOsqc.o
+ .text          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+ .data          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+ .bss           0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+ .text          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .data          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .bss           0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .text          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSvTS8G.o
+ .data          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSvTS8G.o
+ .bss           0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSvTS8G.o
+ .text.memset   0x00000000       0x20 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSvTS8G.o
+ .text.memcpy   0x00000000       0x2c C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSvTS8G.o
+ .comment       0x00000000       0x13 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSvTS8G.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSvTS8G.o
+ .riscv.attributes
+                0x00000000       0x3f C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSvTS8G.o
+ .text          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+ .data          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+ .bss           0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+ .rodata.str1.4
+                0x00000000       0x16 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+ .data.mem_name
+                0x00000000        0xc C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+ .text          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .data          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .bss           0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .text.calc_func
+                0x00000000      0x12c C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .text.cmp_idx  0x00000000       0x5c C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .text.copy_info
+                0x00000000       0x14 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .text.core_list_insert_new
+                0x00000000       0x60 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .text.core_list_remove
+                0x00000000       0x28 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .text.core_list_undo_remove
+                0x00000000       0x20 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .text.core_list_find
+                0x00000000       0x54 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .text.core_list_reverse
+                0x00000000       0x24 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .text.core_list_mergesort
+                0x00000000      0x1bc C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .text          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .data          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .bss           0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .text.matrix_sum
+                0x00000000       0x94 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .text.matrix_mul_const
+                0x00000000       0x58 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .text.matrix_add_const
+                0x00000000       0x4c C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .text.matrix_mul_vect
+                0x00000000       0x58 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .text.matrix_mul_matrix
+                0x00000000       0xac C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .text.matrix_mul_matrix_bitextract
+                0x00000000       0xc0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .text          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+ .data          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+ .bss           0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+ .text          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+ .data          0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+ .bss           0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+ .text.crcu8    0x00000000      0x128 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .eh_frame      0x00000000       0x28 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .text          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x00000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cc8cOsqc.o
+LOAD C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+LOAD C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+LOAD C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSvTS8G.o
+LOAD C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+LOAD C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+LOAD C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+LOAD C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+LOAD C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+LOAD C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a
+
+.text           0x00000000     0x5c80
+ *(.text.init)
+ .text.init     0x00000000       0x30 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cc8cOsqc.o
+                0x00000000                _start
+ *(.text .text.*)
+ .text.put      0x00000030       0x20 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+ .text.ticks    0x00000050       0x20 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+ .text.misa     0x00000070        0x8 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+ .text.bench_boot
+                0x00000078      0x11c C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+                0x00000078                bench_boot
+ .text.number   0x00000194       0xfc C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .text.ee_printf
+                0x00000290      0x6a0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00000290                ee_printf
+ .text.start_time
+                0x00000930       0x30 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00000930                start_time
+ .text.stop_time
+                0x00000960       0x30 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00000960                stop_time
+ .text.get_time
+                0x00000990       0x7c C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00000990                get_time
+ .text.time_in_secs
+                0x00000a0c       0x28 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00000a0c                time_in_secs
+ .text.portable_init
+                0x00000a34       0x14 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00000a34                portable_init
+ .text.portable_fini
+                0x00000a48        0x8 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00000a48                portable_fini
+ .text.bench_entry_c
+                0x00000a50      0x184 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00000a50                bench_entry_c
+ .text.iterate  0x00000bd4       0xc0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+                0x00000bd4                iterate
+ .text.startup.main
+                0x00000c94      0x9d0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+                0x00000c94                main
+ .text.cmp_complex
+                0x00001664      0x1ec C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+                0x00001664                cmp_complex
+ .text.core_bench_list
+                0x00001850      0x5e8 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+                0x00001850                core_bench_list
+ .text.core_list_init
+                0x00001e38      0x32c C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+                0x00001e38                core_list_init
+ .text.matrix_test
+                0x00002164      0x4f4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+                0x00002164                matrix_test
+ .text.core_bench_matrix
+                0x00002658       0x3c C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+                0x00002658                core_bench_matrix
+ .text.core_init_matrix
+                0x00002694      0x134 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+                0x00002694                core_init_matrix
+ .text.core_init_state
+                0x000027c8      0x318 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+                0x000027c8                core_init_state
+ .text.core_state_transition
+                0x00002ae0      0x2e8 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+                0x00002ae0                core_state_transition
+ .text.core_bench_state
+                0x00002dc8      0x220 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+                0x00002dc8                core_bench_state
+ .text.get_seed_32
+                0x00002fe8       0x64 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+                0x00002fe8                get_seed_32
+ .text.crcu16   0x0000304c      0x24c C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+                0x0000304c                crcu16
+ .text.crcu32   0x00003298      0x4a8 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+                0x00003298                crcu32
+ .text.crc16    0x00003740      0x254 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+                0x00003740                crc16
+ .text.check_data_types
+                0x00003994        0x8 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+                0x00003994                check_data_types
+ .text.__udivdi3
+                0x0000399c      0x42c C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                0x0000399c                __udivdi3
+ .text.__adddf3
+                0x00003dc8      0x780 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                0x00003dc8                __adddf3
+ .text.__divdf3
+                0x00004548      0x6bc C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                0x00004548                __divdf3
+ .text.__gedf2  0x00004c04       0xd0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+                0x00004c04                __gedf2
+                0x00004c04                __gtdf2
+ .text.__ledf2  0x00004cd4       0xd0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+                0x00004cd4                __ledf2
+                0x00004cd4                __ltdf2
+ .text.__muldf3
+                0x00004da4      0x5f4 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                0x00004da4                __muldf3
+ .text.__subdf3
+                0x00005398      0x790 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+                0x00005398                __subdf3
+ .text.__fixunsdfsi
+                0x00005b28       0x7c C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+                0x00005b28                __fixunsdfsi
+ .text.__floatunsidf
+                0x00005ba4       0x90 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+                0x00005ba4                __floatunsidf
+ .text.__clzsi2
+                0x00005c34       0x4c C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                0x00005c34                __clzsi2
+
+.rodata         0x00005c80      0x854
+ *(.rodata .rodata.*)
+ .rodata.bench_boot.str1.4
+                0x00005c80      0x629 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+                                 0x4f (size before relaxing)
+ *fill*         0x000062a9        0x3 
+ .rodata        0x000062ac       0x1c C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+ .rodata.number.str1.4
+                0x000062c8        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                                 0x11 (size before relaxing)
+ .rodata.ee_printf.str1.4
+                0x000062c8        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                                 0x71 (size before relaxing)
+ .rodata.ee_printf
+                0x000062c8       0x58 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .rodata.bench_entry_c.str1.4
+                0x00006320        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                                 0x31 (size before relaxing)
+ .rodata.cst8   0x00006320       0x20 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                                 0x10 (size before relaxing)
+ .rodata.main.str1.4
+                0x00006340        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+                                0x469 (size before relaxing)
+ .rodata.cst8   0x00006340        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+                                 0x10 (size before relaxing)
+ .rodata.str1.4
+                0x00006340        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+                                 0xad (size before relaxing)
+ .rodata.errpat
+                0x00006340       0x10 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+ .rodata.scipat
+                0x00006350       0x10 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+ .rodata.floatpat
+                0x00006360       0x10 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+ .rodata.intpat
+                0x00006370       0x10 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+ .rodata.get_seed_32
+                0x00006380       0x18 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+ .rodata.__divdf3
+                0x00006398       0x3c C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .rodata.__clz_tab
+                0x000063d4      0x100 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                0x000063d4                __clz_tab
+
+.rela.dyn       0x000064d4        0x0
+ .rela.text.init
+                0x000064d4        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cc8cOsqc.o
+
+.data           0x000064d4        0x8
+ *(.data .data.*)
+ .data.default_num_contexts
+                0x000064d4        0x4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x000064d4                default_num_contexts
+ .data.seed3_volatile
+                0x000064d8        0x4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x000064d8                seed3_volatile
+ *(.sdata .sdata.*)
+                0x000064dc                        . = ALIGN (0x4)
+                0x000064dc                        __image_end = .
+
+.bss            0x000064e0      0x804
+                0x000064e0                        __bss_start = .
+ *(.bss .bss.*)
+ .bss.actual_iterations
+                0x000064e0        0x4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .bss.errors    0x000064e4        0x4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .bss.validated
+                0x000064e8        0x4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ *fill*         0x000064ec        0x4 
+ .bss.stop_ticks
+                0x000064f0        0x8 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .bss.start_ticks
+                0x000064f8        0x8 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .bss.api       0x00006500        0x4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .bss.seed5_volatile
+                0x00006504        0x4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00006504                seed5_volatile
+ .bss.seed4_volatile
+                0x00006508        0x4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00006508                seed4_volatile
+ .bss.seed2_volatile
+                0x0000650c        0x4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x0000650c                seed2_volatile
+ .bss.seed1_volatile
+                0x00006510        0x4 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                0x00006510                seed1_volatile
+ .bss.static_memblk
+                0x00006514      0x7d0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+                0x00006514                static_memblk
+ *(.sbss .sbss.*)
+ *(COMMON)
+                0x00006ce4                        . = ALIGN (0x4)
+                0x00006ce4                        __bss_end = .
+                0x0000fff0                        __stack = 0xfff0
+                0x00000001                        ASSERT ((__bss_end < 0xe000), Reserve 8KiB stack)
+OUTPUT(C:\Users\33791\Desktop\project\learn verilog\final2\variants\cpu90-relax\output\cpu-only\coremark.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x00000000       0x43
+ .riscv.attributes
+                0x00000000       0x3d C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cc8cOsqc.o
+ .riscv.attributes
+                0x0000003d       0x43 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+ .riscv.attributes
+                0x00000080       0x3f C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .riscv.attributes
+                0x000000bf       0x3f C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+ .riscv.attributes
+                0x000000fe       0x3f C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .riscv.attributes
+                0x0000013d       0x3f C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .riscv.attributes
+                0x0000017c       0x3f C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+ .riscv.attributes
+                0x000001bb       0x3f C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+ .riscv.attributes
+                0x000001fa       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .riscv.attributes
+                0x00000224       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .riscv.attributes
+                0x0000024e       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .riscv.attributes
+                0x00000278       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .riscv.attributes
+                0x000002a2       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .riscv.attributes
+                0x000002cc       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .riscv.attributes
+                0x000002f6       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .riscv.attributes
+                0x00000320       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .riscv.attributes
+                0x0000034a       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .riscv.attributes
+                0x00000374       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .riscv.attributes
+                0x0000039e       0x2a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.comment        0x00000000       0x12
+ .comment       0x00000000       0x12 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                                 0x13 (size before relaxing)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccgjoI3m.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\cctrkpVu.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccLxxxS2.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccSy7xLB.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccrcko4h.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccijNVX8.o
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\33791\AppData\Local\Packages\sandbox.{1e9065a4-6ee1-4c1d-8295-5496c5b761da}\AC\Temp\ccVo7SD6.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_info     0x00000000     0x2917
+ .debug_info    0x00000000      0x776 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_info    0x00000776      0x4f6 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_info    0x00000c6c      0x683 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_info    0x000012ef      0x220 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_info    0x0000150f      0x220 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_info    0x0000172f      0x6ac C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_info    0x00001ddb      0x4f2 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_info    0x000022cd      0x1a9 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_info    0x00002476      0x25d C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_info    0x000026d3       0xed C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_info    0x000027c0      0x157 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_abbrev   0x00000000      0xe82
+ .debug_abbrev  0x00000000      0x1a6 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x000001a6      0x186 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_abbrev  0x0000032c      0x17c C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_abbrev  0x000004a8      0x168 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_abbrev  0x00000610      0x168 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_abbrev  0x00000778      0x185 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_abbrev  0x000008fd      0x186 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_abbrev  0x00000a83      0x162 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_abbrev  0x00000be5      0x163 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_abbrev  0x00000d48       0x70 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_abbrev  0x00000db8       0xca C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_loclists
+                0x00000000     0x3388
+ .debug_loclists
+                0x00000000      0x705 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_loclists
+                0x00000705      0xac8 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_loclists
+                0x000011cd      0xa5f C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_loclists
+                0x00001c2c      0x133 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_loclists
+                0x00001d5f      0x133 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_loclists
+                0x00001e92      0x80a C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_loclists
+                0x0000269c      0xb39 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_loclists
+                0x000031d5       0x89 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_loclists
+                0x0000325e       0xd9 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_loclists
+                0x00003337       0x51 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x00000000      0x158
+ .debug_aranges
+                0x00000000       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x00000020       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_aranges
+                0x00000040       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_aranges
+                0x00000060       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_aranges
+                0x00000080       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_aranges
+                0x000000a0       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_aranges
+                0x000000c0       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_aranges
+                0x000000e0       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_aranges
+                0x00000100       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_aranges
+                0x00000120       0x18 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_aranges
+                0x00000138       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_rnglists
+                0x00000000      0x62d
+ .debug_rnglists
+                0x00000000       0xaa C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_rnglists
+                0x000000aa      0x112 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_rnglists
+                0x000001bc       0xf5 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_rnglists
+                0x000002b1       0x47 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_rnglists
+                0x000002f8       0x47 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_rnglists
+                0x0000033f      0x14f C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_rnglists
+                0x0000048e      0x113 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_rnglists
+                0x000005a1       0x22 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_rnglists
+                0x000005c3       0x48 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_rnglists
+                0x0000060b       0x22 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_line     0x00000000     0x5c04
+ .debug_line    0x00000000      0x97b C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_line    0x0000097b     0x1377 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_line    0x00001cf2     0x110e C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_line    0x00002e00      0x343 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_line    0x00003143      0x343 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_line    0x00003486      0xf02 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_line    0x00004388     0x1384 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_line    0x0000570c      0x1bb C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_line    0x000058c7      0x223 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_line    0x00005aea       0x3f C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_line    0x00005b29       0xdb C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_str      0x00000000      0x772
+ .debug_str     0x00000000      0x772 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                                0x269 (size before relaxing)
+ .debug_str     0x00000772        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                                0x2a3 (size before relaxing)
+ .debug_str     0x00000772        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                                0x365 (size before relaxing)
+ .debug_str     0x00000772        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+                                0x1d9 (size before relaxing)
+ .debug_str     0x00000772        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+                                0x1d9 (size before relaxing)
+ .debug_str     0x00000772        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                                0x3bd (size before relaxing)
+ .debug_str     0x00000772        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+                                0x2a3 (size before relaxing)
+ .debug_str     0x00000772        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+                                0x1ac (size before relaxing)
+ .debug_str     0x00000772        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+                                0x248 (size before relaxing)
+ .debug_str     0x00000772        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                                0x1b6 (size before relaxing)
+ .debug_str     0x00000772        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                                0x1d3 (size before relaxing)
+
+.debug_line_str
+                0x00000000      0x20f
+ .debug_line_str
+                0x00000000      0x20f C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                                 0xf2 (size before relaxing)
+ .debug_line_str
+                0x0000020f        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                                 0xfe (size before relaxing)
+ .debug_line_str
+                0x0000020f        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                                0x108 (size before relaxing)
+ .debug_line_str
+                0x0000020f        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+                                0x10b (size before relaxing)
+ .debug_line_str
+                0x0000020f        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+                                0x10b (size before relaxing)
+ .debug_line_str
+                0x0000020f        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                                0x108 (size before relaxing)
+ .debug_line_str
+                0x0000020f        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+                                 0xfe (size before relaxing)
+ .debug_line_str
+                0x0000020f        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+                                0x114 (size before relaxing)
+ .debug_line_str
+                0x0000020f        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+                                0x117 (size before relaxing)
+ .debug_line_str
+                0x0000020f        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                                 0xf2 (size before relaxing)
+ .debug_line_str
+                0x0000020f        0x0 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                                 0xf2 (size before relaxing)
+
+.debug_frame    0x00000000      0x20c
+ .debug_frame   0x00000000       0x4c C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_frame   0x0000004c       0x5c C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_frame   0x000000a8       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_frame   0x000000c8       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_frame   0x000000e8       0x5c C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_frame   0x00000144       0x4c C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_frame   0x00000190       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_frame   0x000001b0       0x3c C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_frame   0x000001ec       0x20 C:/msys64/ucrt64/bin/../lib/gcc/riscv32-unknown-elf/14.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)

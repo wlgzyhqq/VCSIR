@@ -1,0 +1,10 @@
+{
+  "bytes": 55472128,
+  "sha256": "7f574a30c33c6548a0ff77dcebd0f5b1bfdb28397f7058c40dd111e0d556143a",
+  "firmware_crc32": "56d0cd28",
+  "directory_crc32": "3f7bc7a6",
+  "entries": 18,
+  "video_frames": 240,
+  "all_asset_crc_verified": true,
+  "physical_card_written": false
+}

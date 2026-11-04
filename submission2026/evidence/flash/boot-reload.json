@@ -1,0 +1,21 @@
+{
+  "started": "2026-11-04T12:58:16.001511+08:00",
+  "mode": "reload",
+  "FPGA_bitstream_uploaded": false,
+  "firmware_uploaded": false,
+  "Flash_written": false,
+  "TF_written": false,
+  "boot_verified": true,
+  "cold_power_cycle_confirmed_by_user": false,
+  "JTAG_configuration_reset_only": true,
+  "configuration_done": true,
+  "boot0_ready": "@BOOT0_READY v1 TF firmware; h=hold, c=CRC fault test, r=retry u=UART recovery",
+  "TF_firmware_bytes": "@BOOT0_FW_BYTES 00009834",
+  "TF_firmware_CRC": "@BOOT0_CRC 56d0cd28",
+  "TF_firmware_verified": "@BOOT0_VERIFIED CPU reset handoff",
+  "main_firmware": "@YOLO_BOOT INTEGER CNN INFERENCE v2",
+  "hardware": "@YOLO_HW 055d4a80 055d4a80 00000040",
+  "application_ready": "@YOLO_READY",
+  "inference_result": "@YOLO_RESULT 00000000 033351bf 00000000 0006899c 00000004 00000000 006c2ace",
+  "inference_ready": "@YOLO_RESULT_READY"
+}

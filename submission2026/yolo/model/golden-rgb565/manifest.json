@@ -1,0 +1,1253 @@
+{
+  "weights_sha256": "0d0b6c7869e4ba09cd96c624399d197bc8712bdcd8d9877cbe5edc5bbe64db4d",
+  "input_contract": "320x320 unannotated RGB565 LE display; expand5/6 by replication, 2x2 box average to 160x160, round(v*127/255); signed8 NCHW",
+  "images": [
+    {
+      "index": 0,
+      "name": "bus.jpg",
+      "RGB565_crc32": "3c3e3b69",
+      "tensors": [
+        {
+          "id": 0,
+          "address": 33554432,
+          "bytes": 76800,
+          "crc32": "68427634",
+          "sha256": "c03ed75904c7b2bc383e5841386b13d785bc3b391d7e62ea57b511fc2067da63",
+          "file": "image-0\\tensor-000.bin"
+        },
+        {
+          "id": 1,
+          "address": 134217728,
+          "bytes": 102400,
+          "crc32": "d74c791e",
+          "sha256": "02cb1f6ca7404f700fbab872b19f3d74f1e1678f7a227a4d09bfe232b5cbd3fb",
+          "file": "image-0\\tensor-001.bin"
+        },
+        {
+          "id": 2,
+          "address": 134320192,
+          "bytes": 51200,
+          "crc32": "5afd0bc2",
+          "sha256": "17a825038f52571f36fe7bc15ce1a296c56ef2d9a99e3ddd519c214ce71a6318",
+          "file": "image-0\\tensor-002.bin"
+        },
+        {
+          "id": 3,
+          "address": 134371456,
+          "bytes": 25600,
+          "crc32": "769babc4",
+          "sha256": "cac92061f0e5a8d66f62e754a0b00795432c5147779c4ad783caa07a9a672cd3",
+          "file": "image-0\\tensor-003.bin"
+        },
+        {
+          "id": 4,
+          "address": 134397120,
+          "bytes": 25600,
+          "crc32": "06ffe714",
+          "sha256": "531cdd70315ead911380e1b17fdc0395bc4ed7c14764b985d3120dfe9c8302dd",
+          "file": "image-0\\tensor-004.bin"
+        },
+        {
+          "id": 5,
+          "address": 134422784,
+          "bytes": 25600,
+          "crc32": "db063557",
+          "sha256": "06b684eeb0b107418de198af8a0e20c4d8f175649bf1e80ac694ddc12b9bd1a0",
+          "file": "image-0\\tensor-005.bin"
+        },
+        {
+          "id": 6,
+          "address": 134448448,
+          "bytes": 25600,
+          "crc32": "9b41dab1",
+          "sha256": "1de27f2cf29931241fe085ca487a041585f0424d4e2590e21d5956d66c910b26",
+          "file": "image-0\\tensor-006.bin"
+        },
+        {
+          "id": 7,
+          "address": 134474112,
+          "bytes": 25600,
+          "crc32": "7bd12847",
+          "sha256": "56209f58aad2124bf64f99b33c3518c99ee089c5eb600c75d11cd22f96de19b9",
+          "file": "image-0\\tensor-007.bin"
+        },
+        {
+          "id": 8,
+          "address": 134499776,
+          "bytes": 51200,
+          "crc32": "14d3175e",
+          "sha256": "3f96b800054609b16430eaf2000b66d938f5f1ad0624063f8dbccc38bd456ff8",
+          "file": "image-0\\tensor-008.bin"
+        },
+        {
+          "id": 9,
+          "address": 134551040,
+          "bytes": 51200,
+          "crc32": "198e0469",
+          "sha256": "6832a3955e11d2c17a2f9767286f0e132e3bbc1654e594effae3d65a90ee7a3b",
+          "file": "image-0\\tensor-009.bin"
+        },
+        {
+          "id": 10,
+          "address": 134602304,
+          "bytes": 25600,
+          "crc32": "d4135388",
+          "sha256": "2c28c4456d38d167562d2e430cd624bf664acc28ba7630edd0c088434bfdf5b7",
+          "file": "image-0\\tensor-010.bin"
+        },
+        {
+          "id": 11,
+          "address": 134627968,
+          "bytes": 12800,
+          "crc32": "99a90f77",
+          "sha256": "61ee9c71b300373e5f75a7e3895890f983bf6d2fedf05e4ec00caba1f186192f",
+          "file": "image-0\\tensor-011.bin"
+        },
+        {
+          "id": 12,
+          "address": 134640832,
+          "bytes": 12800,
+          "crc32": "f7999fcc",
+          "sha256": "db00dcc805ce7fb33cc533419e50dd326747bd83871017e6da42801ba9052584",
+          "file": "image-0\\tensor-012.bin"
+        },
+        {
+          "id": 13,
+          "address": 134653696,
+          "bytes": 12800,
+          "crc32": "841db65c",
+          "sha256": "7e638cff74b1691aa6c3d977b8ae83fd6e07c98c8299f754581b48d45cae4934",
+          "file": "image-0\\tensor-013.bin"
+        },
+        {
+          "id": 14,
+          "address": 134666560,
+          "bytes": 12800,
+          "crc32": "5021aeb7",
+          "sha256": "139d1f29ecdcb923b89314956be9ab91f170c7ae4fba52aa7fb27093cce2d54c",
+          "file": "image-0\\tensor-014.bin"
+        },
+        {
+          "id": 15,
+          "address": 134679424,
+          "bytes": 12800,
+          "crc32": "ec81f99c",
+          "sha256": "e84ff8e47cb41f4f2e7ce428d1687a6ece2ee5ebaabd231d23103526aa79c1e9",
+          "file": "image-0\\tensor-015.bin"
+        },
+        {
+          "id": 16,
+          "address": 134692288,
+          "bytes": 12800,
+          "crc32": "37b01475",
+          "sha256": "f5379d120db2ac4b099b5d33b503f800bb577409f0618fcb0fedf6efa7999e29",
+          "file": "image-0\\tensor-016.bin"
+        },
+        {
+          "id": 17,
+          "address": 134705152,
+          "bytes": 12800,
+          "crc32": "ce421519",
+          "sha256": "c54bde09440ac1cab39304ed80dc25e25692da5774aa1d77cdd085a4ab0e539a",
+          "file": "image-0\\tensor-017.bin"
+        },
+        {
+          "id": 18,
+          "address": 134718016,
+          "bytes": 12800,
+          "crc32": "50e8f07c",
+          "sha256": "65af207575a6a83758764f29d1ebd2a938bc313b7f7a7d77174e0011d14b09d5",
+          "file": "image-0\\tensor-018.bin"
+        },
+        {
+          "id": 19,
+          "address": 134730880,
+          "bytes": 25600,
+          "crc32": "6bfbede0",
+          "sha256": "2662793e729b7440b0992e3ada020bfdc9c9c025c6fc4e50e97fb48fb55a444a",
+          "file": "image-0\\tensor-019.bin"
+        },
+        {
+          "id": 20,
+          "address": 134756544,
+          "bytes": 25600,
+          "crc32": "6f646b44",
+          "sha256": "c5662109f98feca80e84a3cdb43c7a8c00bce44523bf6c36dd6da5b25d60d3a4",
+          "file": "image-0\\tensor-020.bin"
+        },
+        {
+          "id": 21,
+          "address": 134782208,
+          "bytes": 12800,
+          "crc32": "ac80fe9e",
+          "sha256": "4e95f4d5153d5c65633a5bb67b59817acc4b94918fd23bd42157b12f9543b968",
+          "file": "image-0\\tensor-021.bin"
+        },
+        {
+          "id": 22,
+          "address": 134795072,
+          "bytes": 6400,
+          "crc32": "c0dae2c6",
+          "sha256": "791f65ed502a9659f0d1c5ea443df8daa67122f0bb2558c899c1eb9624dbb7da",
+          "file": "image-0\\tensor-022.bin"
+        },
+        {
+          "id": 23,
+          "address": 134801536,
+          "bytes": 6400,
+          "crc32": "003e61a6",
+          "sha256": "b47fcd22173d67963ca1a706d16251d472181fbf5e19a4d1ff6184eb51c7558d",
+          "file": "image-0\\tensor-023.bin"
+        },
+        {
+          "id": 24,
+          "address": 134808000,
+          "bytes": 6400,
+          "crc32": "4bd7c60f",
+          "sha256": "4cd7bd2cf76c42bf63d84b0a1b7e8b59b3403a8ee4589e462ed7c899da659e27",
+          "file": "image-0\\tensor-024.bin"
+        },
+        {
+          "id": 25,
+          "address": 134814464,
+          "bytes": 6400,
+          "crc32": "ceb1a8d2",
+          "sha256": "84df6645c86455113d3f5df0214dd456c670a1460835127a4ebb9b85187367ac",
+          "file": "image-0\\tensor-025.bin"
+        },
+        {
+          "id": 26,
+          "address": 134820928,
+          "bytes": 6400,
+          "crc32": "4d136f93",
+          "sha256": "b9178f8bd3acbfe9752cfb7f2af2b35d76cb320f86587b2f37b150e79003aa60",
+          "file": "image-0\\tensor-026.bin"
+        },
+        {
+          "id": 27,
+          "address": 134827392,
+          "bytes": 6400,
+          "crc32": "162754a8",
+          "sha256": "cfa050698502c729d8fdf5763b1e4a5af668f32032c0e73524f39fb70626f9a7",
+          "file": "image-0\\tensor-027.bin"
+        },
+        {
+          "id": 28,
+          "address": 134833856,
+          "bytes": 6400,
+          "crc32": "7f74203c",
+          "sha256": "1ba0cdd35648a8040982bbe63d52714216e989c4a363c74af925196962a89d2f",
+          "file": "image-0\\tensor-028.bin"
+        },
+        {
+          "id": 29,
+          "address": 134840320,
+          "bytes": 6400,
+          "crc32": "29806a88",
+          "sha256": "20cc1a38d2294c2f1f94de38498882975b3b6d2b0141df0f0add945ab29f6765",
+          "file": "image-0\\tensor-029.bin"
+        },
+        {
+          "id": 30,
+          "address": 134846784,
+          "bytes": 6400,
+          "crc32": "3896c9fa",
+          "sha256": "006ceee55fd76415c5743c458b7fe95b22fa41737efd0c550f6564464a8181ec",
+          "file": "image-0\\tensor-030.bin"
+        },
+        {
+          "id": 31,
+          "address": 134853248,
+          "bytes": 6400,
+          "crc32": "79e09a9b",
+          "sha256": "612757031925f1dc17c67e97bef7e338aef5fa906e5ce783c49eb94a9b9320ce",
+          "file": "image-0\\tensor-031.bin"
+        },
+        {
+          "id": 32,
+          "address": 134859712,
+          "bytes": 6400,
+          "crc32": "64dd02d9",
+          "sha256": "175b9471131a2c64d2c46e9d924ccc7f07f2777939cc96ede215c274b32f6970",
+          "file": "image-0\\tensor-032.bin"
+        },
+        {
+          "id": 33,
+          "address": 134866176,
+          "bytes": 12800,
+          "crc32": "ecb7f9f5",
+          "sha256": "9cd2d1901c25565b721d6f05a36042547c6a3323699d07d1fad9649e3412e050",
+          "file": "image-0\\tensor-033.bin"
+        },
+        {
+          "id": 34,
+          "address": 134879040,
+          "bytes": 12800,
+          "crc32": "966c1ef5",
+          "sha256": "fa3e3ecfcfd00a854f45101a37476fbde5fd0cbc55ae5b9a62cd60b4453fb698",
+          "file": "image-0\\tensor-034.bin"
+        },
+        {
+          "id": 35,
+          "address": 134891904,
+          "bytes": 6400,
+          "crc32": "30951279",
+          "sha256": "91b3f9c859a63b5ed6514edaa7d969df93ba44074219064328af5b4d5477c1e3",
+          "file": "image-0\\tensor-035.bin"
+        },
+        {
+          "id": 36,
+          "address": 134898368,
+          "bytes": 3200,
+          "crc32": "1ab8423c",
+          "sha256": "857242e01ecbd46ab27836ec1d6b1e24a5d394f97323810300b522e8bf81b3cd",
+          "file": "image-0\\tensor-036.bin"
+        },
+        {
+          "id": 37,
+          "address": 134901632,
+          "bytes": 3200,
+          "crc32": "17ecf5c6",
+          "sha256": "a7c3e65f95b38f7ae55b24e7ae4cf7f4d50e4a1ab5e6eb940ca9b4e59865e047",
+          "file": "image-0\\tensor-037.bin"
+        },
+        {
+          "id": 38,
+          "address": 134904896,
+          "bytes": 3200,
+          "crc32": "23cef29c",
+          "sha256": "0f10fa7c3f52e5c86cf1369e529ab26998eb010d87fee52f4346f9f778491779",
+          "file": "image-0\\tensor-038.bin"
+        },
+        {
+          "id": 39,
+          "address": 134908160,
+          "bytes": 3200,
+          "crc32": "1cc60f8e",
+          "sha256": "796ddfb635ecbcecbf549df82c34b2bacd5ed5984e2c4807fb1658d90b8ff3c5",
+          "file": "image-0\\tensor-039.bin"
+        },
+        {
+          "id": 40,
+          "address": 134911424,
+          "bytes": 3200,
+          "crc32": "c2ad1fa2",
+          "sha256": "51a600b28985cee3def2e2c6b3298afdef300537b345be3229c828bfffb2bcc5",
+          "file": "image-0\\tensor-040.bin"
+        },
+        {
+          "id": 41,
+          "address": 134914688,
+          "bytes": 6400,
+          "crc32": "3969492d",
+          "sha256": "dfc4aa3a792526212a56fd1bc878928da1c5d37038d26b353bdebb35115c31d4",
+          "file": "image-0\\tensor-041.bin"
+        },
+        {
+          "id": 42,
+          "address": 134921152,
+          "bytes": 6400,
+          "crc32": "a09e9a60",
+          "sha256": "885b21fc4e5347936570630ad45810b5e597bb57313350ea022f6795d95f1a73",
+          "file": "image-0\\tensor-042.bin"
+        },
+        {
+          "id": 43,
+          "address": 134927616,
+          "bytes": 3200,
+          "crc32": "2ebe2f01",
+          "sha256": "6a92375e5ec7e8af4b595f7c9a6c88543da7f5b9c2bce92e93c4b2077acfc203",
+          "file": "image-0\\tensor-043.bin"
+        },
+        {
+          "id": 44,
+          "address": 134930880,
+          "bytes": 3200,
+          "crc32": "186ef1fb",
+          "sha256": "a6bd18b6b5e44b34d389c55f5c03baaf6b7590b9863a1ff924ac9fb23b7fade4",
+          "file": "image-0\\tensor-044.bin"
+        },
+        {
+          "id": 45,
+          "address": 134934144,
+          "bytes": 3200,
+          "crc32": "4f42340b",
+          "sha256": "d1b57bb5f4b6164e5c7b29371dcc5bbd8da8fa7a865fa8b3161441556d835107",
+          "file": "image-0\\tensor-045.bin"
+        },
+        {
+          "id": 46,
+          "address": 134937408,
+          "bytes": 3200,
+          "crc32": "4f42340b",
+          "sha256": "d1b57bb5f4b6164e5c7b29371dcc5bbd8da8fa7a865fa8b3161441556d835107",
+          "file": "image-0\\tensor-046.bin"
+        },
+        {
+          "id": 47,
+          "address": 134940672,
+          "bytes": 12800,
+          "crc32": "c0f782f8",
+          "sha256": "2b3f048f431fc0f3907771feac6f2c75c78d8b6119b94c21c4a63642576d86f4",
+          "file": "image-0\\tensor-047.bin"
+        },
+        {
+          "id": 48,
+          "address": 134953536,
+          "bytes": 6400,
+          "crc32": "a974574d",
+          "sha256": "4c1f3c0f4040110381b5ffcc75ca2f06e857678c800ef58f7d3755f6ec8f28ea",
+          "file": "image-0\\tensor-048.bin"
+        },
+        {
+          "id": 49,
+          "address": 134960000,
+          "bytes": 3200,
+          "crc32": "069c0f51",
+          "sha256": "b41e87ae5ac8119c1cd20180cac935b56779ac470a4b65068cad928bb132794c",
+          "file": "image-0\\tensor-049.bin"
+        },
+        {
+          "id": 50,
+          "address": 134963264,
+          "bytes": 12800,
+          "crc32": "52698e7b",
+          "sha256": "8ffae63c2d866920ca26f97841d7d42734a0dff6217e4a41afaf99d85a0f88ed",
+          "file": "image-0\\tensor-050.bin"
+        },
+        {
+          "id": 51,
+          "address": 134976128,
+          "bytes": 25600,
+          "crc32": "634075c3",
+          "sha256": "7cce016b0639da3ec8006d8ddc15530775e66c00d57e1ef406f0c513c78d51f9",
+          "file": "image-0\\tensor-051.bin"
+        },
+        {
+          "id": 52,
+          "address": 135001792,
+          "bytes": 6400,
+          "crc32": "fa06a0a7",
+          "sha256": "826e813bc7bab0ef0b7cca9e5dcb123c2e26ed3ef7b879cb980ac299ace840b5",
+          "file": "image-0\\tensor-052.bin"
+        },
+        {
+          "id": 53,
+          "address": 135008256,
+          "bytes": 6400,
+          "crc32": "648a26b7",
+          "sha256": "4bf611e6968b0887b87383261d4e5dc19422c6ae82b6764c480b60dcd3b20a1a",
+          "file": "image-0\\tensor-053.bin"
+        },
+        {
+          "id": 54,
+          "address": 135014720,
+          "bytes": 6400,
+          "crc32": "f7eec746",
+          "sha256": "3bfb6f46fcf472277e15bd35d4338777ae5355965fc3ef2c93ed66995e9c0262",
+          "file": "image-0\\tensor-054.bin"
+        },
+        {
+          "id": 55,
+          "address": 135021184,
+          "bytes": 6400,
+          "crc32": "7c3dd363",
+          "sha256": "b2236625312e43c8515eccab300925f8f376b2a5d62abe64e9ee3c9a5d6f9c97",
+          "file": "image-0\\tensor-055.bin"
+        },
+        {
+          "id": 56,
+          "address": 135027648,
+          "bytes": 12800,
+          "crc32": "7dc3c109",
+          "sha256": "f0334002ef8a8a93d1b6da56bdf7f49b273460985a1a40262c23bf4f5cf8489b",
+          "file": "image-0\\tensor-056.bin"
+        },
+        {
+          "id": 57,
+          "address": 135040512,
+          "bytes": 12800,
+          "crc32": "65677994",
+          "sha256": "c51939bd98be41a1572e5e20827ffff15090fb790b1b9148e478d03e7c0f6a17",
+          "file": "image-0\\tensor-057.bin"
+        },
+        {
+          "id": 58,
+          "address": 135053376,
+          "bytes": 6400,
+          "crc32": "8a4dd276",
+          "sha256": "34bcf890b1bed56c845c609adbe26f7fa043d7fc35552891a06a200d35be0b6f",
+          "file": "image-0\\tensor-058.bin"
+        },
+        {
+          "id": 59,
+          "address": 135059840,
+          "bytes": 25600,
+          "crc32": "bd1761f6",
+          "sha256": "9ab255c0757744722c03bd3dd61b495516cecd3835d29b9224e695cc0ec863fb",
+          "file": "image-0\\tensor-059.bin"
+        },
+        {
+          "id": 60,
+          "address": 135085504,
+          "bytes": 51200,
+          "crc32": "517d7403",
+          "sha256": "322034dfce7931f0c8472d775a32579db7f60c4a9e82c437851e883a4438e994",
+          "file": "image-0\\tensor-060.bin"
+        },
+        {
+          "id": 61,
+          "address": 135136768,
+          "bytes": 12800,
+          "crc32": "39eb3c3f",
+          "sha256": "45529deeabc1dc80defc7f69de3704e866a3c00d14d16352a72bf23b9ffb50ba",
+          "file": "image-0\\tensor-061.bin"
+        },
+        {
+          "id": 62,
+          "address": 135149632,
+          "bytes": 12800,
+          "crc32": "80493851",
+          "sha256": "7497b09008c07a7fb66f54f03f6dc247f5aff670ce81fa60b637b6b48e55f39b",
+          "file": "image-0\\tensor-062.bin"
+        },
+        {
+          "id": 63,
+          "address": 135162496,
+          "bytes": 12800,
+          "crc32": "2e1bd3f4",
+          "sha256": "9de350ed06cdc80d421b88f1fc4f8246f2467b4b0b75672072e178a8a46f0494",
+          "file": "image-0\\tensor-063.bin"
+        },
+        {
+          "id": 64,
+          "address": 135175360,
+          "bytes": 12800,
+          "crc32": "fccb3f6e",
+          "sha256": "fb6438404ad8e5ca8293d77ef26dbc111e23b3721a10a52815fc7c8278defaf5",
+          "file": "image-0\\tensor-064.bin"
+        },
+        {
+          "id": 65,
+          "address": 135188224,
+          "bytes": 25600,
+          "crc32": "1723cbf4",
+          "sha256": "503f5a77092626e3b70a91297717892fb8f194b45d10b3f6ba9ed38f38387eba",
+          "file": "image-0\\tensor-065.bin"
+        },
+        {
+          "id": 66,
+          "address": 135213888,
+          "bytes": 25600,
+          "crc32": "647b4901",
+          "sha256": "61b27935094d9cb090e429085ff0984c12a7c3048bcd9a7951c511a7af23143d",
+          "file": "image-0\\tensor-066.bin"
+        },
+        {
+          "id": 67,
+          "address": 135239552,
+          "bytes": 6400,
+          "crc32": "fa9fb33a",
+          "sha256": "8256ced41ee040ac2636aa5c733a3e1eaad0b28e39e0586950b57be17e961c07",
+          "file": "image-0\\tensor-067.bin"
+        },
+        {
+          "id": 68,
+          "address": 135246016,
+          "bytes": 12800,
+          "crc32": "6d57fce3",
+          "sha256": "15af2d55a9cecdf5aea465bfe2e02d0ac5a263bc64b5f79ac2d9d419e4ce082e",
+          "file": "image-0\\tensor-068.bin"
+        },
+        {
+          "id": 69,
+          "address": 135258880,
+          "bytes": 6400,
+          "crc32": "930b5646",
+          "sha256": "96a0d7e7ae25099933e393d20e5a253f4cadae7ad4949a428e78a37fdf007fb3",
+          "file": "image-0\\tensor-069.bin"
+        },
+        {
+          "id": 70,
+          "address": 135265344,
+          "bytes": 6400,
+          "crc32": "2645157c",
+          "sha256": "757a6059a65c4df7f7b9676cc28c7e4d5ccc7cf5eca49b5092a53ed5fad40edf",
+          "file": "image-0\\tensor-070.bin"
+        },
+        {
+          "id": 71,
+          "address": 135271808,
+          "bytes": 6400,
+          "crc32": "3ae2d1a1",
+          "sha256": "81935876da456fbc9ed9e7691f2912ce9523b45eb2ca7868e8b2d356923a92fb",
+          "file": "image-0\\tensor-071.bin"
+        },
+        {
+          "id": 72,
+          "address": 135278272,
+          "bytes": 6400,
+          "crc32": "91313c68",
+          "sha256": "1e94f5085b0b806e946dae41f937e60cad2cb97a0b05ed307c18c48c788c1dd0",
+          "file": "image-0\\tensor-072.bin"
+        },
+        {
+          "id": 73,
+          "address": 135284736,
+          "bytes": 12800,
+          "crc32": "38f40be1",
+          "sha256": "f3ba26462bbc2b671f2934303ced8f1c38c42176fcf0a4a1b0709357bbe010fc",
+          "file": "image-0\\tensor-073.bin"
+        },
+        {
+          "id": 74,
+          "address": 135297600,
+          "bytes": 12800,
+          "crc32": "053a6047",
+          "sha256": "22f2bc903942669e79cf8f952c862ad2800b022c2c7a10c94673d3b45f58deb0",
+          "file": "image-0\\tensor-074.bin"
+        },
+        {
+          "id": 75,
+          "address": 135310464,
+          "bytes": 3200,
+          "crc32": "7bddc996",
+          "sha256": "3b2b2bc9afe8c32cbc1b5096e2d809515d7bbd9692674aed25a3a02a65518a39",
+          "file": "image-0\\tensor-075.bin"
+        },
+        {
+          "id": 76,
+          "address": 135313728,
+          "bytes": 6400,
+          "crc32": "6f2364a6",
+          "sha256": "a78f19cc9b30b3f91de8ea1dba2a73ac2edcc5115e2e65c6e8e05ef5734260f6",
+          "file": "image-0\\tensor-076.bin"
+        },
+        {
+          "id": 77,
+          "address": 135320192,
+          "bytes": 3200,
+          "crc32": "e23ed78e",
+          "sha256": "cd0095df4bf23a99bbc111c9ea4358709d512acc78fa76dd02a34a6329b8df64",
+          "file": "image-0\\tensor-077.bin"
+        },
+        {
+          "id": 78,
+          "address": 135323456,
+          "bytes": 3200,
+          "crc32": "2ff600f8",
+          "sha256": "cf5753eea6f4e1858543594d6d458199716351b84471f052706d0e46ffa65696",
+          "file": "image-0\\tensor-078.bin"
+        },
+        {
+          "id": 79,
+          "address": 135326720,
+          "bytes": 3200,
+          "crc32": "a255b5b7",
+          "sha256": "0eecc834439898d0e9d9063862b79dd6d6363cb3b18f2e4bcdb2e8ed4ae66b8c",
+          "file": "image-0\\tensor-079.bin"
+        },
+        {
+          "id": 80,
+          "address": 135329984,
+          "bytes": 3200,
+          "crc32": "6d059e3d",
+          "sha256": "c4e7a614165e4011fe05cf4f3b2c65b7ad0760d3e44917a62e3eaa069b41fb43",
+          "file": "image-0\\tensor-080.bin"
+        },
+        {
+          "id": 81,
+          "address": 135333248,
+          "bytes": 6400,
+          "crc32": "bb82f803",
+          "sha256": "9d8cce75dccf86572d5cfb4ad1047239c57c70fe1c905c34483a4cff6ac633a7",
+          "file": "image-0\\tensor-081.bin"
+        },
+        {
+          "id": 82,
+          "address": 135339712,
+          "bytes": 6400,
+          "crc32": "0c735ad3",
+          "sha256": "b0e2ef4eadd0586e43e0352159400ea391769c1e8ac46b994ba5cf5039884d37",
+          "file": "image-0\\tensor-082.bin"
+        },
+        {
+          "id": 83,
+          "address": 135346176,
+          "bytes": 204000,
+          "crc32": "d6ee1c13",
+          "sha256": "ce982b47ddd7135f2265c087fe86460db1d6aaf07db339a8f0ecec05dd86be0a",
+          "file": "image-0\\tensor-083.bin"
+        },
+        {
+          "id": 84,
+          "address": 135550272,
+          "bytes": 51000,
+          "crc32": "231fb5c5",
+          "sha256": "e5e1c79573dfed09b2ed5375682e9aee58a54312ca0fa15288f9f083d634bb79",
+          "file": "image-0\\tensor-084.bin"
+        },
+        {
+          "id": 85,
+          "address": 135601344,
+          "bytes": 12750,
+          "crc32": "ac6f4264",
+          "sha256": "ff6d54de38190a789ff9e33602f48ebdd0e01130e4565f6b7c2bdf0731b7387a",
+          "file": "image-0\\tensor-085.bin"
+        }
+      ],
+      "detections": [
+        [
+          27.137245178222656,
+          57.14484786987305,
+          49.97996520996094,
+          132.16783142089844,
+          0.7905627489089966,
+          0.0
+        ],
+        [
+          47.36967849731445,
+          58.7463264465332,
+          71.37161254882812,
+          126.182373046875,
+          0.5581100583076477,
+          0.0
+        ],
+        [
+          117.61580657958984,
+          71.49612426757812,
+          139.04910278320312,
+          128.69586181640625,
+          0.5239902138710022,
+          0.0
+        ],
+        [
+          23.794677734375,
+          32.402992248535156,
+          134.64312744140625,
+          106.52172088623047,
+          0.46357473731040955,
+          5.0
+        ]
+      ],
+      "original_quantized_detections": [
+        [
+          27.91993522644043,
+          58.760250091552734,
+          49.64727020263672,
+          131.07772827148438,
+          0.738379955291748,
+          0.0
+        ],
+        [
+          48.51771545410156,
+          59.38174057006836,
+          71.91886138916016,
+          125.43156433105469,
+          0.4624030590057373,
+          0.0
+        ],
+        [
+          22.655357360839844,
+          30.36901092529297,
+          137.75088500976562,
+          113.73172760009766,
+          0.44920986890792847,
+          5.0
+        ],
+        [
+          119.60433959960938,
+          66.14041137695312,
+          139.6302490234375,
+          130.0937042236328,
+          0.4386748969554901,
+          0.0
+        ]
+      ],
+      "original_best_IoUs": [
+        0.9168696925764059,
+        0.9122247098426544,
+        0.8563026176871034,
+        0.7976064292431267
+      ],
+      "reference_seconds": 0.06634670001221821
+    },
+    {
+      "index": 1,
+      "name": "zidane.jpg",
+      "RGB565_crc32": "3bf318cf",
+      "tensors": [
+        {
+          "id": 83,
+          "address": 135346176,
+          "bytes": 204000,
+          "crc32": "28da6253",
+          "sha256": "2b2f60de4f581aa18d78efd738ebaf92e3381e0820614d7f1bab8bcccb5bff92",
+          "file": "image-1\\tensor-083.bin"
+        },
+        {
+          "id": 84,
+          "address": 135550272,
+          "bytes": 51000,
+          "crc32": "61f184b8",
+          "sha256": "d3cc189c9d726f1db1d1aca46543de12b5f6ecf86da055e01678de913e4c0579",
+          "file": "image-1\\tensor-084.bin"
+        },
+        {
+          "id": 85,
+          "address": 135601344,
+          "bytes": 12750,
+          "crc32": "9e31e638",
+          "sha256": "80b5d1ab4447254905b398237785f1620a935c5832f83cc47ed96bd3c3b39581",
+          "file": "image-1\\tensor-085.bin"
+        }
+      ],
+      "detections": [
+        [
+          88.52584838867188,
+          44.388553619384766,
+          152.66671752929688,
+          126.23109436035156,
+          0.49724647402763367,
+          0.0
+        ],
+        [
+          115.69715118408203,
+          63.683311462402344,
+          159.6190185546875,
+          121.88971710205078,
+          0.48083171248435974,
+          0.0
+        ],
+        [
+          16.195819854736328,
+          62.1122932434082,
+          97.08367919921875,
+          122.91746520996094,
+          0.43805623054504395,
+          0.0
+        ]
+      ],
+      "original_quantized_detections": [
+        [
+          87.04118347167969,
+          44.298194885253906,
+          153.59910583496094,
+          127.2308578491211,
+          0.5828062295913696,
+          0.0
+        ],
+        [
+          114.38713073730469,
+          58.349430084228516,
+          159.9679718017578,
+          122.38128662109375,
+          0.4691423177719116,
+          0.0
+        ],
+        [
+          19.14950942993164,
+          61.29190444946289,
+          90.83982849121094,
+          123.65838623046875,
+          0.4043901562690735,
+          0.0
+        ]
+      ],
+      "original_best_IoUs": [
+        0.9510175700858605,
+        0.875937588058455,
+        0.8665716062717991
+      ],
+      "reference_seconds": 0.027312399994116277
+    },
+    {
+      "index": 2,
+      "name": "000000000370.jpg",
+      "RGB565_crc32": "ad80fa03",
+      "tensors": [
+        {
+          "id": 83,
+          "address": 135346176,
+          "bytes": 204000,
+          "crc32": "d99baa77",
+          "sha256": "a72f1a2842d71603d52abd707a6c8d99b2258c84acdf2b59295212eea93f09f0",
+          "file": "image-2\\tensor-083.bin"
+        },
+        {
+          "id": 84,
+          "address": 135550272,
+          "bytes": 51000,
+          "crc32": "db922edf",
+          "sha256": "785b143415975f9b671ec171e0858b74ab7bdfdd6cb73462cf1033d2562f4b31",
+          "file": "image-2\\tensor-084.bin"
+        },
+        {
+          "id": 85,
+          "address": 135601344,
+          "bytes": 12750,
+          "crc32": "53f131b1",
+          "sha256": "964083675d996d2ed777cc3fdf8ae1b8ac8345abbdbe3f0df41f663c4ae51f2e",
+          "file": "image-2\\tensor-085.bin"
+        }
+      ],
+      "detections": [
+        [
+          46.30723190307617,
+          3.9415435791015625,
+          130.72364807128906,
+          165.84161376953125,
+          0.74888014793396,
+          0.0
+        ]
+      ],
+      "original_quantized_detections": [
+        [
+          46.55641174316406,
+          4.792755126953125,
+          129.58421325683594,
+          165.63946533203125,
+          0.6992833018302917,
+          0.0
+        ]
+      ],
+      "original_best_IoUs": [
+        0.9771512275591903
+      ],
+      "reference_seconds": 0.02661840000655502
+    },
+    {
+      "index": 3,
+      "name": "000000000382.jpg",
+      "RGB565_crc32": "1b5b5394",
+      "tensors": [
+        {
+          "id": 83,
+          "address": 135346176,
+          "bytes": 204000,
+          "crc32": "87dd778a",
+          "sha256": "d06dacc3783e15260daec954011fc3388d13bbe7e6a8d0a4be6309574c2c5f90",
+          "file": "image-3\\tensor-083.bin"
+        },
+        {
+          "id": 84,
+          "address": 135550272,
+          "bytes": 51000,
+          "crc32": "2e26e88c",
+          "sha256": "be6247b1ad88ec8a0023bc3ee3f50ea68a9d78dcb7c24286d8e8d53225c4a02f",
+          "file": "image-3\\tensor-084.bin"
+        },
+        {
+          "id": 85,
+          "address": 135601344,
+          "bytes": 12750,
+          "crc32": "9b4827d7",
+          "sha256": "362df8930a17d675ffc486d0fb6c0a031f1ecb12e0e83cd44105627cf5b66e57",
+          "file": "image-3\\tensor-085.bin"
+        }
+      ],
+      "detections": [
+        [
+          127.23406219482422,
+          110.81261444091797,
+          138.2847900390625,
+          131.0494842529297,
+          0.609035849571228,
+          0.0
+        ]
+      ],
+      "original_quantized_detections": [
+        [
+          127.50579833984375,
+          110.81639099121094,
+          137.92010498046875,
+          131.24668884277344,
+          0.5689132809638977,
+          0.0
+        ]
+      ],
+      "original_best_IoUs": [
+        0.933658889105769
+      ],
+      "reference_seconds": 0.02670280000893399
+    },
+    {
+      "index": 4,
+      "name": "000000000384.jpg",
+      "RGB565_crc32": "61514655",
+      "tensors": [
+        {
+          "id": 83,
+          "address": 135346176,
+          "bytes": 204000,
+          "crc32": "9932b596",
+          "sha256": "52c812bc64286860836ba0d56cb324939bb36f739a695e98c7fc2d43b95b0f40",
+          "file": "image-4\\tensor-083.bin"
+        },
+        {
+          "id": 84,
+          "address": 135550272,
+          "bytes": 51000,
+          "crc32": "f8b45056",
+          "sha256": "c0477046eaf161789278a466840f9931e47accac55e0f7eca95409916f98e401",
+          "file": "image-4\\tensor-084.bin"
+        },
+        {
+          "id": 85,
+          "address": 135601344,
+          "bytes": 12750,
+          "crc32": "6e6d27ef",
+          "sha256": "4fd50168fb554637bcb8d52788638c4d8682de24ddff1e9151d4c6c44776284d",
+          "file": "image-4\\tensor-085.bin"
+        }
+      ],
+      "detections": [],
+      "original_quantized_detections": [],
+      "original_best_IoUs": [],
+      "reference_seconds": 0.025523899996187538
+    },
+    {
+      "index": 5,
+      "name": "000000000387.jpg",
+      "RGB565_crc32": "3ba829e1",
+      "tensors": [
+        {
+          "id": 83,
+          "address": 135346176,
+          "bytes": 204000,
+          "crc32": "e5f0255a",
+          "sha256": "0d7f9a1a8a3c3f955382d4067af4ce312a33c40f3e505651106e9eda8770b672",
+          "file": "image-5\\tensor-083.bin"
+        },
+        {
+          "id": 84,
+          "address": 135550272,
+          "bytes": 51000,
+          "crc32": "694638bc",
+          "sha256": "9bc0f665a11f327140e3bc6596245a21c59214bfd01c2895a5bf83d20f162ca0",
+          "file": "image-5\\tensor-084.bin"
+        },
+        {
+          "id": 85,
+          "address": 135601344,
+          "bytes": 12750,
+          "crc32": "2b17ac60",
+          "sha256": "8fb56ddea6a549fc13b04ff2e8bfbe853c47d2e8673dcff43c4c4d9c0872418d",
+          "file": "image-5\\tensor-085.bin"
+        }
+      ],
+      "detections": [
+        [
+          24.21240997314453,
+          27.014873504638672,
+          158.6572265625,
+          134.11000061035156,
+          0.5328502058982849,
+          62.0
+        ]
+      ],
+      "original_quantized_detections": [
+        [
+          27.758453369140625,
+          27.25463104248047,
+          157.97311401367188,
+          136.4910888671875,
+          0.3489026725292206,
+          62.0
+        ]
+      ],
+      "original_best_IoUs": [
+        0.9459968684014777
+      ],
+      "reference_seconds": 0.02740099999937229
+    },
+    {
+      "index": 6,
+      "name": "000000000389.jpg",
+      "RGB565_crc32": "acc02c29",
+      "tensors": [
+        {
+          "id": 83,
+          "address": 135346176,
+          "bytes": 204000,
+          "crc32": "aed639aa",
+          "sha256": "1713cf6abdb758d06675f3e694ecfe1a334a77fca8aaa790d62949e76c678318",
+          "file": "image-6\\tensor-083.bin"
+        },
+        {
+          "id": 84,
+          "address": 135550272,
+          "bytes": 51000,
+          "crc32": "2707bf11",
+          "sha256": "c8e0b8abb875732eca076f178ab248669ffb5e75cfa91c0cfca101f6ae856312",
+          "file": "image-6\\tensor-084.bin"
+        },
+        {
+          "id": 85,
+          "address": 135601344,
+          "bytes": 12750,
+          "crc32": "49664573",
+          "sha256": "a780093cd1934d52b87dffa2dcfcae8bc5df017f4e14f675d77d4dd2a62105ec",
+          "file": "image-6\\tensor-085.bin"
+        }
+      ],
+      "detections": [
+        [
+          26.49142074584961,
+          38.26014709472656,
+          136.00730895996094,
+          137.5027313232422,
+          0.7924513220787048,
+          0.0
+        ],
+        [
+          77.03546142578125,
+          97.36661529541016,
+          91.12713623046875,
+          137.38436889648438,
+          0.6718882322311401,
+          27.0
+        ],
+        [
+          114.4437484741211,
+          89.66703033447266,
+          147.60507202148438,
+          139.96762084960938,
+          0.5773837566375732,
+          0.0
+        ],
+        [
+          1.122915267944336,
+          94.1831283569336,
+          35.92030334472656,
+          139.94659423828125,
+          0.5274964570999146,
+          0.0
+        ]
+      ],
+      "original_quantized_detections": [
+        [
+          30.264205932617188,
+          39.37783432006836,
+          134.88092041015625,
+          136.38504028320312,
+          0.7932744026184082,
+          0.0
+        ],
+        [
+          76.22444152832031,
+          97.15312194824219,
+          93.18374633789062,
+          137.2639617919922,
+          0.6558195948600769,
+          27.0
+        ],
+        [
+          115.69947052001953,
+          90.51827239990234,
+          147.6446533203125,
+          139.66152954101562,
+          0.6249825954437256,
+          0.0
+        ],
+        [
+          0.9794654846191406,
+          83.0223388671875,
+          35.73054122924805,
+          139.66693115234375,
+          0.44039660692214966,
+          0.0
+        ]
+      ],
+      "original_best_IoUs": [
+        0.933748426369729,
+        0.8244321468371717,
+        0.9389009476037462,
+        0.7922630194679644
+      ],
+      "reference_seconds": 0.026847800007089972
+    },
+    {
+      "index": 7,
+      "name": "000000000394.jpg",
+      "RGB565_crc32": "c097c4c1",
+      "tensors": [
+        {
+          "id": 83,
+          "address": 135346176,
+          "bytes": 204000,
+          "crc32": "8c82409b",
+          "sha256": "7a6e2e5250097981ed2cb53fe3af87728170714bdae4c27744dbc4f20989e3a4",
+          "file": "image-7\\tensor-083.bin"
+        },
+        {
+          "id": 84,
+          "address": 135550272,
+          "bytes": 51000,
+          "crc32": "36e0e022",
+          "sha256": "45de7c56019a40a568a3fbb9e5da0b94a27a78ad4352a754c182f621be74a4d3",
+          "file": "image-7\\tensor-084.bin"
+        },
+        {
+          "id": 85,
+          "address": 135601344,
+          "bytes": 12750,
+          "crc32": "eab73eda",
+          "sha256": "3fa708bf713b5399706855c6fb2068f4dacecfe566ba3b53ac2cb0ed7f966958",
+          "file": "image-7\\tensor-085.bin"
+        }
+      ],
+      "detections": [
+        [
+          59.55487060546875,
+          50.39381790161133,
+          148.96070861816406,
+          122.04289245605469,
+          0.8653958439826965,
+          29.0
+        ],
+        [
+          1.62005615234375,
+          3.4995574951171875,
+          160.06704711914062,
+          138.7474822998047,
+          0.6020596027374268,
+          16.0
+        ],
+        [
+          44.06841278076172,
+          42.38566970825195,
+          150.74954223632812,
+          125.75746154785156,
+          0.5181514024734497,
+          16.0
+        ]
+      ],
+      "original_quantized_detections": [
+        [
+          59.640777587890625,
+          50.8027458190918,
+          149.04661560058594,
+          119.56889343261719,
+          0.8272192478179932,
+          29.0
+        ],
+        [
+          -2.0976791381835938,
+          9.597831726074219,
+          144.1158447265625,
+          136.50848388671875,
+          0.6135920882225037,
+          16.0
+        ]
+      ],
+      "original_best_IoUs": [
+        0.9579575780462617,
+        0.8257095215294368
+      ],
+      "reference_seconds": 0.02683679999609012
+    }
+  ],
+  "board_verified": false,
+  "independent_COCO_validation": false
+}

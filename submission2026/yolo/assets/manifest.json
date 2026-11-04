@@ -1,0 +1,388 @@
+{
+  "ABI": 1,
+  "image_count": 8,
+  "images": [
+    {
+      "index": 0,
+      "source": "third_party/yolov5/data/images/bus.jpg",
+      "preprocess": {
+        "original_shape": [
+          1080,
+          810
+        ],
+        "ratio": [
+          0.2962962962962963,
+          0.2962962962962963
+        ],
+        "pad": [
+          40.0,
+          0.0
+        ]
+      },
+      "display": "assets/images/bus.rgb565.bin",
+      "input": "assets/images/bus.i8.bin"
+    },
+    {
+      "index": 1,
+      "source": "third_party/yolov5/data/images/zidane.jpg",
+      "preprocess": {
+        "original_shape": [
+          720,
+          1280
+        ],
+        "ratio": [
+          0.25,
+          0.25
+        ],
+        "pad": [
+          0.0,
+          70.0
+        ]
+      },
+      "display": "assets/images/zidane.rgb565.bin",
+      "input": "assets/images/zidane.i8.bin"
+    },
+    {
+      "index": 2,
+      "source": "model/datasets/coco128/images/train2017/000000000370.jpg",
+      "preprocess": {
+        "original_shape": [
+          640,
+          480
+        ],
+        "ratio": [
+          0.5,
+          0.5
+        ],
+        "pad": [
+          40.0,
+          0.0
+        ]
+      },
+      "display": "assets/images/000000000370.rgb565.bin",
+      "input": "assets/images/000000000370.i8.bin"
+    },
+    {
+      "index": 3,
+      "source": "model/datasets/coco128/images/train2017/000000000382.jpg",
+      "preprocess": {
+        "original_shape": [
+          480,
+          640
+        ],
+        "ratio": [
+          0.5,
+          0.5
+        ],
+        "pad": [
+          0.0,
+          40.0
+        ]
+      },
+      "display": "assets/images/000000000382.rgb565.bin",
+      "input": "assets/images/000000000382.i8.bin"
+    },
+    {
+      "index": 4,
+      "source": "model/datasets/coco128/images/train2017/000000000384.jpg",
+      "preprocess": {
+        "original_shape": [
+          640,
+          446
+        ],
+        "ratio": [
+          0.5,
+          0.5
+        ],
+        "pad": [
+          48.5,
+          0.0
+        ]
+      },
+      "display": "assets/images/000000000384.rgb565.bin",
+      "input": "assets/images/000000000384.i8.bin"
+    },
+    {
+      "index": 5,
+      "source": "model/datasets/coco128/images/train2017/000000000387.jpg",
+      "preprocess": {
+        "original_shape": [
+          480,
+          640
+        ],
+        "ratio": [
+          0.5,
+          0.5
+        ],
+        "pad": [
+          0.0,
+          40.0
+        ]
+      },
+      "display": "assets/images/000000000387.rgb565.bin",
+      "input": "assets/images/000000000387.i8.bin"
+    },
+    {
+      "index": 6,
+      "source": "model/datasets/coco128/images/train2017/000000000389.jpg",
+      "preprocess": {
+        "original_shape": [
+          480,
+          640
+        ],
+        "ratio": [
+          0.5,
+          0.5
+        ],
+        "pad": [
+          0.0,
+          40.0
+        ]
+      },
+      "display": "assets/images/000000000389.rgb565.bin",
+      "input": "assets/images/000000000389.i8.bin"
+    },
+    {
+      "index": 7,
+      "source": "model/datasets/coco128/images/train2017/000000000394.jpg",
+      "preprocess": {
+        "original_shape": [
+          611,
+          640
+        ],
+        "ratio": [
+          0.5,
+          0.5
+        ],
+        "pad": [
+          0.0,
+          7.0
+        ]
+      },
+      "display": "assets/images/000000000394.rgb565.bin",
+      "input": "assets/images/000000000394.i8.bin"
+    }
+  ],
+  "entries": [
+    {
+      "path": "assets/images/bus.rgb565.bin",
+      "kind": 1,
+      "index": 0,
+      "lba": 4096,
+      "bytes": 204800,
+      "dst": 939524096,
+      "crc32": 1010711401,
+      "dtype": 1,
+      "name": "bus",
+      "sha256": "b2566aa52886251dc926ff09e1e967a26e6ed454afdb7819c44e1744e58fb1bb"
+    },
+    {
+      "path": "assets/images/bus.i8.bin",
+      "kind": 2,
+      "index": 0,
+      "lba": 4496,
+      "bytes": 76800,
+      "dst": 33554432,
+      "crc32": 1749186100,
+      "dtype": 2,
+      "name": "bus",
+      "sha256": "c03ed75904c7b2bc383e5841386b13d785bc3b391d7e62ea57b511fc2067da63"
+    },
+    {
+      "path": "assets/images/zidane.rgb565.bin",
+      "kind": 1,
+      "index": 1,
+      "lba": 4648,
+      "bytes": 204800,
+      "dst": 939786240,
+      "crc32": 1005787343,
+      "dtype": 1,
+      "name": "zidane",
+      "sha256": "853c58fbb7551fb7bf4cffcca7976169356f8a60851540177a7c14e27f2621bc"
+    },
+    {
+      "path": "assets/images/zidane.i8.bin",
+      "kind": 2,
+      "index": 1,
+      "lba": 5048,
+      "bytes": 76800,
+      "dst": 34078720,
+      "crc32": 3288734962,
+      "dtype": 2,
+      "name": "zidane",
+      "sha256": "ebf404f6def7245f7c2ce800e1b64cd6d51f26e43346312be801965f90125e7f"
+    },
+    {
+      "path": "assets/images/000000000370.rgb565.bin",
+      "kind": 1,
+      "index": 2,
+      "lba": 5200,
+      "bytes": 204800,
+      "dst": 940048384,
+      "crc32": 2910910979,
+      "dtype": 1,
+      "name": "000000000370",
+      "sha256": "ed3003f6c00fc30248d675f1bd15bf080a658edc7c1372ff8e431be3fd6cdbf0"
+    },
+    {
+      "path": "assets/images/000000000370.i8.bin",
+      "kind": 2,
+      "index": 2,
+      "lba": 5600,
+      "bytes": 76800,
+      "dst": 34603008,
+      "crc32": 1953754566,
+      "dtype": 2,
+      "name": "000000000370",
+      "sha256": "52f500d6fae94657686127c4c542051026f22874af384d7fad1854791db3e5b7"
+    },
+    {
+      "path": "assets/images/000000000382.rgb565.bin",
+      "kind": 1,
+      "index": 3,
+      "lba": 5752,
+      "bytes": 204800,
+      "dst": 940310528,
+      "crc32": 458970004,
+      "dtype": 1,
+      "name": "000000000382",
+      "sha256": "aa90733e93691a8ded1cae71f114a959f568123ff64b91b82e67f9f3ca2acf12"
+    },
+    {
+      "path": "assets/images/000000000382.i8.bin",
+      "kind": 2,
+      "index": 3,
+      "lba": 6152,
+      "bytes": 76800,
+      "dst": 35127296,
+      "crc32": 952295527,
+      "dtype": 2,
+      "name": "000000000382",
+      "sha256": "5ff7ed4461f89d06d346926a979bdf957eb3f9cef2cf1c82e22aa1797e5348ee"
+    },
+    {
+      "path": "assets/images/000000000384.rgb565.bin",
+      "kind": 1,
+      "index": 4,
+      "lba": 6304,
+      "bytes": 204800,
+      "dst": 940572672,
+      "crc32": 1632716373,
+      "dtype": 1,
+      "name": "000000000384",
+      "sha256": "c051a55c0a4f192c0edf727219412a80fe84ff6d47f2e6f06e531ac73aa79183"
+    },
+    {
+      "path": "assets/images/000000000384.i8.bin",
+      "kind": 2,
+      "index": 4,
+      "lba": 6704,
+      "bytes": 76800,
+      "dst": 35651584,
+      "crc32": 3533997634,
+      "dtype": 2,
+      "name": "000000000384",
+      "sha256": "9aaecee2b593243fe03139bff21caf5231c67b509f1c3fa6f2640643d98701c5"
+    },
+    {
+      "path": "assets/images/000000000387.rgb565.bin",
+      "kind": 1,
+      "index": 5,
+      "lba": 6856,
+      "bytes": 204800,
+      "dst": 940834816,
+      "crc32": 1000876513,
+      "dtype": 1,
+      "name": "000000000387",
+      "sha256": "069b8e7faf4a27b512daa71672205b15ea8d562141d77ac2a893bec878a6573d"
+    },
+    {
+      "path": "assets/images/000000000387.i8.bin",
+      "kind": 2,
+      "index": 5,
+      "lba": 7256,
+      "bytes": 76800,
+      "dst": 36175872,
+      "crc32": 2146208391,
+      "dtype": 2,
+      "name": "000000000387",
+      "sha256": "c6f74dd50fb07ed78aa56bfc57e810f508c21b0071402d04bd3fc83df655f68a"
+    },
+    {
+      "path": "assets/images/000000000389.rgb565.bin",
+      "kind": 1,
+      "index": 6,
+      "lba": 7408,
+      "bytes": 204800,
+      "dst": 941096960,
+      "crc32": 2898275369,
+      "dtype": 1,
+      "name": "000000000389",
+      "sha256": "0243f17fae2355794f09c70104f7c83be513c72ef498ef2e1f2f05d6c015e99f"
+    },
+    {
+      "path": "assets/images/000000000389.i8.bin",
+      "kind": 2,
+      "index": 6,
+      "lba": 7808,
+      "bytes": 76800,
+      "dst": 36700160,
+      "crc32": 3825610187,
+      "dtype": 2,
+      "name": "000000000389",
+      "sha256": "d27fe8b6ff54d2c4f7f70da4161817ea2ae2dfe22a2445b98add4d3f0b36aba6"
+    },
+    {
+      "path": "assets/images/000000000394.rgb565.bin",
+      "kind": 1,
+      "index": 7,
+      "lba": 7960,
+      "bytes": 204800,
+      "dst": 941359104,
+      "crc32": 3231171777,
+      "dtype": 1,
+      "name": "000000000394",
+      "sha256": "88aff6f2f2b3c82eebf4a4896635ad1f9374a5d8a7b47540415e4b1f0213136a"
+    },
+    {
+      "path": "assets/images/000000000394.i8.bin",
+      "kind": 2,
+      "index": 7,
+      "lba": 8360,
+      "bytes": 76800,
+      "dst": 37224448,
+      "crc32": 2302217331,
+      "dtype": 2,
+      "name": "000000000394",
+      "sha256": "4cacb16cda449a71360ff354767d577641ba43bdaa9f4ec5df4ef4303cca0a72"
+    },
+    {
+      "path": "model/quantized/weights.bin",
+      "kind": 3,
+      "index": 0,
+      "lba": 8512,
+      "bytes": 1958652,
+      "dst": 67108864,
+      "crc32": 2799703310,
+      "dtype": 3,
+      "name": "yolov5n-int8",
+      "sha256": "0d0b6c7869e4ba09cd96c624399d197bc8712bdcd8d9877cbe5edc5bbe64db4d"
+    },
+    {
+      "path": "assets/video/frames.rgb565",
+      "kind": 4,
+      "index": 0,
+      "lba": 12344,
+      "bytes": 49152000,
+      "dst": 0,
+      "crc32": 587245546,
+      "dtype": 4,
+      "name": "video",
+      "sha256": "df10c8e4f69cb25fc908f4edea8793e81ba1f59b13673ac7d488c9f47dbf73c6"
+    }
+  ],
+  "total_sectors": 108344,
+  "model_sha256": "0d0b6c7869e4ba09cd96c624399d197bc8712bdcd8d9877cbe5edc5bbe64db4d",
+  "preprocessing": "Official v7 letterbox320, RGB, CHW signed8 round(rgb/255*127); display same unannotated input RGB565 LE",
+  "precomputed_boxes_in_card": false
+}

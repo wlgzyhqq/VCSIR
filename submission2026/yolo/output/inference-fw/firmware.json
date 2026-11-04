@@ -1,0 +1,45 @@
+{
+  "CPU_clock_Hz": 90000000,
+  "bytes": 38964,
+  "sha256": "ff3424ec8a1ad948fd42a1626af8d465aab23456f2e2e1c45a8c46605ed18caf",
+  "flags": [
+    "-march=rv32im_zicsr_zifencei",
+    "-mabi=ilp32",
+    "-mno-relax",
+    "-nostdlib",
+    "-ffreestanding",
+    "-fno-builtin",
+    "-msmall-data-limit=0",
+    "-Os",
+    "-flto",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-Wl,--no-relax",
+    "-T",
+    "C:\\Users\\33791\\Desktop\\project\\learn verilog\\final_yolo\\firmware\\link.ld",
+    "-DYOLO_INFERENCE"
+  ],
+  "layout": {
+    "bss_start": 2097152,
+    "bss_end": 2206548,
+    "bss_bytes": 109396,
+    "stack_top": 130816
+  },
+  "sources": {
+    "firmware/start.S": "3ba2a1bda07ddcf53626e9deb05b7a701cf591dfe6bf4a53683f309c74ba7d2c",
+    "firmware/main.c": "61e83dd086f2d6b4fbf5bdd30a78ee25ff67da795afdc7782480cb91564d464b",
+    "firmware/storage.c": "2a112dd319902c8a7b3a85bc06149f49545af9b56d068e2ed018bd5e2ac751cb",
+    "firmware/runtime.c": "b7b36d8e6f88c431a4bb13919780dfce7719b4cd9822597c20c7b9896b3b304c",
+    "firmware/yolo_network.c": "2837644466e5072e8ef29d57558999a14493a055147efc41c22ecd112fa26ea3",
+    "firmware/yolo_preprocess.c": "0b98c4798357baa720fe0f07136702beb6e534d7de4377a2387854ce6ddd1c1a",
+    "firmware/assets_contract.h": "4b634d0f489fe13dff07e0fee73f755983080813687aae6b528a0638bd11d39a",
+    "firmware/model_tables.h": "c3c8f447eba796bf1e181538eca9f9bf9d156dae9a892ddb2668e3406484de17",
+    "firmware/platform.h": "ba3ed4be173c63441dd28de99930aee96d4a9a22b522d772ba7c19e8b5ba8a60",
+    "firmware/sd_spi_protocol.h": "7bf3c106b5dd3e4676c08cb8becb8d68fc2483031e4a9877801c8362eacfe416",
+    "firmware/storage.h": "5fb3b59e6ff57d040c1069230ddc93c91e0ba6616397b8923c5ad709b35e5279",
+    "firmware/video_contract.h": "3dc485167468e920eb933f638606e695bb3b635858bd32607d27ffb7271ee433",
+    "firmware/yolo_network.h": "05661fffb7cd8b6f0e59ff9192e55f2103c5cde7c4d8d969a3aea686eeb67990"
+  },
+  "milestone": "inference development - board unverified"
+}

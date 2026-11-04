@@ -1,0 +1,9 @@
+{
+  "commit": "1f483d5b8316753a742cbf5590caf5bd0a4e4777",
+  "url": "https://raw.githubusercontent.com/eembc/coremark/1f483d5b8316753a742cbf5590caf5bd0a4e4777/coremark.h",
+  "byte_exact_official_header": true,
+  "sha256": "42642b9a06c7ed2b3bd9eda971b7c3868c4f5d27bf7ef6c4bba11291a0c2598a",
+  "actual_md5": "b0ec69b6c8e75853d06accb3b1bcf534",
+  "upstream_listed_md5": "8ca974c013b380dc7f0d6d1afb76eb2d",
+  "scope": "Five algorithm C files match listed MD5; official header verified byte-exact pinnedcommit despite stale upstreamMD5entry"
+}

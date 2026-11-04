@@ -1,0 +1,776 @@
+{
+  "pad_loopback_pass": true,
+  "key_states_observed": [
+    0
+  ],
+  "samples": [
+    {
+      "step": 0,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 1,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 2,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 3,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 4,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 5,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 6,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 7,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 8,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 9,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 10,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 11,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 12,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 13,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 14,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 15,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 16,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 17,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 18,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 19,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 20,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 21,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 22,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 23,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 24,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 25,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 26,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 27,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 28,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 29,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 30,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 31,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 32,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 33,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 34,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 35,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 36,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 37,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 38,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 39,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 40,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 41,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 42,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 43,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 44,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 45,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 46,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 47,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 48,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 49,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 50,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 51,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 52,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 53,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 54,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 55,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 56,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 57,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 58,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 59,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 60,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 61,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 62,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 63,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 64,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 65,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 66,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 67,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 68,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 69,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 70,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 71,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 72,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 73,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 74,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 75,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 76,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 77,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 78,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 79,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 80,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 81,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 82,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 83,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 84,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 85,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 86,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 87,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 88,
+      "LED": 1,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 89,
+      "LED": 2,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 90,
+      "LED": 4,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 91,
+      "LED": 8,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 92,
+      "LED": 16,
+      "output": 0,
+      "input": 0,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 93,
+      "LED": 32,
+      "output": 1,
+      "input": 1,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 94,
+      "LED": 64,
+      "output": 2,
+      "input": 2,
+      "pad_loopback_pass": true,
+      "keys": 0
+    },
+    {
+      "step": 95,
+      "LED": 128,
+      "output": 3,
+      "input": 3,
+      "pad_loopback_pass": true,
+      "keys": 0
+    }
+  ]
+}

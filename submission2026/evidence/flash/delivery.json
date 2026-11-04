@@ -1,0 +1,33 @@
+{
+  "updated": "2026-11-04T13:04:57.367102+08:00",
+  "flash_programmed": true,
+  "flash": "XT25BF128",
+  "JEDEC_ID": "0x0b4018",
+  "tool": "PDS 2025.2 build211867",
+  "sbit": "C:\\Users\\33791\\Desktop\\project\\learn verilog\\final_yolo\\output\\bitstream\\yolo_step2e.sbit",
+  "sfc": "C:\\Users\\33791\\Desktop\\project\\learn verilog\\final_yolo\\output\\bitstream\\yolo_step2e_xt25bf128.sfc",
+  "sfc_bytes": 2101696,
+  "sha256": "cc757766bc2e0942f013bf9bd349eef6a23d04e047eba3c18eb98883f79acd40",
+  "full_configuration_readback_match": true,
+  "software_reload_boot_verified": true,
+  "FPGA_bitstream_uploaded_during_boot_test": false,
+  "firmware_uploaded_during_boot_test": false,
+  "TF_modified": false,
+  "TF_firmware_bytes": 38964,
+  "TF_firmware_crc32": "56d0cd28",
+  "first_photo_detections": [
+    "person",
+    "person",
+    "person",
+    "bus"
+  ],
+  "cold_power_restart_user_confirmation": "已断电重启，画面正常",
+  "cold_power_restart_visual_verified_by_user": true,
+  "cold_power_restart_UART_verified": true,
+  "evidence": {
+    "program": "program-erase.json",
+    "reload": "boot-reload.json",
+    "cold_UART": "boot-listen-validated.json"
+  },
+  "instructions": "../../../docs/QSPI_FLASH.md"
+}

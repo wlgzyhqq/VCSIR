@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "bitstream_sha256": "d9737ea9df4cb56620d413a5af22e38f860020a9bd2d5a8aa055f6562261ccce",
+  "board_test": true,
+  "CPU_hz": 90000000,
+  "timer_hz": 90000000,
+  "TF_written": false,
+  "Flash_written": false,
+  "transcripts": {
+    "COM12": "output/reports/cpu-only-COM12.log"
+  },
+  "serial_errors": {},
+  "footer_host_times": {
+    "COM12": [
+      98317.14,
+      98331.281
+    ]
+  },
+  "JTAG_programmed": true,
+  "second_run_host_seconds": 14.14100000000326,
+  "second_run_host_vs_timer_ratio": 1.0054752789780261,
+  "runs": [
+    {
+      "validation_seed": 0,
+      "iterations": 3000,
+      "seconds": 14.027725855555556,
+      "CoreMark": 213.86217772511407,
+      "CoreMark_per_MHz": 2.376246419167934,
+      "raw_fields": [
+        1,
+        0,
+        3000,
+        90000000,
+        90000000,
+        1262495327,
+        0,
+        1
+      ]
+    },
+    {
+      "validation_seed": 1,
+      "iterations": 3000,
+      "seconds": 14.0639957,
+      "CoreMark": 213.31064542347664,
+      "CoreMark_per_MHz": 2.370118282483074,
+      "raw_fields": [
+        1,
+        1,
+        3000,
+        90000000,
+        90000000,
+        1265759613,
+        0,
+        1
+      ]
+    }
+  ]
+}

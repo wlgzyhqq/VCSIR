@@ -1,0 +1,498 @@
+{
+  "useful_MACs": 558515200,
+  "issued_MACs_including_padding": 674037760,
+  "lane_utilization": 0.8286111448711716,
+  "array_multipliers": 64,
+  "compute_design_clock_Hz": 90000000,
+  "DDR_design_clock_Hz": 100000000,
+  "array_physical_peak_MACs_per_second": 5760000000,
+  "current_dot_FSM_cycles_per_product_step": 3,
+  "current_dot_FSM_max_MACs_per_second": 1920000000.0,
+  "mandatory_dot_and_quant_control_cycles": 62051840,
+  "tensor_bytes": 5563800,
+  "tensor_region_end": 139786936,
+  "weights_bytes": 1958652,
+  "layers": [
+    {
+      "id": 1,
+      "useful_MACs": 44236800,
+      "issued_lane_MACs": 44236800,
+      "tiles": 6400,
+      "dot_control_cycles": 2073600,
+      "quantization_control_cycles": 3276800
+    },
+    {
+      "id": 2,
+      "useful_MACs": 29491200,
+      "issued_lane_MACs": 29491200,
+      "tiles": 3200,
+      "dot_control_cycles": 1382400,
+      "quantization_control_cycles": 1638400
+    },
+    {
+      "id": 3,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 3276800,
+      "tiles": 1600,
+      "dot_control_cycles": 153600,
+      "quantization_control_cycles": 819200
+    },
+    {
+      "id": 4,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 1638400,
+      "tiles": 1600,
+      "dot_control_cycles": 76800,
+      "quantization_control_cycles": 819200
+    },
+    {
+      "id": 5,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 14745600,
+      "tiles": 1600,
+      "dot_control_cycles": 691200,
+      "quantization_control_cycles": 819200
+    },
+    {
+      "id": 7,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 3276800,
+      "tiles": 1600,
+      "dot_control_cycles": 153600,
+      "quantization_control_cycles": 819200
+    },
+    {
+      "id": 9,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 6553600,
+      "tiles": 3200,
+      "dot_control_cycles": 307200,
+      "quantization_control_cycles": 1638400
+    },
+    {
+      "id": 10,
+      "useful_MACs": 29491200,
+      "issued_lane_MACs": 29491200,
+      "tiles": 1600,
+      "dot_control_cycles": 1382400,
+      "quantization_control_cycles": 819200
+    },
+    {
+      "id": 11,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 3276800,
+      "tiles": 800,
+      "dot_control_cycles": 153600,
+      "quantization_control_cycles": 409600
+    },
+    {
+      "id": 12,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 1638400,
+      "tiles": 800,
+      "dot_control_cycles": 76800,
+      "quantization_control_cycles": 409600
+    },
+    {
+      "id": 13,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 14745600,
+      "tiles": 800,
+      "dot_control_cycles": 691200,
+      "quantization_control_cycles": 409600
+    },
+    {
+      "id": 15,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 1638400,
+      "tiles": 800,
+      "dot_control_cycles": 76800,
+      "quantization_control_cycles": 409600
+    },
+    {
+      "id": 16,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 14745600,
+      "tiles": 800,
+      "dot_control_cycles": 691200,
+      "quantization_control_cycles": 409600
+    },
+    {
+      "id": 18,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 3276800,
+      "tiles": 800,
+      "dot_control_cycles": 153600,
+      "quantization_control_cycles": 409600
+    },
+    {
+      "id": 20,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 6553600,
+      "tiles": 1600,
+      "dot_control_cycles": 307200,
+      "quantization_control_cycles": 819200
+    },
+    {
+      "id": 21,
+      "useful_MACs": 29491200,
+      "issued_lane_MACs": 35389440,
+      "tiles": 960,
+      "dot_control_cycles": 1658880,
+      "quantization_control_cycles": 491520
+    },
+    {
+      "id": 22,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 3932160,
+      "tiles": 480,
+      "dot_control_cycles": 184320,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 23,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 1966080,
+      "tiles": 480,
+      "dot_control_cycles": 92160,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 24,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 17694720,
+      "tiles": 480,
+      "dot_control_cycles": 829440,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 26,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 1966080,
+      "tiles": 480,
+      "dot_control_cycles": 92160,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 27,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 17694720,
+      "tiles": 480,
+      "dot_control_cycles": 829440,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 29,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 1966080,
+      "tiles": 480,
+      "dot_control_cycles": 92160,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 30,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 17694720,
+      "tiles": 480,
+      "dot_control_cycles": 829440,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 32,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 3932160,
+      "tiles": 480,
+      "dot_control_cycles": 184320,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 34,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 7864320,
+      "tiles": 960,
+      "dot_control_cycles": 368640,
+      "quantization_control_cycles": 491520
+    },
+    {
+      "id": 35,
+      "useful_MACs": 29491200,
+      "issued_lane_MACs": 47185920,
+      "tiles": 640,
+      "dot_control_cycles": 2211840,
+      "quantization_control_cycles": 327680
+    },
+    {
+      "id": 36,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 5242880,
+      "tiles": 320,
+      "dot_control_cycles": 245760,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 37,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 2621440,
+      "tiles": 320,
+      "dot_control_cycles": 122880,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 38,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 23592960,
+      "tiles": 320,
+      "dot_control_cycles": 1105920,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 40,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 5242880,
+      "tiles": 320,
+      "dot_control_cycles": 245760,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 42,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 10485760,
+      "tiles": 640,
+      "dot_control_cycles": 491520,
+      "quantization_control_cycles": 327680
+    },
+    {
+      "id": 43,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 5242880,
+      "tiles": 320,
+      "dot_control_cycles": 245760,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 48,
+      "useful_MACs": 13107200,
+      "issued_lane_MACs": 20971520,
+      "tiles": 640,
+      "dot_control_cycles": 983040,
+      "quantization_control_cycles": 327680
+    },
+    {
+      "id": 49,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 5242880,
+      "tiles": 320,
+      "dot_control_cycles": 245760,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 52,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 7864320,
+      "tiles": 480,
+      "dot_control_cycles": 368640,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 53,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 1966080,
+      "tiles": 480,
+      "dot_control_cycles": 92160,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 54,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 17694720,
+      "tiles": 480,
+      "dot_control_cycles": 829440,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 55,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 7864320,
+      "tiles": 480,
+      "dot_control_cycles": 368640,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 57,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 7864320,
+      "tiles": 960,
+      "dot_control_cycles": 368640,
+      "quantization_control_cycles": 491520
+    },
+    {
+      "id": 58,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 3932160,
+      "tiles": 480,
+      "dot_control_cycles": 184320,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 61,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 6553600,
+      "tiles": 800,
+      "dot_control_cycles": 307200,
+      "quantization_control_cycles": 409600
+    },
+    {
+      "id": 62,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 1638400,
+      "tiles": 800,
+      "dot_control_cycles": 76800,
+      "quantization_control_cycles": 409600
+    },
+    {
+      "id": 63,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 14745600,
+      "tiles": 800,
+      "dot_control_cycles": 691200,
+      "quantization_control_cycles": 409600
+    },
+    {
+      "id": 64,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 6553600,
+      "tiles": 800,
+      "dot_control_cycles": 307200,
+      "quantization_control_cycles": 409600
+    },
+    {
+      "id": 66,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 6553600,
+      "tiles": 1600,
+      "dot_control_cycles": 307200,
+      "quantization_control_cycles": 819200
+    },
+    {
+      "id": 67,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 17694720,
+      "tiles": 480,
+      "dot_control_cycles": 829440,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 69,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 3932160,
+      "tiles": 480,
+      "dot_control_cycles": 184320,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 70,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 1966080,
+      "tiles": 480,
+      "dot_control_cycles": 92160,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 71,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 17694720,
+      "tiles": 480,
+      "dot_control_cycles": 829440,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 72,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 3932160,
+      "tiles": 480,
+      "dot_control_cycles": 184320,
+      "quantization_control_cycles": 245760
+    },
+    {
+      "id": 74,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 7864320,
+      "tiles": 960,
+      "dot_control_cycles": 368640,
+      "quantization_control_cycles": 491520
+    },
+    {
+      "id": 75,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 23592960,
+      "tiles": 320,
+      "dot_control_cycles": 1105920,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 77,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 5242880,
+      "tiles": 320,
+      "dot_control_cycles": 245760,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 78,
+      "useful_MACs": 1638400,
+      "issued_lane_MACs": 2621440,
+      "tiles": 320,
+      "dot_control_cycles": 122880,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 79,
+      "useful_MACs": 14745600,
+      "issued_lane_MACs": 23592960,
+      "tiles": 320,
+      "dot_control_cycles": 1105920,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 80,
+      "useful_MACs": 3276800,
+      "issued_lane_MACs": 5242880,
+      "tiles": 320,
+      "dot_control_cycles": 245760,
+      "quantization_control_cycles": 163840
+    },
+    {
+      "id": 82,
+      "useful_MACs": 6553600,
+      "issued_lane_MACs": 10485760,
+      "tiles": 640,
+      "dot_control_cycles": 491520,
+      "quantization_control_cycles": 327680
+    },
+    {
+      "id": 83,
+      "useful_MACs": 26112000,
+      "issued_lane_MACs": 26214400,
+      "tiles": 6400,
+      "dot_control_cycles": 1228800,
+      "quantization_control_cycles": 3264000
+    },
+    {
+      "id": 84,
+      "useful_MACs": 13056000,
+      "issued_lane_MACs": 15728640,
+      "tiles": 1920,
+      "dot_control_cycles": 737280,
+      "quantization_control_cycles": 979200
+    },
+    {
+      "id": 85,
+      "useful_MACs": 6528000,
+      "issued_lane_MACs": 10485760,
+      "tiles": 640,
+      "dot_control_cycles": 491520,
+      "quantization_control_cycles": 326400
+    }
+  ],
+  "note": "Counts and lower bound only: excludes DDR requests/stalls, weight loading, tile setup/output writes, CPU ops, decoding and UI. Not measured speed; no FPS prediction."
+}

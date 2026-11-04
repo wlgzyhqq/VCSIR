@@ -1,0 +1,31 @@
+{
+  "started": "2026-11-04T13:00:15.394282+08:00",
+  "mode": "listen",
+  "FPGA_bitstream_uploaded": false,
+  "firmware_uploaded": false,
+  "Flash_written": false,
+  "TF_written": false,
+  "boot_verified": true,
+  "cold_power_cycle_confirmed_by_user": true,
+  "boot0_ready": "@BOOT0_READY v1 TF firmware; h=hold, c=CRC fault test, r=retry u=UART recovery",
+  "TF_firmware_bytes": "@BOOT0_FW_BYTES 00009834",
+  "TF_firmware_CRC": "@BOOT0_CRC 56d0cd28",
+  "TF_firmware_verified": "@BOOT0_VERIFIED CPU reset handoff",
+  "main_firmware": "@YOLO_BOOT INTEGER CNN INFERENCE v2",
+  "hardware": "@YOLO_HW 055d4a80 055d4a80 00000040",
+  "application_ready": "@YOLO_READY",
+  "inference_result": "@YOLO_RESULT 00000000 03334e2c 00000000 00068997 00000004 00000000 006c3e1e",
+  "inference_ready": "@YOLO_RESULT_READY",
+  "validation": "Offline validation of original cold-boot UART bytes; no new hardware actions",
+  "user_confirmation": "已断电重启，画面正常",
+  "original_live_parser_issue": "A single NUL before BOOT0_READY prevented startswith; raw log retained complete boot",
+  "raw_log_sha256": "e0bc62e45dc358e638666a0070ec42353c1545bb6a0e02f7a1625dda6701dca3",
+  "startup_NUL_normalized": true,
+  "first_photo_labels": [
+    "person",
+    "person",
+    "person",
+    "bus"
+  ],
+  "validated": "2026-11-04T13:04:36.950862+08:00"
+}

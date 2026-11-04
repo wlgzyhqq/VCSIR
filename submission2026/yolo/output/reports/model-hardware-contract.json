@@ -1,0 +1,1095 @@
+{
+  "passed": true,
+  "model_sha256": "cfec954f8ebd9df56ccca6d9b038d70f0a376aa0cc4a0e58a04a28b618b5fb69",
+  "weights_sha256": "0d0b6c7869e4ba09cd96c624399d197bc8712bdcd8d9877cbe5edc5bbe64db4d",
+  "hardware_limits": {
+    "Cin": 512,
+    "K": 1152,
+    "dimension": 320,
+    "weight_stride": 2048,
+    "output_channels_per_command": 8
+  },
+  "convolutions": [
+    {
+      "node": 1,
+      "Cin": 3,
+      "Cout": 16,
+      "input_hw": [
+        160,
+        160
+      ],
+      "output_hw": [
+        80,
+        80
+      ],
+      "kernel": 6,
+      "K": 108,
+      "weight_stride": 128,
+      "groups": 2,
+      "signed32_absolute_bound": 784598
+    },
+    {
+      "node": 2,
+      "Cin": 16,
+      "Cout": 32,
+      "input_hw": [
+        80,
+        80
+      ],
+      "output_hw": [
+        40,
+        40
+      ],
+      "kernel": 3,
+      "K": 144,
+      "weight_stride": 160,
+      "groups": 4,
+      "signed32_absolute_bound": 728735
+    },
+    {
+      "node": 3,
+      "Cin": 32,
+      "Cout": 16,
+      "input_hw": [
+        40,
+        40
+      ],
+      "output_hw": [
+        40,
+        40
+      ],
+      "kernel": 1,
+      "K": 32,
+      "weight_stride": 32,
+      "groups": 2,
+      "signed32_absolute_bound": 209161
+    },
+    {
+      "node": 4,
+      "Cin": 16,
+      "Cout": 16,
+      "input_hw": [
+        40,
+        40
+      ],
+      "output_hw": [
+        40,
+        40
+      ],
+      "kernel": 1,
+      "K": 16,
+      "weight_stride": 32,
+      "groups": 2,
+      "signed32_absolute_bound": 105150
+    },
+    {
+      "node": 5,
+      "Cin": 16,
+      "Cout": 16,
+      "input_hw": [
+        40,
+        40
+      ],
+      "output_hw": [
+        40,
+        40
+      ],
+      "kernel": 3,
+      "K": 144,
+      "weight_stride": 160,
+      "groups": 2,
+      "signed32_absolute_bound": 578215
+    },
+    {
+      "node": 7,
+      "Cin": 32,
+      "Cout": 16,
+      "input_hw": [
+        40,
+        40
+      ],
+      "output_hw": [
+        40,
+        40
+      ],
+      "kernel": 1,
+      "K": 32,
+      "weight_stride": 32,
+      "groups": 2,
+      "signed32_absolute_bound": 151864
+    },
+    {
+      "node": 9,
+      "Cin": 32,
+      "Cout": 32,
+      "input_hw": [
+        40,
+        40
+      ],
+      "output_hw": [
+        40,
+        40
+      ],
+      "kernel": 1,
+      "K": 32,
+      "weight_stride": 32,
+      "groups": 4,
+      "signed32_absolute_bound": 195399
+    },
+    {
+      "node": 10,
+      "Cin": 32,
+      "Cout": 64,
+      "input_hw": [
+        40,
+        40
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 3,
+      "K": 288,
+      "weight_stride": 288,
+      "groups": 8,
+      "signed32_absolute_bound": 1263123
+    },
+    {
+      "node": 11,
+      "Cin": 64,
+      "Cout": 32,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 1,
+      "K": 64,
+      "weight_stride": 64,
+      "groups": 4,
+      "signed32_absolute_bound": 391525
+    },
+    {
+      "node": 12,
+      "Cin": 32,
+      "Cout": 32,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 1,
+      "K": 32,
+      "weight_stride": 32,
+      "groups": 4,
+      "signed32_absolute_bound": 239035
+    },
+    {
+      "node": 13,
+      "Cin": 32,
+      "Cout": 32,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 3,
+      "K": 288,
+      "weight_stride": 288,
+      "groups": 4,
+      "signed32_absolute_bound": 1105299
+    },
+    {
+      "node": 15,
+      "Cin": 32,
+      "Cout": 32,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 1,
+      "K": 32,
+      "weight_stride": 32,
+      "groups": 4,
+      "signed32_absolute_bound": 240787
+    },
+    {
+      "node": 16,
+      "Cin": 32,
+      "Cout": 32,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 3,
+      "K": 288,
+      "weight_stride": 288,
+      "groups": 4,
+      "signed32_absolute_bound": 1159208
+    },
+    {
+      "node": 18,
+      "Cin": 64,
+      "Cout": 32,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 1,
+      "K": 64,
+      "weight_stride": 64,
+      "groups": 4,
+      "signed32_absolute_bound": 423279
+    },
+    {
+      "node": 20,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 1,
+      "K": 64,
+      "weight_stride": 64,
+      "groups": 8,
+      "signed32_absolute_bound": 389111
+    },
+    {
+      "node": 21,
+      "Cin": 64,
+      "Cout": 128,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 3,
+      "K": 576,
+      "weight_stride": 576,
+      "groups": 16,
+      "signed32_absolute_bound": 2306664
+    },
+    {
+      "node": 22,
+      "Cin": 128,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 8,
+      "signed32_absolute_bound": 697067
+    },
+    {
+      "node": 23,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 64,
+      "weight_stride": 64,
+      "groups": 8,
+      "signed32_absolute_bound": 418962
+    },
+    {
+      "node": 24,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 3,
+      "K": 576,
+      "weight_stride": 576,
+      "groups": 8,
+      "signed32_absolute_bound": 2777891
+    },
+    {
+      "node": 26,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 64,
+      "weight_stride": 64,
+      "groups": 8,
+      "signed32_absolute_bound": 394680
+    },
+    {
+      "node": 27,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 3,
+      "K": 576,
+      "weight_stride": 576,
+      "groups": 8,
+      "signed32_absolute_bound": 2253142
+    },
+    {
+      "node": 29,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 64,
+      "weight_stride": 64,
+      "groups": 8,
+      "signed32_absolute_bound": 383456
+    },
+    {
+      "node": 30,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 3,
+      "K": 576,
+      "weight_stride": 576,
+      "groups": 8,
+      "signed32_absolute_bound": 2401807
+    },
+    {
+      "node": 32,
+      "Cin": 128,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 8,
+      "signed32_absolute_bound": 734242
+    },
+    {
+      "node": 34,
+      "Cin": 128,
+      "Cout": 128,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 16,
+      "signed32_absolute_bound": 735863
+    },
+    {
+      "node": 35,
+      "Cin": 128,
+      "Cout": 256,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 3,
+      "K": 1152,
+      "weight_stride": 1152,
+      "groups": 32,
+      "signed32_absolute_bound": 5265803
+    },
+    {
+      "node": 36,
+      "Cin": 256,
+      "Cout": 128,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 16,
+      "signed32_absolute_bound": 1411660
+    },
+    {
+      "node": 37,
+      "Cin": 128,
+      "Cout": 128,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 16,
+      "signed32_absolute_bound": 744027
+    },
+    {
+      "node": 38,
+      "Cin": 128,
+      "Cout": 128,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 3,
+      "K": 1152,
+      "weight_stride": 1152,
+      "groups": 16,
+      "signed32_absolute_bound": 4842784
+    },
+    {
+      "node": 40,
+      "Cin": 256,
+      "Cout": 128,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 16,
+      "signed32_absolute_bound": 1327850
+    },
+    {
+      "node": 42,
+      "Cin": 256,
+      "Cout": 256,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 32,
+      "signed32_absolute_bound": 1401338
+    },
+    {
+      "node": 43,
+      "Cin": 256,
+      "Cout": 128,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 16,
+      "signed32_absolute_bound": 1417790
+    },
+    {
+      "node": 48,
+      "Cin": 512,
+      "Cout": 256,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 512,
+      "weight_stride": 512,
+      "groups": 32,
+      "signed32_absolute_bound": 2058323
+    },
+    {
+      "node": 49,
+      "Cin": 256,
+      "Cout": 128,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 16,
+      "signed32_absolute_bound": 1275883
+    },
+    {
+      "node": 52,
+      "Cin": 256,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 8,
+      "signed32_absolute_bound": 1184387
+    },
+    {
+      "node": 53,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 64,
+      "weight_stride": 64,
+      "groups": 8,
+      "signed32_absolute_bound": 416203
+    },
+    {
+      "node": 54,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 3,
+      "K": 576,
+      "weight_stride": 576,
+      "groups": 8,
+      "signed32_absolute_bound": 2112906
+    },
+    {
+      "node": 55,
+      "Cin": 256,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 8,
+      "signed32_absolute_bound": 1154058
+    },
+    {
+      "node": 57,
+      "Cin": 128,
+      "Cout": 128,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 16,
+      "signed32_absolute_bound": 653479
+    },
+    {
+      "node": 58,
+      "Cin": 128,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 8,
+      "signed32_absolute_bound": 610023
+    },
+    {
+      "node": 61,
+      "Cin": 128,
+      "Cout": 32,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 4,
+      "signed32_absolute_bound": 546394
+    },
+    {
+      "node": 62,
+      "Cin": 32,
+      "Cout": 32,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 1,
+      "K": 32,
+      "weight_stride": 32,
+      "groups": 4,
+      "signed32_absolute_bound": 234983
+    },
+    {
+      "node": 63,
+      "Cin": 32,
+      "Cout": 32,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 3,
+      "K": 288,
+      "weight_stride": 288,
+      "groups": 4,
+      "signed32_absolute_bound": 1270210
+    },
+    {
+      "node": 64,
+      "Cin": 128,
+      "Cout": 32,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 4,
+      "signed32_absolute_bound": 576150
+    },
+    {
+      "node": 66,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 1,
+      "K": 64,
+      "weight_stride": 64,
+      "groups": 8,
+      "signed32_absolute_bound": 309789
+    },
+    {
+      "node": 67,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 3,
+      "K": 576,
+      "weight_stride": 576,
+      "groups": 8,
+      "signed32_absolute_bound": 2425067
+    },
+    {
+      "node": 69,
+      "Cin": 128,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 8,
+      "signed32_absolute_bound": 555642
+    },
+    {
+      "node": 70,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 64,
+      "weight_stride": 64,
+      "groups": 8,
+      "signed32_absolute_bound": 342446
+    },
+    {
+      "node": 71,
+      "Cin": 64,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 3,
+      "K": 576,
+      "weight_stride": 576,
+      "groups": 8,
+      "signed32_absolute_bound": 1925963
+    },
+    {
+      "node": 72,
+      "Cin": 128,
+      "Cout": 64,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 8,
+      "signed32_absolute_bound": 481221
+    },
+    {
+      "node": 74,
+      "Cin": 128,
+      "Cout": 128,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 16,
+      "signed32_absolute_bound": 495188
+    },
+    {
+      "node": 75,
+      "Cin": 128,
+      "Cout": 128,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 3,
+      "K": 1152,
+      "weight_stride": 1152,
+      "groups": 16,
+      "signed32_absolute_bound": 4101518
+    },
+    {
+      "node": 77,
+      "Cin": 256,
+      "Cout": 128,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 16,
+      "signed32_absolute_bound": 1134472
+    },
+    {
+      "node": 78,
+      "Cin": 128,
+      "Cout": 128,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 16,
+      "signed32_absolute_bound": 561688
+    },
+    {
+      "node": 79,
+      "Cin": 128,
+      "Cout": 128,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 3,
+      "K": 1152,
+      "weight_stride": 1152,
+      "groups": 16,
+      "signed32_absolute_bound": 3751618
+    },
+    {
+      "node": 80,
+      "Cin": 256,
+      "Cout": 128,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 16,
+      "signed32_absolute_bound": 1015200
+    },
+    {
+      "node": 82,
+      "Cin": 256,
+      "Cout": 256,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 32,
+      "signed32_absolute_bound": 1293434
+    },
+    {
+      "node": 83,
+      "Cin": 64,
+      "Cout": 255,
+      "input_hw": [
+        20,
+        20
+      ],
+      "output_hw": [
+        20,
+        20
+      ],
+      "kernel": 1,
+      "K": 64,
+      "weight_stride": 64,
+      "groups": 32,
+      "signed32_absolute_bound": 403678
+    },
+    {
+      "node": 84,
+      "Cin": 128,
+      "Cout": 255,
+      "input_hw": [
+        10,
+        10
+      ],
+      "output_hw": [
+        10,
+        10
+      ],
+      "kernel": 1,
+      "K": 128,
+      "weight_stride": 128,
+      "groups": 32,
+      "signed32_absolute_bound": 443385
+    },
+    {
+      "node": 85,
+      "Cin": 256,
+      "Cout": 255,
+      "input_hw": [
+        5,
+        5
+      ],
+      "output_hw": [
+        5,
+        5
+      ],
+      "kernel": 1,
+      "K": 256,
+      "weight_stride": 256,
+      "groups": 32,
+      "signed32_absolute_bound": 715281
+    }
+  ],
+  "note": "Static graph/actual-weight proof; not a substitute for board layer CRCs. Cin512 boundary covered by RTL fixture for actual node48."
+}

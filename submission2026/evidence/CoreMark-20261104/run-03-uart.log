@@ -1,0 +1,37 @@
+
+FINAL2 CPU ONLY 90MHz RV32IM RAM64K
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 14027725
+Total time (secs): 14.027725
+Iterations/Sec   : 213.862191
+Iterations       : 3000
+Compiler version : GCC 14.2.0
+Compiler flags   : RV32IM O3 no-LTO relax no-gp software-float
+Memory location  : 64KiB on-chip RAM, existing 2-way I/D caches; CPU-only SoC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0xcc42
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 213.862191 / GCC 14.2.0 RV32IM O3 no-LTO relax no-gp software-float / 64KiB on-chip RAM, existing 2-way I/D caches; CPU-only SoC
+@CM_RAW 00000001 00000000 00000bb8 055d4a80 055d4a80 4b40265f 00000000 00000001
+2K validation run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 14063995
+Total time (secs): 14.063995
+Iterations/Sec   : 213.310656
+Iterations       : 3000
+Compiler version : GCC 14.2.0
+Compiler flags   : RV32IM O3 no-LTO relax no-gp software-float
+Memory location  : 64KiB on-chip RAM, existing 2-way I/D caches; CPU-only SoC
+seedcrc          : 0x18f2
+[0]crclist       : 0xe3c1
+[0]crcmatrix     : 0x0747
+[0]crcstate      : 0x8d84
+[0]crcfinal      : 0x2717
+Correct operation validated. See README.md for run and reporting rules.
+@CM_RAW 00000001 00000001 00000bb8 055d4a80 055d4a80 4b71f57d 00000000 00000001
+
+@CPU_ONLY PASS

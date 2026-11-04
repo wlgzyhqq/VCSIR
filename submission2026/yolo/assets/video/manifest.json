@@ -1,0 +1,1941 @@
+{
+  "size": 320,
+  "format": "RGB565 LE letterboxed 320x320",
+  "frame_bytes": 204800,
+  "frame_count": 240,
+  "fps": 0.6,
+  "clips": [
+    "STORE",
+    "PEOPLE2",
+    "CARS",
+    "WORKERS",
+    "WALK",
+    "PEOPLE",
+    "CORRIDOR",
+    "BOTTLES"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 5.0,
+      "boxes": 1,
+      "crc32": "ae1a24a4"
+    },
+    {
+      "index": 1,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 10.01,
+      "boxes": 1,
+      "crc32": "3f4e221a"
+    },
+    {
+      "index": 2,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 11.68,
+      "boxes": 2,
+      "crc32": "c963527b"
+    },
+    {
+      "index": 3,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 13.35,
+      "boxes": 2,
+      "crc32": "6d822227"
+    },
+    {
+      "index": 4,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 15.02,
+      "boxes": 2,
+      "crc32": "8f3d57c9"
+    },
+    {
+      "index": 5,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 16.68,
+      "boxes": 2,
+      "crc32": "130767fa"
+    },
+    {
+      "index": 6,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 18.35,
+      "boxes": 2,
+      "crc32": "f9b59a56"
+    },
+    {
+      "index": 7,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 20.02,
+      "boxes": 3,
+      "crc32": "53d0736a"
+    },
+    {
+      "index": 8,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 21.69,
+      "boxes": 3,
+      "crc32": "1b9ec4b0"
+    },
+    {
+      "index": 9,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 23.36,
+      "boxes": 1,
+      "crc32": "c8fb385c"
+    },
+    {
+      "index": 10,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 25.03,
+      "boxes": 1,
+      "crc32": "f29a88e6"
+    },
+    {
+      "index": 11,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 26.69,
+      "boxes": 2,
+      "crc32": "fb64c377"
+    },
+    {
+      "index": 12,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 28.36,
+      "boxes": 4,
+      "crc32": "fc0b2292"
+    },
+    {
+      "index": 13,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 30.03,
+      "boxes": 3,
+      "crc32": "b7df8385"
+    },
+    {
+      "index": 14,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 31.7,
+      "boxes": 3,
+      "crc32": "e949de9a"
+    },
+    {
+      "index": 15,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 33.37,
+      "boxes": 3,
+      "crc32": "b4f446cf"
+    },
+    {
+      "index": 16,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 35.04,
+      "boxes": 2,
+      "crc32": "7b43dfc1"
+    },
+    {
+      "index": 17,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 36.7,
+      "boxes": 2,
+      "crc32": "848d44ee"
+    },
+    {
+      "index": 18,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 40.04,
+      "boxes": 2,
+      "crc32": "42b60981"
+    },
+    {
+      "index": 19,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 41.71,
+      "boxes": 2,
+      "crc32": "db08e016"
+    },
+    {
+      "index": 20,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 43.38,
+      "boxes": 3,
+      "crc32": "0dc3b4c2"
+    },
+    {
+      "index": 21,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 45.05,
+      "boxes": 2,
+      "crc32": "7dd23e7c"
+    },
+    {
+      "index": 22,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 46.71,
+      "boxes": 3,
+      "crc32": "8cc3e182"
+    },
+    {
+      "index": 23,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 48.38,
+      "boxes": 4,
+      "crc32": "2ccf088a"
+    },
+    {
+      "index": 24,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 50.05,
+      "boxes": 2,
+      "crc32": "20088ac2"
+    },
+    {
+      "index": 25,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 51.72,
+      "boxes": 1,
+      "crc32": "f535526c"
+    },
+    {
+      "index": 26,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 53.39,
+      "boxes": 3,
+      "crc32": "87ab6700"
+    },
+    {
+      "index": 27,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 55.05,
+      "boxes": 4,
+      "crc32": "8772dedf"
+    },
+    {
+      "index": 28,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 56.72,
+      "boxes": 4,
+      "crc32": "b5fbb32d"
+    },
+    {
+      "index": 29,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 58.39,
+      "boxes": 2,
+      "crc32": "15685534"
+    },
+    {
+      "index": 30,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 60.06,
+      "boxes": 4,
+      "crc32": "04b8765f"
+    },
+    {
+      "index": 31,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 61.73,
+      "boxes": 3,
+      "crc32": "5015ac00"
+    },
+    {
+      "index": 32,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 63.4,
+      "boxes": 3,
+      "crc32": "04749104"
+    },
+    {
+      "index": 33,
+      "clip": "STORE",
+      "source": "store-aisle-detection.mp4",
+      "source_seconds": 65.06,
+      "boxes": 3,
+      "crc32": "2a9da47d"
+    },
+    {
+      "index": 34,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 0.0,
+      "boxes": 1,
+      "crc32": "baf848c6"
+    },
+    {
+      "index": 35,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 1.67,
+      "boxes": 1,
+      "crc32": "dc3746ea"
+    },
+    {
+      "index": 36,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 3.33,
+      "boxes": 1,
+      "crc32": "4b4f5976"
+    },
+    {
+      "index": 37,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 5.0,
+      "boxes": 1,
+      "crc32": "4bad121e"
+    },
+    {
+      "index": 38,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 6.67,
+      "boxes": 1,
+      "crc32": "e940e11e"
+    },
+    {
+      "index": 39,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 8.33,
+      "boxes": 2,
+      "crc32": "6bab4a4e"
+    },
+    {
+      "index": 40,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 10.0,
+      "boxes": 1,
+      "crc32": "cab13b1a"
+    },
+    {
+      "index": 41,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 11.67,
+      "boxes": 1,
+      "crc32": "b630b360"
+    },
+    {
+      "index": 42,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 13.33,
+      "boxes": 1,
+      "crc32": "aa9693d6"
+    },
+    {
+      "index": 43,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 15.0,
+      "boxes": 1,
+      "crc32": "7c867959"
+    },
+    {
+      "index": 44,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 16.67,
+      "boxes": 1,
+      "crc32": "9d4f6a78"
+    },
+    {
+      "index": 45,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 18.33,
+      "boxes": 1,
+      "crc32": "fea91de6"
+    },
+    {
+      "index": 46,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 20.0,
+      "boxes": 1,
+      "crc32": "dd530672"
+    },
+    {
+      "index": 47,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 21.67,
+      "boxes": 1,
+      "crc32": "d80565a8"
+    },
+    {
+      "index": 48,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 23.33,
+      "boxes": 1,
+      "crc32": "42cce51e"
+    },
+    {
+      "index": 49,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 25.0,
+      "boxes": 1,
+      "crc32": "57c9e933"
+    },
+    {
+      "index": 50,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 26.67,
+      "boxes": 1,
+      "crc32": "e680dafc"
+    },
+    {
+      "index": 51,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 28.33,
+      "boxes": 1,
+      "crc32": "9b2946c5"
+    },
+    {
+      "index": 52,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 30.0,
+      "boxes": 1,
+      "crc32": "ced3d0da"
+    },
+    {
+      "index": 53,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 31.67,
+      "boxes": 1,
+      "crc32": "53aac8fe"
+    },
+    {
+      "index": 54,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 33.33,
+      "boxes": 1,
+      "crc32": "46e354bb"
+    },
+    {
+      "index": 55,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 35.0,
+      "boxes": 1,
+      "crc32": "dc4621f5"
+    },
+    {
+      "index": 56,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 36.67,
+      "boxes": 1,
+      "crc32": "f1c517e4"
+    },
+    {
+      "index": 57,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 38.33,
+      "boxes": 1,
+      "crc32": "02c1a350"
+    },
+    {
+      "index": 58,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 40.0,
+      "boxes": 1,
+      "crc32": "78b0eb79"
+    },
+    {
+      "index": 59,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 41.67,
+      "boxes": 1,
+      "crc32": "e1179c63"
+    },
+    {
+      "index": 60,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 43.33,
+      "boxes": 1,
+      "crc32": "95c591d4"
+    },
+    {
+      "index": 61,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 45.0,
+      "boxes": 1,
+      "crc32": "14e0f8fc"
+    },
+    {
+      "index": 62,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 46.67,
+      "boxes": 1,
+      "crc32": "0bcad641"
+    },
+    {
+      "index": 63,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 48.33,
+      "boxes": 1,
+      "crc32": "d1744837"
+    },
+    {
+      "index": 64,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 50.0,
+      "boxes": 1,
+      "crc32": "e471f9ff"
+    },
+    {
+      "index": 65,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 51.67,
+      "boxes": 1,
+      "crc32": "c478934a"
+    },
+    {
+      "index": 66,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 53.33,
+      "boxes": 1,
+      "crc32": "b9c924bd"
+    },
+    {
+      "index": 67,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 55.0,
+      "boxes": 1,
+      "crc32": "c7b18362"
+    },
+    {
+      "index": 68,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 56.67,
+      "boxes": 1,
+      "crc32": "65cffa9f"
+    },
+    {
+      "index": 69,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 58.33,
+      "boxes": 1,
+      "crc32": "3433e156"
+    },
+    {
+      "index": 70,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 60.0,
+      "boxes": 1,
+      "crc32": "09572b1e"
+    },
+    {
+      "index": 71,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 61.67,
+      "boxes": 1,
+      "crc32": "84636d7a"
+    },
+    {
+      "index": 72,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 63.33,
+      "boxes": 1,
+      "crc32": "88553277"
+    },
+    {
+      "index": 73,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 65.0,
+      "boxes": 1,
+      "crc32": "d11ec32e"
+    },
+    {
+      "index": 74,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 66.67,
+      "boxes": 1,
+      "crc32": "e2adacc2"
+    },
+    {
+      "index": 75,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 68.33,
+      "boxes": 1,
+      "crc32": "42cd3909"
+    },
+    {
+      "index": 76,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 70.0,
+      "boxes": 1,
+      "crc32": "b8b5a35f"
+    },
+    {
+      "index": 77,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 71.67,
+      "boxes": 1,
+      "crc32": "0722f85e"
+    },
+    {
+      "index": 78,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 73.33,
+      "boxes": 1,
+      "crc32": "71140ccd"
+    },
+    {
+      "index": 79,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 75.0,
+      "boxes": 1,
+      "crc32": "a8d41cf3"
+    },
+    {
+      "index": 80,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 76.67,
+      "boxes": 1,
+      "crc32": "4e6b5b1b"
+    },
+    {
+      "index": 81,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 78.33,
+      "boxes": 1,
+      "crc32": "422626cb"
+    },
+    {
+      "index": 82,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 80.0,
+      "boxes": 1,
+      "crc32": "92015bbe"
+    },
+    {
+      "index": 83,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 81.67,
+      "boxes": 1,
+      "crc32": "f01460be"
+    },
+    {
+      "index": 84,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 83.33,
+      "boxes": 1,
+      "crc32": "8dce45fb"
+    },
+    {
+      "index": 85,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 85.0,
+      "boxes": 1,
+      "crc32": "342efd0d"
+    },
+    {
+      "index": 86,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 86.67,
+      "boxes": 1,
+      "crc32": "ed9da24d"
+    },
+    {
+      "index": 87,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 88.33,
+      "boxes": 1,
+      "crc32": "8ac0420c"
+    },
+    {
+      "index": 88,
+      "clip": "PEOPLE2",
+      "source": "head-pose-face-detection-male.mp4",
+      "source_seconds": 90.0,
+      "boxes": 1,
+      "crc32": "f5bcd6f9"
+    },
+    {
+      "index": 89,
+      "clip": "CARS",
+      "source": "car-detection.mp4",
+      "source_seconds": 6.72,
+      "boxes": 1,
+      "crc32": "05694d75"
+    },
+    {
+      "index": 90,
+      "clip": "CARS",
+      "source": "car-detection.mp4",
+      "source_seconds": 16.8,
+      "boxes": 2,
+      "crc32": "78d2f910"
+    },
+    {
+      "index": 91,
+      "clip": "CARS",
+      "source": "car-detection.mp4",
+      "source_seconds": 18.48,
+      "boxes": 1,
+      "crc32": "f58a9f21"
+    },
+    {
+      "index": 92,
+      "clip": "CARS",
+      "source": "car-detection.mp4",
+      "source_seconds": 26.88,
+      "boxes": 1,
+      "crc32": "19fa37fa"
+    },
+    {
+      "index": 93,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 3.34,
+      "boxes": 1,
+      "crc32": "a117bae0"
+    },
+    {
+      "index": 94,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 5.0,
+      "boxes": 1,
+      "crc32": "7178a185"
+    },
+    {
+      "index": 95,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 6.67,
+      "boxes": 1,
+      "crc32": "0d4d58f9"
+    },
+    {
+      "index": 96,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 8.34,
+      "boxes": 1,
+      "crc32": "9dd909b9"
+    },
+    {
+      "index": 97,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 13.35,
+      "boxes": 1,
+      "crc32": "0f0573d9"
+    },
+    {
+      "index": 98,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 15.02,
+      "boxes": 1,
+      "crc32": "ce0fcb4d"
+    },
+    {
+      "index": 99,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 16.68,
+      "boxes": 1,
+      "crc32": "11e719ef"
+    },
+    {
+      "index": 100,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 18.35,
+      "boxes": 1,
+      "crc32": "511cbbee"
+    },
+    {
+      "index": 101,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 20.02,
+      "boxes": 1,
+      "crc32": "80ee083c"
+    },
+    {
+      "index": 102,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 21.69,
+      "boxes": 1,
+      "crc32": "680332eb"
+    },
+    {
+      "index": 103,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 23.36,
+      "boxes": 1,
+      "crc32": "2eab5804"
+    },
+    {
+      "index": 104,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 25.03,
+      "boxes": 1,
+      "crc32": "a6610120"
+    },
+    {
+      "index": 105,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 26.69,
+      "boxes": 1,
+      "crc32": "c5bc7154"
+    },
+    {
+      "index": 106,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 28.36,
+      "boxes": 1,
+      "crc32": "e1671961"
+    },
+    {
+      "index": 107,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 30.03,
+      "boxes": 1,
+      "crc32": "41de6cba"
+    },
+    {
+      "index": 108,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 35.04,
+      "boxes": 2,
+      "crc32": "9da60858"
+    },
+    {
+      "index": 109,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 36.7,
+      "boxes": 2,
+      "crc32": "c65a2307"
+    },
+    {
+      "index": 110,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 38.37,
+      "boxes": 3,
+      "crc32": "d7882b5d"
+    },
+    {
+      "index": 111,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 40.04,
+      "boxes": 2,
+      "crc32": "61e18c25"
+    },
+    {
+      "index": 112,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 41.71,
+      "boxes": 2,
+      "crc32": "123e3ffe"
+    },
+    {
+      "index": 113,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 43.38,
+      "boxes": 1,
+      "crc32": "1c01ce8f"
+    },
+    {
+      "index": 114,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 48.38,
+      "boxes": 1,
+      "crc32": "148d0ff2"
+    },
+    {
+      "index": 115,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 50.05,
+      "boxes": 1,
+      "crc32": "598f6933"
+    },
+    {
+      "index": 116,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 51.72,
+      "boxes": 1,
+      "crc32": "261044c2"
+    },
+    {
+      "index": 117,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 53.39,
+      "boxes": 1,
+      "crc32": "515dcfce"
+    },
+    {
+      "index": 118,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 60.06,
+      "boxes": 1,
+      "crc32": "cbd9d439"
+    },
+    {
+      "index": 119,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 61.73,
+      "boxes": 1,
+      "crc32": "9c0e9156"
+    },
+    {
+      "index": 120,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 63.4,
+      "boxes": 1,
+      "crc32": "fb5ee4fa"
+    },
+    {
+      "index": 121,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 65.06,
+      "boxes": 1,
+      "crc32": "87778743"
+    },
+    {
+      "index": 122,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 66.73,
+      "boxes": 1,
+      "crc32": "1d44b954"
+    },
+    {
+      "index": 123,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 68.4,
+      "boxes": 1,
+      "crc32": "9e260fd6"
+    },
+    {
+      "index": 124,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 70.07,
+      "boxes": 1,
+      "crc32": "6b40274d"
+    },
+    {
+      "index": 125,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 71.74,
+      "boxes": 1,
+      "crc32": "c649404d"
+    },
+    {
+      "index": 126,
+      "clip": "WORKERS",
+      "source": "worker-zone-detection.mp4",
+      "source_seconds": 73.41,
+      "boxes": 1,
+      "crc32": "b39e9a5e"
+    },
+    {
+      "index": 127,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 0.0,
+      "boxes": 1,
+      "crc32": "3230bc7e"
+    },
+    {
+      "index": 128,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 1.67,
+      "boxes": 1,
+      "crc32": "cc45b93f"
+    },
+    {
+      "index": 129,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 5.0,
+      "boxes": 1,
+      "crc32": "44d2cfe2"
+    },
+    {
+      "index": 130,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 6.67,
+      "boxes": 1,
+      "crc32": "42932712"
+    },
+    {
+      "index": 131,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 8.33,
+      "boxes": 1,
+      "crc32": "f629bb3c"
+    },
+    {
+      "index": 132,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 10.0,
+      "boxes": 1,
+      "crc32": "928fabbe"
+    },
+    {
+      "index": 133,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 11.67,
+      "boxes": 1,
+      "crc32": "4574f76e"
+    },
+    {
+      "index": 134,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 13.33,
+      "boxes": 1,
+      "crc32": "f4564c1d"
+    },
+    {
+      "index": 135,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 15.0,
+      "boxes": 1,
+      "crc32": "dbc8b07c"
+    },
+    {
+      "index": 136,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 16.67,
+      "boxes": 2,
+      "crc32": "495577a0"
+    },
+    {
+      "index": 137,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 20.0,
+      "boxes": 1,
+      "crc32": "61176f64"
+    },
+    {
+      "index": 138,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 21.67,
+      "boxes": 1,
+      "crc32": "f844c798"
+    },
+    {
+      "index": 139,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 23.33,
+      "boxes": 1,
+      "crc32": "60298065"
+    },
+    {
+      "index": 140,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 25.0,
+      "boxes": 2,
+      "crc32": "2104dddb"
+    },
+    {
+      "index": 141,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 26.67,
+      "boxes": 1,
+      "crc32": "063ee056"
+    },
+    {
+      "index": 142,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 28.33,
+      "boxes": 2,
+      "crc32": "34aafa4b"
+    },
+    {
+      "index": 143,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 30.0,
+      "boxes": 1,
+      "crc32": "5905c48c"
+    },
+    {
+      "index": 144,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 31.67,
+      "boxes": 2,
+      "crc32": "8b4c1af5"
+    },
+    {
+      "index": 145,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 33.33,
+      "boxes": 1,
+      "crc32": "fb3b5195"
+    },
+    {
+      "index": 146,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 35.0,
+      "boxes": 1,
+      "crc32": "f37fafb6"
+    },
+    {
+      "index": 147,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 36.67,
+      "boxes": 2,
+      "crc32": "bc7d1a71"
+    },
+    {
+      "index": 148,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 38.33,
+      "boxes": 2,
+      "crc32": "66b6d30b"
+    },
+    {
+      "index": 149,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 40.0,
+      "boxes": 2,
+      "crc32": "16eab7e5"
+    },
+    {
+      "index": 150,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 41.67,
+      "boxes": 2,
+      "crc32": "f31877c9"
+    },
+    {
+      "index": 151,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 43.33,
+      "boxes": 2,
+      "crc32": "0f2699c3"
+    },
+    {
+      "index": 152,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 45.0,
+      "boxes": 1,
+      "crc32": "b5521fd0"
+    },
+    {
+      "index": 153,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 46.67,
+      "boxes": 1,
+      "crc32": "4bf862ee"
+    },
+    {
+      "index": 154,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 48.33,
+      "boxes": 1,
+      "crc32": "d950f539"
+    },
+    {
+      "index": 155,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 50.0,
+      "boxes": 1,
+      "crc32": "64908d66"
+    },
+    {
+      "index": 156,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 51.67,
+      "boxes": 1,
+      "crc32": "c654a317"
+    },
+    {
+      "index": 157,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 53.33,
+      "boxes": 1,
+      "crc32": "9a915ae5"
+    },
+    {
+      "index": 158,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 58.33,
+      "boxes": 1,
+      "crc32": "fa08cd38"
+    },
+    {
+      "index": 159,
+      "clip": "WALK",
+      "source": "face-demographics-walking.mp4",
+      "source_seconds": 60.0,
+      "boxes": 1,
+      "crc32": "176134cd"
+    },
+    {
+      "index": 160,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 0.0,
+      "boxes": 1,
+      "crc32": "00a49df2"
+    },
+    {
+      "index": 161,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 1.67,
+      "boxes": 1,
+      "crc32": "0d14bc7e"
+    },
+    {
+      "index": 162,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 13.33,
+      "boxes": 1,
+      "crc32": "2365111e"
+    },
+    {
+      "index": 163,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 16.67,
+      "boxes": 2,
+      "crc32": "73af30e0"
+    },
+    {
+      "index": 164,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 20.0,
+      "boxes": 1,
+      "crc32": "cf090036"
+    },
+    {
+      "index": 165,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 23.33,
+      "boxes": 1,
+      "crc32": "23277ab0"
+    },
+    {
+      "index": 166,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 25.0,
+      "boxes": 1,
+      "crc32": "bb886f75"
+    },
+    {
+      "index": 167,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 28.33,
+      "boxes": 1,
+      "crc32": "373d03a1"
+    },
+    {
+      "index": 168,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 30.0,
+      "boxes": 3,
+      "crc32": "1846a9c1"
+    },
+    {
+      "index": 169,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 31.67,
+      "boxes": 1,
+      "crc32": "bba7d6ba"
+    },
+    {
+      "index": 170,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 33.33,
+      "boxes": 1,
+      "crc32": "1fa50cc9"
+    },
+    {
+      "index": 171,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 35.0,
+      "boxes": 1,
+      "crc32": "b90470d1"
+    },
+    {
+      "index": 172,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 40.0,
+      "boxes": 1,
+      "crc32": "3d229000"
+    },
+    {
+      "index": 173,
+      "clip": "PEOPLE",
+      "source": "people-detection.mp4",
+      "source_seconds": 46.67,
+      "boxes": 2,
+      "crc32": "2407cae3"
+    },
+    {
+      "index": 174,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 6.8,
+      "boxes": 1,
+      "crc32": "57b6f4f1"
+    },
+    {
+      "index": 175,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 23.8,
+      "boxes": 1,
+      "crc32": "b8d39ea1"
+    },
+    {
+      "index": 176,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 25.5,
+      "boxes": 1,
+      "crc32": "24553000"
+    },
+    {
+      "index": 177,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 27.2,
+      "boxes": 1,
+      "crc32": "7183b01a"
+    },
+    {
+      "index": 178,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 28.9,
+      "boxes": 1,
+      "crc32": "31bec807"
+    },
+    {
+      "index": 179,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 30.6,
+      "boxes": 1,
+      "crc32": "c73f495f"
+    },
+    {
+      "index": 180,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 32.3,
+      "boxes": 1,
+      "crc32": "394423db"
+    },
+    {
+      "index": 181,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 34.0,
+      "boxes": 1,
+      "crc32": "ff59137e"
+    },
+    {
+      "index": 182,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 35.7,
+      "boxes": 1,
+      "crc32": "a758375f"
+    },
+    {
+      "index": 183,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 37.4,
+      "boxes": 1,
+      "crc32": "33e3af6f"
+    },
+    {
+      "index": 184,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 39.1,
+      "boxes": 1,
+      "crc32": "2ecf1d37"
+    },
+    {
+      "index": 185,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 40.8,
+      "boxes": 1,
+      "crc32": "170d6804"
+    },
+    {
+      "index": 186,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 42.5,
+      "boxes": 1,
+      "crc32": "68fb6fe0"
+    },
+    {
+      "index": 187,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 44.2,
+      "boxes": 1,
+      "crc32": "68e397bc"
+    },
+    {
+      "index": 188,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 51.0,
+      "boxes": 1,
+      "crc32": "8a824ba6"
+    },
+    {
+      "index": 189,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 52.7,
+      "boxes": 1,
+      "crc32": "c477f01c"
+    },
+    {
+      "index": 190,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 54.4,
+      "boxes": 1,
+      "crc32": "b894b8f5"
+    },
+    {
+      "index": 191,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 56.1,
+      "boxes": 1,
+      "crc32": "acf23a04"
+    },
+    {
+      "index": 192,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 59.5,
+      "boxes": 1,
+      "crc32": "c3fd4798"
+    },
+    {
+      "index": 193,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 61.2,
+      "boxes": 1,
+      "crc32": "478c577c"
+    },
+    {
+      "index": 194,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 62.9,
+      "boxes": 1,
+      "crc32": "e043fb05"
+    },
+    {
+      "index": 195,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 64.6,
+      "boxes": 1,
+      "crc32": "ec147a81"
+    },
+    {
+      "index": 196,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 66.3,
+      "boxes": 1,
+      "crc32": "236ce96f"
+    },
+    {
+      "index": 197,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 68.0,
+      "boxes": 1,
+      "crc32": "2d8f225f"
+    },
+    {
+      "index": 198,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 76.5,
+      "boxes": 1,
+      "crc32": "922d0b43"
+    },
+    {
+      "index": 199,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 78.2,
+      "boxes": 1,
+      "crc32": "41b62db8"
+    },
+    {
+      "index": 200,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 79.9,
+      "boxes": 1,
+      "crc32": "5d977df9"
+    },
+    {
+      "index": 201,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 81.6,
+      "boxes": 1,
+      "crc32": "31a8804b"
+    },
+    {
+      "index": 202,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 83.3,
+      "boxes": 1,
+      "crc32": "c5b51e4f"
+    },
+    {
+      "index": 203,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 85.0,
+      "boxes": 1,
+      "crc32": "9e9c9a48"
+    },
+    {
+      "index": 204,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 93.5,
+      "boxes": 1,
+      "crc32": "27b27d89"
+    },
+    {
+      "index": 205,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 95.2,
+      "boxes": 1,
+      "crc32": "f37a3ab8"
+    },
+    {
+      "index": 206,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 96.9,
+      "boxes": 1,
+      "crc32": "4769b21e"
+    },
+    {
+      "index": 207,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 98.6,
+      "boxes": 1,
+      "crc32": "3a2e746e"
+    },
+    {
+      "index": 208,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 100.3,
+      "boxes": 1,
+      "crc32": "99ed5b19"
+    },
+    {
+      "index": 209,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 102.0,
+      "boxes": 1,
+      "crc32": "81c16952"
+    },
+    {
+      "index": 210,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 103.7,
+      "boxes": 1,
+      "crc32": "7be374e3"
+    },
+    {
+      "index": 211,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 105.4,
+      "boxes": 1,
+      "crc32": "10a029d6"
+    },
+    {
+      "index": 212,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 107.1,
+      "boxes": 1,
+      "crc32": "cb23387d"
+    },
+    {
+      "index": 213,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 108.8,
+      "boxes": 1,
+      "crc32": "9524d6ff"
+    },
+    {
+      "index": 214,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 110.5,
+      "boxes": 1,
+      "crc32": "7c8684af"
+    },
+    {
+      "index": 215,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 112.2,
+      "boxes": 1,
+      "crc32": "51e47c8f"
+    },
+    {
+      "index": 216,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 113.9,
+      "boxes": 1,
+      "crc32": "3a3b871d"
+    },
+    {
+      "index": 217,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 115.6,
+      "boxes": 1,
+      "crc32": "0d7ba55e"
+    },
+    {
+      "index": 218,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 117.3,
+      "boxes": 1,
+      "crc32": "27e8263e"
+    },
+    {
+      "index": 219,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 124.1,
+      "boxes": 1,
+      "crc32": "cd6892f8"
+    },
+    {
+      "index": 220,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 125.8,
+      "boxes": 1,
+      "crc32": "4351520f"
+    },
+    {
+      "index": 221,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 127.5,
+      "boxes": 1,
+      "crc32": "4e64d0a3"
+    },
+    {
+      "index": 222,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 129.2,
+      "boxes": 1,
+      "crc32": "290ef18e"
+    },
+    {
+      "index": 223,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 130.9,
+      "boxes": 1,
+      "crc32": "eef587a4"
+    },
+    {
+      "index": 224,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 132.6,
+      "boxes": 1,
+      "crc32": "cb7a3d7e"
+    },
+    {
+      "index": 225,
+      "clip": "CORRIDOR",
+      "source": "one-by-one-person-detection.mp4",
+      "source_seconds": 134.3,
+      "boxes": 1,
+      "crc32": "38c65d79"
+    },
+    {
+      "index": 226,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 6.7,
+      "boxes": 2,
+      "crc32": "a90a839b"
+    },
+    {
+      "index": 227,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 8.38,
+      "boxes": 1,
+      "crc32": "ecd8c79e"
+    },
+    {
+      "index": 228,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 11.73,
+      "boxes": 2,
+      "crc32": "edbd2b4c"
+    },
+    {
+      "index": 229,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 13.41,
+      "boxes": 2,
+      "crc32": "56edd270"
+    },
+    {
+      "index": 230,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 15.08,
+      "boxes": 2,
+      "crc32": "2f4c2483"
+    },
+    {
+      "index": 231,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 16.76,
+      "boxes": 3,
+      "crc32": "6c3a5958"
+    },
+    {
+      "index": 232,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 18.44,
+      "boxes": 1,
+      "crc32": "5cc80d53"
+    },
+    {
+      "index": 233,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 20.11,
+      "boxes": 1,
+      "crc32": "886eab40"
+    },
+    {
+      "index": 234,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 21.79,
+      "boxes": 1,
+      "crc32": "8234ca5b"
+    },
+    {
+      "index": 235,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 23.46,
+      "boxes": 2,
+      "crc32": "6e589289"
+    },
+    {
+      "index": 236,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 25.14,
+      "boxes": 1,
+      "crc32": "6db3d33d"
+    },
+    {
+      "index": 237,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 28.49,
+      "boxes": 1,
+      "crc32": "88a8e9b3"
+    },
+    {
+      "index": 238,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 30.17,
+      "boxes": 1,
+      "crc32": "371a0102"
+    },
+    {
+      "index": 239,
+      "clip": "BOTTLES",
+      "source": "bottle-detection.mp4",
+      "source_seconds": 35.2,
+      "boxes": 1,
+      "crc32": "467c64a3"
+    }
+  ],
+  "bytes": 49152000,
+  "sha256": "df10c8e4f69cb25fc908f4edea8793e81ba1f59b13673ac7d488c9f47dbf73c6"
+}

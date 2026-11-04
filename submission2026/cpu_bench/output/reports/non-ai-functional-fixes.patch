@@ -1,0 +1,94 @@
+--- before/rtl/core/riscv_core.v
++++ after/rtl/core/riscv_core.v
+@@ -209,6 +209,14 @@
+ wire           fetch_dec_accept_w;
+ wire  [  4:0]  csr_opcode_ra_idx_w;
+ wire           ifence_w;
++// FENCE.I is an LSU completion barrier: invalidate I only after D flush ACK.
++reg ifence_pending_q;
++always @(posedge clk_i or posedge rst_i)
++ if(rst_i)ifence_pending_q<=0;
++ else if(ifence_w)ifence_pending_q<=1;
++ else if(mem_d_ack_i)ifence_pending_q<=0;
++wire ifence_complete_w=ifence_pending_q && mem_d_ack_i;
++
+ wire           fetch_instr_exec_w;
+ wire  [  4:0]  opcode_rd_idx_w;
+ wire  [ 31:0]  csr_writeback_wdata_w;
+@@ -657,7 +665,7 @@
+     ,.icache_error_i(mmu_ifetch_error_w)
+     ,.icache_inst_i(mmu_ifetch_inst_w)
+     ,.icache_page_fault_i(fetch_in_fault_w)
+-    ,.fetch_invalidate_i(ifence_w)
++    ,.fetch_invalidate_i(ifence_complete_w)
+     ,.branch_request_i(branch_request_w)
+     ,.branch_pc_i(branch_pc_w)
+     ,.branch_priv_i(branch_priv_w)
+--- before/rtl/core/riscv_issue.v
++++ after/rtl/core/riscv_issue.v
+@@ -256,7 +256,7 @@
+     ,.issue_valid_i(opcode_issue_r)
+     ,.issue_accept_i(opcode_accept_r)
+     ,.issue_stall_i(stall_w)
+-    ,.issue_lsu_i(issue_lsu_w)
++    ,.issue_lsu_i(issue_lsu_w || ((fetch_instr_i & `INST_IFENCE_MASK) == `INST_IFENCE))
+     ,.issue_csr_i(issue_csr_w)
+     ,.issue_div_i(issue_div_w)
+     ,.issue_mul_i(issue_mul_w)
+@@ -431,7 +431,10 @@
+ assign div_opcode_valid_o   = enable_muldiv_w & opcode_issue_r;
+ assign interrupt_inhibit_o  = csr_pending_q || issue_csr_w;
+ 
+-assign retired_o = pipe_valid_wb_w && !(|csr_writeback_exception_o);
++// Internal control events still retire architecturally (FENCE.I and MRET).
++assign retired_o = pipe_valid_wb_w && (!(|csr_writeback_exception_o) ||
++                       csr_writeback_exception_o == `EXCEPTION_FENCE ||
++                       csr_writeback_exception_o == `EXCEPTION_ERET_M);
+ assign fetch_accept_o       = opcode_valid_w ? (opcode_accept_r & ~take_interrupt_i) : 1'b1;
+ 
+ assign stall_w              = pipe_stall_raw_w;
+--- before/rtl/core/riscv_lsu.v
++++ after/rtl/core/riscv_lsu.v
+@@ -255,7 +255,7 @@
+         mem_wr_r    = 4'b0;
+ end
+ 
+-wire dcache_flush_w      = ((opcode_opcode_i & `INST_CSRRW_MASK) == `INST_CSRRW) && (opcode_opcode_i[31:20] == `CSR_DFLUSH);
++wire dcache_flush_w = (((opcode_opcode_i & `INST_CSRRW_MASK) == `INST_CSRRW) && (opcode_opcode_i[31:20] == `CSR_DFLUSH)) || ((opcode_opcode_i & `INST_IFENCE_MASK) == `INST_IFENCE);
+ wire dcache_writeback_w  = ((opcode_opcode_i & `INST_CSRRW_MASK) == `INST_CSRRW) && (opcode_opcode_i[31:20] == `CSR_DWRITEBACK);
+ wire dcache_invalidate_w = ((opcode_opcode_i & `INST_CSRRW_MASK) == `INST_CSRRW) && (opcode_opcode_i[31:20] == `CSR_DINVALIDATE);
+ 
+--- before/rtl/core/riscv_pipe_ctrl.v
++++ after/rtl/core/riscv_pipe_ctrl.v
+@@ -305,7 +305,10 @@
+     else
+         exception_e2_q  <= csr_result_exception_e1_i;
+ 
+-    if (ctrl_e1_q[`PCINFO_DIV])
++    // Preserve the bad branch target for mtval; mepc remains branch PC.
++    if (exception_e1_q == `EXCEPTION_MISALIGNED_FETCH)
++        result_e2_q <= npc_e1_q;
++    else if (ctrl_e1_q[`PCINFO_DIV])
+         result_e2_q <= div_result_i; 
+     else if (ctrl_e1_q[`PCINFO_CSR])
+         result_e2_q <= csr_result_value_e1_i;
+@@ -341,7 +344,7 @@
+ reg [`EXCEPTION_W-1:0] exception_e2_r;
+ always @ *
+ begin
+-    if (valid_e2_q && (ctrl_e2_q[`PCINFO_LOAD] || ctrl_e2_q[`PCINFO_STORE]) && mem_complete_i)
++    if (valid_e2_q && (ctrl_e2_q[`PCINFO_LOAD] || ctrl_e2_q[`PCINFO_STORE]) && mem_complete_i && (!(|exception_e2_q) || (|mem_exception_e2_i)))
+         exception_e2_r = mem_exception_e2_i;
+     else
+         exception_e2_r = exception_e2_q;
+--- before/rtl/core/riscv_csr_regfile.v
++++ after/rtl/core/riscv_csr_regfile.v
+@@ -433,7 +433,7 @@
+ 
+         // Bad address / PC
+         case (exception_i)
+-        `EXCEPTION_MISALIGNED_FETCH,
++        `EXCEPTION_MISALIGNED_FETCH:   csr_mtval_r = exception_addr_i;
+         `EXCEPTION_FAULT_FETCH,
+         `EXCEPTION_PAGE_FAULT_INST:     csr_mtval_r = exception_pc_i;
+         `EXCEPTION_ILLEGAL_INSTRUCTION,
